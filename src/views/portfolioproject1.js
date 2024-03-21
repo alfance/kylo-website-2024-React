@@ -15,8 +15,8 @@ const Portfolioproject1 = (props) => {
       <div className="portfolioproject1-portfolioproject1">
         <Navbar rootClassName="navbar-root-class-name2"></Navbar>
         <div className="portfolioproject1-portfolio1">
-          <div className="portfolioproject1-projectheader">
-            <div className="portfolioproject1-headline-subhead">
+          <div className="portfolioproject1-projectheader Epilogue-17 content-divide">
+            <div className="portfolioproject1-headline-subhead content-divide-child">
               <div className="portfolioproject1-headline-subhead01">
                 <span className="portfolioproject1-text Epilogue-64Bold">
                   <span className="portfolioproject1-text01">
@@ -74,8 +74,8 @@ const Portfolioproject1 = (props) => {
             </div>
             <img
               alt="stickerfinallayer1I275"
-              src="/external/stickerfinallayer1i275-bpr-200h.png"
-              className="portfolioproject1-stickerfinallayer1 image-contain"
+              src="/external/stickerfinallayer1i275-bpr-1500w.png"
+              className="portfolioproject1-stickerfinallayer1 image-contain content-divide-child"
             />
           </div>
           <div className="portfolioproject1-skills-section">
@@ -205,8 +205,8 @@ const Portfolioproject1 = (props) => {
             </span>
           </div>
           <div className="portfolioproject1-project-casestudies">
-            <div className="portfolioproject1-header1">
-              <div className="portfolioproject1-headline-subhead07">
+            <div className="portfolioproject1-header1 Epilogue-17 content-divide">
+              <div className="portfolioproject1-headline-subhead07 content-divide-child">
                 <div className="portfolioproject1-headline-subhead08">
                   <div className="portfolioproject1-titletop">
                     <img
@@ -215,7 +215,7 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-virtual-productiond-take-recorder"
                     />
                   </div>
-                  <span className="portfolioproject1-text43">
+                  <span className="portfolioproject1-text43 Epilogue-36Bold">
                     <span className="portfolioproject1-text44">
                       Virtual Camera
                       <span
@@ -228,10 +228,9 @@ const Portfolioproject1 = (props) => {
                   </span>
                 </div>
                 <span className="portfolioproject1-text46">
-                  <span className="portfolioproject1-text47">Problem</span>
-                  <span className="portfolioproject1-text48">:</span>
-                  <span className="portfolioproject1-text49">Resolution</span>
-                  <span>
+                  <span className="Epilogue-17Bold">Problem</span>
+                  <span className="Epilogue-17">:</span>
+                  <span className="Epilogue-17">
                     {' '}
                     The Virtual Camera system integrates simultaneous operations
                     between the Unity editor and the iOS app, presenting
@@ -239,35 +238,36 @@ const Portfolioproject1 = (props) => {
                     components. These complexities can confuse users trying to
                     create shots with their virtual camera.
                   </span>
-                  <br></br>
-                  <br></br>
-                  <span>
+                  <br className="Epilogue-17"></br>
+                  <br className="Epilogue-17"></br>
+                  <span className="Epilogue-17Bold">Resolution</span>
+                  <span className="Epilogue-17">
                     : I streamlined the interface by consolidating various
                     windows into a single control panel, redesigned the UI and
                     workflow and minimizing the setup steps. This allows users
                     to concentrate on their shooting tasks.
                   </span>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
+                  <br className="Epilogue-17"></br>
+                  <br className="Epilogue-17"></br>
+                  <br className="Epilogue-17"></br>
+                  <br className="Epilogue-17"></br>
                 </span>
               </div>
               <img
                 alt="stickerfinallayer1I275"
                 src="/external/stickerfinallayer1i275-suu-200h.png"
-                className="portfolioproject1-stickerfinallayer12 image-contain"
+                className="portfolioproject1-stickerfinallayer12 image-contain content-divide-child"
               />
             </div>
           </div>
           <div className="portfolioproject1-project-casestudies1">
-            <div className="portfolioproject1-header2">
+            <div className="portfolioproject1-header2 Epilogue-17 content-divide-reverse">
               <img
                 alt="stickerfinallayer1I275"
                 src="/external/stickerfinallayer1i275-imhw-200h.png"
-                className="portfolioproject1-stickerfinallayer13 image-contain"
+                className="portfolioproject1-stickerfinallayer13 image-contain content-divide-child"
               />
-              <div className="portfolioproject1-headline-subhead09">
+              <div className="portfolioproject1-headline-subhead09 content-divide-child">
                 <div className="portfolioproject1-headline-subhead10">
                   <div className="portfolioproject1-titletop1">
                     <img
@@ -276,7 +276,7 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-virtual-productiond-virtual-camera-actor"
                     />
                   </div>
-                  <span className="portfolioproject1-text58">
+                  <span className="portfolioproject1-text58 Epilogue-36Bold">
                     <span className="portfolioproject1-text59">
                       Revamping the Live Capture
                       <span
@@ -289,28 +289,30 @@ const Portfolioproject1 = (props) => {
                   </span>
                 </div>
                 <span className="portfolioproject1-text61">
-                  <span className="portfolioproject1-text62">Problem</span>
-                  <span className="portfolioproject1-text63">Resolution</span>
-                  <span>
-                    : Introduced a streamlined onboarding system for the Live
-                    Capture package, ensuring a smooth transition for users,
-                    regardless of whether they start from the Editor or the App.
-                  </span>
-                  <span>
+                  <span className="Epilogue-17Bold">Problem</span>
+                  <span className="Epilogue-17">
                     : Low user acquisition for Live Capture stems from its
                     complex onboarding flow. The multi-step process, paired with
                     insufficient tutorials, leaves users struggling to navigate
                     between the iPhone/iPad and Unity Editor.
                   </span>
-                  <br></br>
-                  <br></br>
+                  <br className="Epilogue-17"></br>
+                  <br className="Epilogue-17"></br>
+                  <span className="Epilogue-17Bold">Resolution</span>
+                  <span className="Epilogue-17">
+                    : Introduced a streamlined onboarding system for the Live
+                    Capture package, ensuring a smooth transition for users,
+                    regardless of whether they start from the Editor or the App.
+                  </span>
+                  <br className="Epilogue-17"></br>
+                  <br className="Epilogue-17"></br>
                 </span>
               </div>
             </div>
           </div>
           <div className="portfolioproject1-project-casestudies2">
-            <div className="portfolioproject1-header3">
-              <div className="portfolioproject1-headline-subhead11">
+            <div className="portfolioproject1-header3 Epilogue-17 content-divide">
+              <div className="portfolioproject1-headline-subhead11 content-divide-child">
                 <div className="portfolioproject1-headline-subhead12">
                   <div className="portfolioproject1-titletop2">
                     <img
@@ -319,43 +321,43 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-input-gamepad"
                     />
                   </div>
-                  <span className="portfolioproject1-text68 Epilogue-36Bold">
+                  <span className="portfolioproject1-text70 Epilogue-36Bold">
                     <span>Gamepad Controller</span>
                   </span>
                 </div>
-                <span className="portfolioproject1-text70">
-                  <span className="portfolioproject1-text71">Problem</span>
-                  <span className="portfolioproject1-text72">Resolution</span>
-                  <span>
+                <span className="portfolioproject1-text72">
+                  <span className="Epilogue-17Bold">Problem</span>
+                  <span className="Epilogue-17">
                     : For film professionals, Camerawork often demands more
                     precise control than what an onscreen joystick can offer,
                     but the Vcam app was limited to AR and touchscreen joystick
                     inputs.
                   </span>
-                  <br></br>
-                  <br></br>
-                  <span>
+                  <br className="Epilogue-17"></br>
+                  <br className="Epilogue-17"></br>
+                  <span className="Epilogue-17Bold">Resolution</span>
+                  <span className="Epilogue-17">
                     : Integrated support for MFi (Made for iOS) controllers in
                     the Vcamera, allowing users to connect gaming or
                     professional controllers. This enables finer adjustments for
                     movement and rotation and the ability to set up hotkeys.
                   </span>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
+                  <br className="Epilogue-17"></br>
+                  <br className="Epilogue-17"></br>
+                  <br className="Epilogue-17"></br>
+                  <br className="Epilogue-17"></br>
                 </span>
               </div>
               <img
                 alt="stickerfinallayer1I275"
                 src="/external/stickerfinallayer1i275-1get-200h.png"
-                className="portfolioproject1-stickerfinallayer14 image-contain"
+                className="portfolioproject1-stickerfinallayer14 image-contain content-divide-child"
               />
             </div>
           </div>
           <div className="portfolioproject1-project-casestudies3">
-            <div className="portfolioproject1-header4">
-              <div className="portfolioproject1-frame3">
+            <div className="portfolioproject1-header4 Epilogue-17 content-divide-reverse">
+              <div className="portfolioproject1-frame3 content-divide-child">
                 <img
                   alt="stickerfinallayer16762"
                   src="/external/stickerfinallayer16762-l5y-500w.png"
@@ -367,7 +369,7 @@ const Portfolioproject1 = (props) => {
                   className="portfolioproject1-stickerfinallayer2 image-contain"
                 />
               </div>
-              <div className="portfolioproject1-headline-subhead13">
+              <div className="portfolioproject1-headline-subhead13 content-divide-child">
                 <div className="portfolioproject1-headline-subhead14">
                   <div className="portfolioproject1-titletop3">
                     <img
@@ -376,28 +378,28 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-editor-u-id-sync-search"
                     />
                   </div>
-                  <span className="portfolioproject1-text81 Epilogue-36Bold">
+                  <span className="portfolioproject1-text83 Epilogue-36Bold">
                     <span>Timecode Synchronization</span>
                   </span>
                 </div>
-                <span className="portfolioproject1-text83">
-                  <span className="portfolioproject1-text84">Problem</span>
-                  <span className="portfolioproject1-text85">Resolution</span>
-                  <span>
+                <span className="portfolioproject1-text85">
+                  <span className="Epilogue-17Bold">Problem</span>
+                  <span className="Epilogue-17">
                     : A major challenge onset is managing and synchronizing
                     cameras, picture sources, and devices simultaneously.
                     Without timecode or genlock, achieving sync for filming or
                     streaming is impossible.
                   </span>
-                  <br></br>
-                  <br></br>
-                  <span>
+                  <br className="Epilogue-17"></br>
+                  <br className="Epilogue-17"></br>
+                  <span className="Epilogue-17Bold">Resolution</span>
+                  <span className="Epilogue-17">
                     : Implemented a timecode and genlock solution to ensure
                     seamless synchronization of all devices and sources during
                     filming or streaming, enabling precise control over the
                     pre-production process.
                   </span>
-                  <br></br>
+                  <br className="Epilogue-17"></br>
                 </span>
               </div>
             </div>

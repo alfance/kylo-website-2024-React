@@ -108,7 +108,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.portfolioproject2-text13 {
+.portfolioproject2-text12 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   font-size: 48px;
@@ -128,8 +128,8 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.portfolioproject2-text15 {
-  color: var(--dl-color-default-textdefault);
+.portfolioproject2-text14 {
+  color: var(--dl-color-default-textmute1);
   height: auto;
   flex-grow: 1;
   font-size: 17px;
@@ -140,21 +140,6 @@
   line-height: 27px;
   font-stretch: normal;
   text-decoration: none;
-}
-.portfolioproject2-text16 {
-  font-weight: 700;
-}
-.portfolioproject2-text17 {
-  font-weight: 700;
-}
-.portfolioproject2-text18 {
-  font-weight: 700;
-}
-.portfolioproject2-text19 {
-  font-weight: 700;
-}
-.portfolioproject2-text20 {
-  font-weight: 700;
 }
 .portfolioproject2-stickerfinallayer1-locked-aspect-ratio {
   height: 40vw;
@@ -270,11 +255,23 @@
   font-weight: 600;
 }
 .portfolioproject2-text39 {
-  color: rgba(161, 161, 161, 1);
+  color: rgb(161, 161, 161);
   height: auto;
+  font-size: 17px;
   align-self: stretch;
+  font-style: normal;
   text-align: left;
+  font-family: "Epilogue";
   line-height: 27px;
+}
+.portfolioproject2-text40 {
+  color: var(--dl-color-default-textgreyout1);
+}
+.portfolioproject2-text42 {
+  color: var(--dl-color-default-textdefault);
+}
+.portfolioproject2-text43 {
+  color: var(--dl-color-default-textdefault);
 }
 .portfolioproject2-button {
   width: 224px;
@@ -378,9 +375,21 @@
   text-align: left;
   line-height: 27px;
 }
-.portfolioproject2-text53 {
-  color: #a1a1a1;
+.portfolioproject2-text52 {
+  color: var(--dl-color-default-textgreyout1);
+  font-size: 17px;
+  font-style: normal;
+  font-family: "Epilogue";
   line-height: 27px;
+}
+.portfolioproject2-text53 {
+  color: var(--dl-color-default-textgreyout1);
+}
+.portfolioproject2-text54 {
+  color: var(--dl-color-default-textgreyout1);
+}
+.portfolioproject2-text55 {
+  color: var(--dl-color-default-textdefault);
 }
 .portfolioproject2-stickerfinallayer13 {
   width: auto;
@@ -478,7 +487,7 @@
   height: 73px;
   position: absolute;
 }
-.portfolioproject2-text59 {
+.portfolioproject2-text57 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   font-size: 36px;
@@ -491,15 +500,30 @@
   font-stretch: normal;
   text-decoration: none;
 }
+.portfolioproject2-text58 {
+  color: rgb(161, 161, 161);
+  height: auto;
+  font-size: 17px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: left;
+  font-family: "Epilogue";
+  line-height: 27px;
+}
+.portfolioproject2-text59 {
+  color: var(--dl-color-default-textgreyout1);
+}
 .portfolioproject2-text60 {
-  font-weight: 600;
+  color: var(--dl-color-default-textgreyout1);
+}
+.portfolioproject2-text61 {
+  color: var(--dl-color-default-textgreyout1);
 }
 .portfolioproject2-text62 {
-  color: rgba(161, 161, 161, 1);
-  height: auto;
-  align-self: stretch;
-  text-align: left;
-  line-height: 27px;
+  color: var(--dl-color-default-textdefault);
+}
+.portfolioproject2-text63 {
+  color: var(--dl-color-default-textgreyout1);
 }
 .portfolioproject2-project-casestudies3 {
   gap: 10px;
@@ -561,33 +585,23 @@
   position: absolute;
   box-sizing: content-box;
 }
-.portfolioproject2-text68 {
+.portfolioproject2-text64 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
   text-align: left;
   line-height: 46px;
 }
-.portfolioproject2-text69 {
-  color: rgb(243, 243, 243);
+.portfolioproject2-text65 {
+  color: var(--dl-color-default-textmute1);
   height: auto;
   font-size: 17px;
   align-self: stretch;
-  font-style: Bold;
   text-align: left;
   font-family: "Epilogue";
-  font-weight: 700;
   line-height: 27px;
   font-stretch: normal;
   text-decoration: none;
-}
-.portfolioproject2-text70 {
-  color: var(--dl-color-default-textdefault);
-  font-weight: 700;
-}
-.portfolioproject2-text71 {
-  color: var(--dl-color-default-textdefault);
-  font-weight: 700;
 }
 .portfolioproject2-stickerfinallayer15 {
   width: auto;

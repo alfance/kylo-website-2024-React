@@ -15,10 +15,10 @@ const Portfolioproject3 = (props) => {
       <div className="portfolioproject3-portfolioproject3">
         <Navbar rootClassName="navbar-root-class-name4"></Navbar>
         <div className="portfolioproject3-portfolio1">
-          <div className="portfolioproject3-projectheader">
-            <div className="portfolioproject3-headline-subhead">
+          <div className="portfolioproject3-projectheader Epilogue-17 content-divide">
+            <div className="portfolioproject3-headline-subhead content-divide-child">
               <div className="portfolioproject3-headline-subhead01">
-                <span className="portfolioproject3-text">
+                <span className="portfolioproject3-text Epilogue-64Bold">
                   <span className="portfolioproject3-text01">Unity</span>
                   <span> Virtual Production</span>
                 </span>
@@ -38,7 +38,7 @@ const Portfolioproject3 = (props) => {
             <img
               alt="stickerfinallayer1I546"
               src="/external/stickerfinallayer1i546-61mo-200h.png"
-              className="portfolioproject3-stickerfinallayer1 image-contain"
+              className="portfolioproject3-stickerfinallayer1 image-contain content-divide-child"
             />
           </div>
           <div className="portfolioproject3-project-myrole">
@@ -137,8 +137,8 @@ const Portfolioproject3 = (props) => {
             </span>
           </div>
           <div className="portfolioproject3-project-casestudies">
-            <div className="portfolioproject3-header1">
-              <div className="portfolioproject3-headline-subhead04">
+            <div className="portfolioproject3-header1 Epilogue-17 content-divide">
+              <div className="portfolioproject3-headline-subhead04 content-divide-child">
                 <div className="portfolioproject3-headline-subhead05">
                   <div className="portfolioproject3-titletop">
                     <div className="portfolioproject3-frame2d-video-player">
@@ -154,21 +154,21 @@ const Portfolioproject3 = (props) => {
                   </span>
                 </div>
                 <span className="portfolioproject3-text32">
-                  <span className="Epilogue-17">
-                    I supported the team in developing an intuitive interface
-                    for connecting, controlling, and monitoring BMD cards and
-                    video feeds in Unity. This allows users to simultaneously
-                    manage inputs and outputs and synchronize the timecode
-                    across all sources.
-                  </span>
-                  <span className="Epilogue-17">
+                  <span className="portfolioproject3-text33 Epilogue-17">
                     The Unity Blackmagic package supports video capture cards
                     from Blackmagic Design to input and output pro-grade video
                     and audio in the Unity Editor and runtime builds, rendering
                     composited video feeds in the Editor and output via SDI.
                   </span>
                   <br className="Epilogue-17"></br>
-                  <br></br>
+                  <br className="Epilogue-17"></br>
+                  <span className="portfolioproject3-text36 Epilogue-17">
+                    I supported the team in developing an intuitive interface
+                    for connecting, controlling, and monitoring BMD cards and
+                    video feeds in Unity. This allows users to simultaneously
+                    manage inputs and outputs and synchronize the timecode
+                    across all sources.
+                  </span>
                   <br className="Epilogue-17"></br>
                 </span>
                 <a
@@ -185,18 +185,18 @@ const Portfolioproject3 = (props) => {
               <img
                 alt="stickerfinallayer1I546"
                 src="/external/stickerfinallayer1i546-ocut-200h.png"
-                className="portfolioproject3-stickerfinallayer12 image-contain"
+                className="portfolioproject3-stickerfinallayer12 image-contain content-divide-child"
               />
             </div>
           </div>
           <div className="portfolioproject3-project-casestudies1">
-            <div className="portfolioproject3-header2">
+            <div className="portfolioproject3-header2 Epilogue-17 content-divide-reverse">
               <img
                 alt="stickerfinallayer1I616"
                 src="/external/stickerfinallayer1i616-r0js-200h.png"
-                className="portfolioproject3-stickerfinallayer13 image-contain"
+                className="portfolioproject3-stickerfinallayer13 image-contain content-divide-child"
               />
-              <div className="portfolioproject3-headline-subhead06">
+              <div className="portfolioproject3-headline-subhead06 content-divide-child">
                 <div className="portfolioproject3-headline-subhead07">
                   <div className="portfolioproject3-titletop1">
                     <img
@@ -206,38 +206,41 @@ const Portfolioproject3 = (props) => {
                     />
                   </div>
                   <span className="portfolioproject3-text40 Epilogue-36Bold">
-                    <span>Green Screen Keyer</span>
+                    Green Screen Keyer
                   </span>
                 </div>
-                <span className="portfolioproject3-text42 Epilogue-17">
-                  <span>
-                    I led the design of the feature, crafting the user interface
-                    and experience from the ground up. My focus was on creating
-                    an efficient and effective tool that met the project&apos;s
-                    unique needs of empowering users to key film quality visuals
-                    in the game engine.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
+                <span className="portfolioproject3-text41">
+                  <span className="Epilogue-17">
                     Chroma key composition or green screen blends two images or
                     video streams based on color hues, primarily to remove
                     backgrounds from subjects in photos or videos. Unity’s keyer
                     package offers real-time green screen composition with
                     detailed controls and a garbage mask feature.
                   </span>
-                  <br></br>
-                  <br></br>
+                  <br className="Epilogue-17"></br>
+                  <br className="Epilogue-17"></br>
+                  <span className="portfolioproject3-text45">
+                    I led the design of the feature, crafting the user interface
+                    and experience from the ground up. My focus was on creating
+                    an efficient and effective tool that met the project&apos;s
+                    unique needs of empowering users to key film quality visuals
+                    in the game engine.
+                  </span>
+                  <span>
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br className="Epilogue-17"></br>
                 </span>
               </div>
             </div>
           </div>
           <div className="portfolioproject3-project-casestudies2">
-            <div className="portfolioproject3-header3">
-              <div className="portfolioproject3-headline-subhead08">
+            <div className="portfolioproject3-header3 Epilogue-17 content-divide">
+              <div className="portfolioproject3-headline-subhead08 content-divide-child">
                 <div className="portfolioproject3-headline-subhead09">
                   <div className="portfolioproject3-titletop2">
                     <div className="portfolioproject3-animation-weight-slider">
@@ -248,18 +251,17 @@ const Portfolioproject3 = (props) => {
                       />
                     </div>
                   </div>
-                  <span className="portfolioproject3-text47 Epilogue-36Bold">
+                  <span className="portfolioproject3-text48 Epilogue-36Bold">
                     <span>OSC (Open Sound Control)</span>
                   </span>
                 </div>
-                <span className="portfolioproject3-text49">
+                <span className="portfolioproject3-text50">
                   <span className="Epilogue-17">
-                    {' '}
-                    I crafted the OSC package for Unity. My approach was to
-                    streamline the communication process between Unity and
-                    various multimedia devices, ensuring a robust and
-                    user-friendly interface that empowers creators to
-                    synchronize and control their OSC components.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
                   </span>
                   <span className="Epilogue-17">
                     Open Sound Control (OSC) is a protocol designed for
@@ -269,14 +271,21 @@ const Portfolioproject3 = (props) => {
                     messaging.
                   </span>
                   <br className="Epilogue-17"></br>
-                  <br></br>
+                  <br className="portfolioproject3-text54 Epilogue-17"></br>
+                  <span className="portfolioproject3-text55 Epilogue-17">
+                    I crafted the OSC package for Unity. My approach was to
+                    streamline the communication process between Unity and
+                    various multimedia devices, ensuring a robust and
+                    user-friendly interface that empowers creators to
+                    synchronize and control their OSC components.
+                  </span>
                   <br className="Epilogue-17"></br>
                 </span>
               </div>
               <img
                 alt="stickerfinallayer1I616"
                 src="/external/stickerfinallayer1i616-temmn-200h.png"
-                className="portfolioproject3-stickerfinallayer14 image-contain"
+                className="portfolioproject3-stickerfinallayer14 image-contain content-divide-child"
               />
             </div>
           </div>
@@ -284,8 +293,8 @@ const Portfolioproject3 = (props) => {
             <div className="portfolioproject3-header4">
               <div className="portfolioproject3-headline-subhead10">
                 <div className="portfolioproject3-headline-subhead11">
-                  <span className="portfolioproject3-text55">
-                    <span className="portfolioproject3-text56">
+                  <span className="portfolioproject3-text57">
+                    <span className="Epilogue-36Bold">
                       Cluster Display
                       <span
                         dangerouslySetInnerHTML={{
@@ -293,10 +302,12 @@ const Portfolioproject3 = (props) => {
                         }}
                       />
                     </span>
-                    <span>(Cluster Rendering)</span>
+                    <span className="Epilogue-36Light">
+                      (Cluster Rendering)
+                    </span>
                   </span>
                   <div className="portfolioproject3-graphtext1">
-                    <span className="portfolioproject3-text58 Bodytext">
+                    <span className="portfolioproject3-text60 Bodytext">
                       <span>
                         Unity’s Cluster Rendering technology allows multiple
                         machines to simulate the same scene in-sync with each
@@ -330,102 +341,102 @@ const Portfolioproject3 = (props) => {
             </div>
           </div>
           <div className="portfolioproject3-project-casestudies3">
-            <div className="portfolioproject3-header5">
-              <div className="portfolioproject3-headline-subhead12">
+            <div className="portfolioproject3-header5 Epilogue-17 content-divide">
+              <div className="portfolioproject3-headline-subhead12 content-divide-child">
                 <div className="portfolioproject3-headline-subhead13">
-                  <span className="portfolioproject3-text63 Epilogue-36Bold">
+                  <span className="portfolioproject3-text65 Epilogue-36Bold">
                     <span>Live Editing</span>
                   </span>
                 </div>
-                <span className="portfolioproject3-text65">
+                <span className="portfolioproject3-text67 Epilogue-17">
                   <span className="Epilogue-17">
+                    Live Editing enables the generation and control of all
+                    monitors (render-nodes) to display virtual set imagery in
+                    real time.
+                  </span>
+                  <br className="portfolioproject3-text69"></br>
+                  <br className="portfolioproject3-text70"></br>
+                  <span className="portfolioproject3-text71">
                     I designed the UX for Unity’s Live Editing, where a master
                     node orchestrates and synchronizes all client nodes. This
                     essential feature is made up of a minimalistic interface,
                     allowing Vset operators to efficiently deploy their Unity
                     scenes across the network.
                   </span>
-                  <span className="Epilogue-17">
-                    Live Editing enables the generation and control of all
-                    monitors (render-nodes) to display virtual set imagery in
-                    real time.
-                  </span>
-                  <br className="portfolioproject3-text68"></br>
-                  <br className="Epilogue-17"></br>
-                  <br></br>
                   <br className="Epilogue-17"></br>
                 </span>
               </div>
               <img
                 alt="stickerfinallayer1I737"
                 src="/external/stickerfinallayer1i737-jlah-200h.png"
-                className="portfolioproject3-stickerfinallayer16 image-contain"
+                className="portfolioproject3-stickerfinallayer16 image-contain content-divide-child"
               />
             </div>
           </div>
           <div className="portfolioproject3-project-casestudies4">
-            <div className="portfolioproject3-header6">
-              <div className="portfolioproject3-headline-subhead14">
+            <div className="portfolioproject3-header6 Epilogue-17 content-divide">
+              <div className="portfolioproject3-headline-subhead14 content-divide-child">
                 <div className="portfolioproject3-headline-subhead15">
-                  <span className="portfolioproject3-text72 Epilogue-36Bold">
+                  <span className="portfolioproject3-text73 Epilogue-36Bold">
                     <span>Mission Control</span>
                   </span>
                 </div>
-                <span className="portfolioproject3-text74 Epilogue-17">
-                  <span>
+                <span className="portfolioproject3-text75 Epilogue-17">
+                  <span className="Epilogue-17">
+                    Mission Control is the user-centric system designed to
+                    launch the clustered contents synchronously across multiple
+                    computers and displays.
+                  </span>
+                  <br className="Epilogue-17"></br>
+                  <br className="Epilogue-17"></br>
+                  <span className="portfolioproject3-text79">
                     I crafted the web-based interface for Mission Control,
                     adhering to Unity&apos;s Dashboard design system. My role
                     encompassed managing core functions of the panel, such as
                     configuring setups, initiating systems, controlling
                     synchronization, and monitoring status.
                   </span>
-                  <span>
-                    Mission Control is the user-centric system designed to
-                    launch the clustered contents synchronously across multiple
-                    computers and displays.
-                  </span>
-                  <br></br>
-                  <br></br>
+                  <br className="Epilogue-17"></br>
                 </span>
               </div>
               <img
                 alt="stickerfinallayer1I737"
                 src="/external/stickerfinallayer1i737-oc0a-200h.png"
-                className="portfolioproject3-stickerfinallayer17 image-contain"
+                className="portfolioproject3-stickerfinallayer17 image-contain content-divide-child"
               />
             </div>
           </div>
           <div className="portfolioproject3-project-casestudies5">
-            <div className="portfolioproject3-header7">
-              <div className="portfolioproject3-headline-subhead16">
+            <div className="portfolioproject3-header7 Epilogue-17 content-divide">
+              <div className="portfolioproject3-headline-subhead16 content-divide-child">
                 <div className="portfolioproject3-headline-subhead17">
-                  <span className="portfolioproject3-text79 Epilogue-36Bold">
+                  <span className="portfolioproject3-text81 Epilogue-36Bold">
                     Unity x Disguise RenderStream
                   </span>
                 </div>
-                <span className="portfolioproject3-text80 Epilogue-17">
-                  <span>
+                <span className="portfolioproject3-text82 Epilogue-17">
+                  <span className="Epilogue-17">
                     RenderStream is the proprietary protocol by Disguise for
                     controlling Unity scenes. Unity projects can be configured
                     to generate RenderStream output streams using Disguise’s
                     Unity plugin.
                   </span>
-                  <br></br>
-                  <br></br>
-                  <span>
-                    Tedesigned the cumbersome manual and multi-step process for
+                  <br className="Epilogue-17"></br>
+                  <br className="portfolioproject3-text85"></br>
+                  <span className="portfolioproject3-text86">
+                    Redesigned the cumbersome manual and multi-step process for
                     adding the RenderStream plugin and configuring scene
                     objects. Now, a new dedicated window enables users to
                     swiftly select and configure in-scene objects for control in
                     Disguise.
                   </span>
-                  <br></br>
+                  <br className="Epilogue-17"></br>
                 </span>
               </div>
               <img
                 alt="stickerfinallayer1I737"
                 src="/external/stickerfinallayer1i737-u98-200h.png"
-                className="portfolioproject3-stickerfinallayer18 image-contain"
+                className="portfolioproject3-stickerfinallayer18 image-contain content-divide-child"
               />
             </div>
           </div>

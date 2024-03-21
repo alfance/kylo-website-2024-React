@@ -60,17 +60,21 @@
   height: auto;
   flex-grow: 1;
   font-size: 17px;
-  font-style: Regular;
+  font-style: normal;
   text-align: left;
   font-family: "Epilogue";
-  font-weight: 400;
   line-height: 27px;
   font-stretch: normal;
   text-decoration: none;
 }
 .portfolio-aboutpage-text1 {
+  color: var(--dl-color-default-textdefault);
+}
+.portfolio-aboutpage-text4 {
+  color: var(--dl-color-default-textgreyout1);
   font-weight: 400;
 }
-.portfolio-aboutpage-text2 {
-  font-weight: 700;
+.portfolio-aboutpage-text5 {
+  color: var(--dl-color-default-textgreyout1);
+  font-weight: 400;
 }

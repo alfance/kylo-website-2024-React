@@ -80,6 +80,34 @@
   font-stretch: normal;
   text-decoration: none;
 }
+.portfolio-text05 {
+  color: var(--dl-color-default-textmute1);
+  font-size: 24px;
+  font-family: "Epilogue";
+  font-weight: 300;
+  line-height: 32px;
+}
+.portfolio-text06 {
+  color: var(--dl-color-default-textmute1);
+  font-size: 24px;
+  font-family: "Epilogue";
+  font-weight: 300;
+  line-height: 32px;
+}
+.portfolio-text07 {
+  color: var(--dl-color-default-textmute1);
+  font-size: 24px;
+  font-family: "Epilogue";
+  font-weight: 300;
+  line-height: 32px;
+}
+.portfolio-text08 {
+  color: var(--dl-color-default-textmute1);
+  font-size: 24px;
+  font-family: "Epilogue";
+  font-weight: 300;
+  line-height: 32px;
+}
 .portfolio-stickerfinallayer1 {
   width: auto;
   height: auto;
@@ -100,7 +128,7 @@
   flex-direction: column;
 }
 .portfolio-text10 {
-  color: var(--dl-color-default-textdefault);
+  color: var(--dl-color-default-textmute1);
   height: auto;
   text-align: center;
   line-height: 46px;
@@ -164,12 +192,7 @@
   color: var(--dl-color-default-textdefault);
   height: auto;
   flex-grow: 1;
-  font-size: 36px;
-  font-style: Light;
   text-align: left;
-  font-family: "Epilogue";
-  font-weight: 300;
-  line-height: normal;
   font-stretch: normal;
   text-decoration: none;
 }
@@ -181,419 +204,71 @@
   line-height: 32px;
 }
 .portfolio-text15 {
-  color: var(--dl-color-default-textdefault);
+  color: var(--dl-color-default-textmute1);
   height: auto;
-  font-size: 17px;
   align-self: stretch;
-  font-style: Regular;
   text-align: left;
-  font-family: Epilogue;
-  font-weight: 400;
-  line-height: 27px;
   font-stretch: normal;
   text-decoration: none;
 }
 .portfolio-homecontentimage-locked-aspect-ratio {
+  width: 100%;
+  height: auto;
   display: flex;
-  overflow: hidden;
-  position: relative;
   align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
 }
-.portfolio-navlink {
-  display: contents;
-}
 .portfolio-homecontentimage {
   width: 100%;
-  height: 50vw;
+  height: 45vw;
   display: flex;
   position: relative;
   align-self: stretch;
+  max-height: 700px;
   align-items: flex-start;
   flex-shrink: 0;
-  text-decoration: none;
 }
-.portfolio-mactemplate {
-  top: 4.956212520599365px;
-  left: 132.17564392089844px;
-  width: 100%;
+.portfolio-frame427319349 {
+  top: 0%;
+  left: 11%;
+  width: 89%;
   height: 100%;
   display: flex;
   position: absolute;
   align-items: flex-start;
   flex-shrink: 0;
-}
-.portfolio-shadow {
-  top: 730.830078125px;
-  left: 3.5741477012634277px;
-  width: 1302.6011962890625px;
-  height: 21.09290313720703px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-shadow1 {
-  top: 0px;
-  left: 0px;
-  width: 1303px;
-  height: 21px;
-  position: absolute;
-}
-.portfolio-shadow2 {
-  top: 7.031181335449219px;
-  left: 34.94784927368164px;
-  width: 1233px;
-  height: 5px;
-  position: absolute;
-}
-.portfolio-shadow3 {
-  top: 7.031181335449219px;
-  left: 98.48938751220703px;
-  width: 1106px;
-  height: 5px;
-  position: absolute;
-}
-.portfolio-device {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-lid {
-  top: 0px;
-  left: 119.14034271240234px;
-  width: 1074.64599609375px;
-  height: 736.2991333007812px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-casing {
-  top: 0px;
-  left: 0px;
-  width: 1075px;
-  height: 736px;
-  position: absolute;
-}
-.portfolio-seal {
-  top: 3.515589714050293px;
-  left: 3.5743024349212646px;
-  width: 1067px;
-  height: 729px;
-  position: absolute;
-}
-.portfolio-glass {
-  top: 6.249682426452637px;
-  left: 6.35421085357666px;
-  width: 1062px;
-  height: 724px;
-  position: absolute;
-  box-shadow: 0px 0.19402053952217102px 1.5521643161773682px 0px rgba(255, 255, 255, 0.07999999821186066) ;
-}
-.portfolio-camera {
-  top: 24.60873794555664px;
-  left: 533.7489013671875px;
-  width: 7.148342132568359px;
-  height: 7.030970573425293px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-outer-lens {
-  top: 0px;
-  left: 0px;
-  width: 7px;
-  height: 7px;
-  position: absolute;
-}
-.portfolio-inner-lens {
-  top: 1.563014268875122px;
-  left: 1.5885354280471802px;
-  width: 3.971444606781006px;
-  height: 3.9064981937408447px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-mask-copy {
-  top: 0px;
-  left: 0px;
-  width: 4px;
-  height: 4px;
-  position: absolute;
-}
-.portfolio-object {
-  top: 0.00039977068081498146px;
-  left: 0.00010430376278236508px;
-  width: 3.9713218212127686px;
-  height: 3.906095266342163px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-mask {
-  top: 0.39074811339378357px;
-  left: 0.3971812427043915px;
-  width: 3px;
-  height: 3px;
-  position: absolute;
-}
-.portfolio-reflection-bottom-left {
-  top: 1.952978491783142px;
-  left: 1.1914210319519043px;
-  width: 1px;
-  height: 1px;
-  opacity: 0.77;
-  position: absolute;
-}
-.portfolio-reflection-bottom-left-copy2 {
-  top: 2.343726634979248px;
-  left: 1.5885409116744995px;
-  width: 1px;
-  height: 1px;
-  position: absolute;
-}
-.portfolio-reflection-bottom-left-copy {
-  top: 0.9303169250488281px;
-  left: 1.9276834726333618px;
-  width: 1px;
-  height: 1px;
-  position: absolute;
-}
-.portfolio-botton {
-  top: 688.64501953125px;
-  left: 6.35421085357666px;
-  width: 1062px;
-  height: 41px;
-  position: absolute;
-}
-.portfolio-base {
-  top: 712.862548828125px;
-  left: 0px;
-  width: 1312.9267578125px;
-  height: 28.123851776123047px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-underside {
-  top: 0px;
-  left: -6.821210263296962e-13px;
-  width: 1313px;
-  height: 28px;
-  position: absolute;
-}
-.portfolio-stripe {
-  top: 11.718127250671387px;
-  left: 10.571986198425293px;
-  width: 1292px;
-  height: 1px;
-  position: absolute;
-  box-shadow: 0px 0.38804107904434204px 0px 0px rgba(255, 255, 255, 0.20000000298023224) ;
-}
-.portfolio-edge {
-  top: 0px;
-  left: 0px;
-  width: 1313px;
-  height: 8px;
-  position: absolute;
-  border-radius: 0.8730924129486084px 0.8730924129486084px 0.4365462064743042px 0.4365462064743042px;
-}
-.portfolio-grip {
-  top: -0.00006103515625px;
-  left: 544.0713500976562px;
-  width: 226px;
-  height: 11px;
-  position: absolute;
-}
-.portfolio-left-screw {
-  top: 19.530078887939453px;
-  left: 427.7139892578125px;
-  width: 14.693958282470703px;
-  height: 2.7342538833618164px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-left-screw1 {
-  top: 0px;
-  left: 0px;
-  width: 15px;
-  height: 3px;
-  position: absolute;
-}
-.portfolio-left-screw-copy {
-  top: 0px;
-  left: 0.794249951839447px;
-  width: 13px;
-  height: 2px;
-  position: absolute;
-}
-.portfolio-oval {
-  top: 0.7811285257339478px;
-  left: 5.559934139251709px;
-  width: 4px;
-  height: 1px;
-  position: absolute;
-}
-.portfolio-left-screw2 {
-  top: 16.00033950805664px;
-  left: 33.94194793701172px;
-  width: 14.68354320526123px;
-  height: 1.5918442010879517px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-left-screw2 {
-  top: 0.014112813326846663px;
-  left: -0.0007278297715629378px;
-  width: 15px;
-  height: 2px;
-  position: absolute;
-}
-.portfolio-left-screw-copy1 {
-  top: 0.13623311463584287px;
-  left: 0.7826033556738281px;
-  width: 13px;
-  height: 1px;
-  position: absolute;
-}
-.portfolio-oval1 {
-  top: 1.3103817326388025px;
-  left: 5.4163040421488375px;
-  width: 4px;
-  height: 1px;
-  position: absolute;
-}
-.portfolio-right-screw {
-  top: 19.530078887939453px;
-  left: 870.518798828125px;
-  width: 14.693988800048828px;
-  height: 2.7342538833618164px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-left-screw3 {
-  top: 0px;
-  left: 0px;
-  width: 15px;
-  height: 3px;
-  position: absolute;
-}
-.portfolio-left-screw-copy2 {
-  top: 0px;
-  left: 0.7942413091659546px;
-  width: 13px;
-  height: 2px;
-  position: absolute;
-}
-.portfolio-oval2 {
-  top: 0.7811285257339478px;
-  left: 5.559925556182861px;
-  width: 4px;
-  height: 1px;
-  position: absolute;
-}
-.portfolio-right-screw2 {
-  top: 18.26106834411621px;
-  left: 1263.2850341796875px;
-  width: 14.683558464050293px;
-  height: 1.5916544198989868px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-left-screw4 {
-  top: 0.00018600846146910044px;
-  left: 0.000017521776953799417px;
-  width: 15px;
-  height: 2px;
-  position: absolute;
-}
-.portfolio-left-screw-copy3 {
-  top: -0.11904017128017585px;
-  left: 0.7845534653290542px;
-  width: 13px;
-  height: 1px;
-  position: absolute;
-}
-.portfolio-oval3 {
-  top: -0.40247538426774554px;
-  left: 5.562521238581212px;
-  width: 4px;
-  height: 1px;
-  position: absolute;
-}
-.portfolio-screen {
-  top: 48.044864654541016px;
-  left: 148.5282745361328px;
-  width: 1016.6644897460938px;
-  height: 624.9754028320312px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-apple-mac-book-air2020-expandthis-frame-replace-image {
-  top: 0px;
-  left: 0px;
-  width: 1016.6644897460938px;
-  height: 624.9754028320312px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-.portfolio-placeimagehere {
-  top: 0px;
-  left: 0px;
-  width: 1017px;
-  height: 624px;
-  position: absolute;
+  background-size: contain;
+  background-image: url("/external/tq_cuzsvnedpc-5jqc-1300w.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .portfolio-maskgroup {
-  top: 45.72161102294922px;
-  left: 285.4049072265625px;
-  width: 1026.3956298828125px;
-  height: 633.418701171875px;
+  top: 9%;
+  left: 20%;
+  width: 69%;
+  height: 77%;
   display: flex;
   z-index: 1;
   overflow: hidden;
   position: absolute;
-  align-items: flex-start;
+  align-items: center;
   flex-shrink: 1;
-  background-color: rgba(217, 217, 217, 1);
+  justify-content: center;
+  background-color: #000000;
 }
 .portfolio-facecap21 {
-  top: -17.999765396118164px;
-  left: 49.42392349243164px;
-  width: 977px;
-  height: 666px;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
   position: absolute;
 }
 .portfolio-applei-phone-xr-locked-aspect-ratio {
-  top: 46.04400634765625px;
-  left: -5.116628170013428px;
-  width: 375px;
-  height: 733.7833862304688px;
+  top: 9%;
+  left: 0%;
+  width: 30%;
+  height: 100%;
   display: flex;
   z-index: 2;
   overflow: hidden;
@@ -602,321 +277,27 @@
   align-items: flex-start;
   flex-shrink: 0;
   flex-direction: column;
+  background-size: cover;
+  background-image: url("/external/tq_9j1ogjezzo-hc4s-500w.png");
 }
-.portfolio-applei-phone-xr {
-  width: 375.4635009765625px;
-  height: 733.9588623046875px;
+.portfolio-maskgroup1 {
+  top: 11.5%;
+  left: 2.5%;
+  width: 25%;
+  height: 95%;
   display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-.portfolio-shadow4 {
-  top: 722.6672973632812px;
-  left: 8.82089900970459px;
-  width: 358.97222900390625px;
-  height: 11.291644096374512px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-outer-shadow {
-  top: 0px;
-  left: 0px;
-  width: 359px;
-  height: 11px;
-  position: absolute;
-  box-shadow: 0px 0.7486486434936523px 12.72702693939209px 0px rgba(0, 0, 0, 0.11999999731779099) ;
-}
-.portfolio-middle-shadow {
-  top: 0.7527294754981995px;
-  left: 6.136364459991455px;
-  width: 347px;
-  height: 9px;
-  position: absolute;
-  box-shadow: 0px 0.7486486434936523px 5.240540504455566px 0px rgba(0, 0, 0, 0.07999999821186066) ;
-}
-.portfolio-inner-shadow {
-  top: 2.634629249572754px;
-  left: 18.408918380737305px;
-  width: 323px;
-  height: 5px;
-  position: absolute;
-  box-shadow: 0px 0.7486486434936523px 3.3689188957214355px 0px rgba(0, 0, 0, 0.23999999463558197) ;
-}
-.portfolio-device1 {
-  top: 0px;
-  left: 0px;
-  width: 375.4635009765625px;
-  height: 727.9366455078125px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-body {
-  top: 0px;
-  left: 0px;
-  width: 375.4635009765625px;
-  height: 727.9366455078125px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-phone-shape {
-  top: 0px;
-  left: 1.534069538116455px;
-  width: 372.0118408203125px;
-  height: 727.9366455078125px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-phone-shape1 {
-  top: -5.6843418860808015e-14px;
-  left: 0px;
-  width: 372px;
-  height: 728px;
-  position: absolute;
-}
-.portfolio-metal-band {
-  top: -5.6843418860808015e-14px;
-  left: 0px;
-  width: 372px;
-  height: 728px;
-  position: absolute;
-}
-.portfolio-reflection {
-  top: 7.527899265289307px;
-  left: 7.67033052444458px;
-  width: 357px;
-  height: 713px;
-  position: absolute;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.250849187374115) ;
-}
-.portfolio-reflection1 {
-  top: 11.291665077209473px;
-  left: 11.50550365447998px;
-  width: 349px;
-  height: 705px;
-  position: absolute;
-}
-.portfolio-glass1 {
-  top: 15.808478355407715px;
-  left: 11.50550365447998px;
-  width: 349px;
-  height: 696px;
-  position: absolute;
-}
-.portfolio-plug {
-  top: 726.8076171875px;
-  left: 167.2135772705078px;
-  width: 41px;
-  height: 1px;
-  position: absolute;
-}
-.portfolio-glass-glare {
-  top: 21.469585418701172px;
-  left: 13.039590835571289px;
-  width: 349.0027160644531px;
-  height: 689.2192993164062px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-glare {
-  top: 0px;
-  left: 0px;
-  width: 25px;
-  height: 689px;
-  position: absolute;
-}
-.portfolio-glare1 {
-  top: 0.00008392333984375px;
-  left: 349.0026550292969px;
-  width: 25px;
-  height: 689px;
-  position: absolute;
-}
-.portfolio-antenna-bands {
-  top: 71.51375579833984px;
-  left: 1.534069538116455px;
-  width: 372.0118408203125px;
-  height: 584.9091796875px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-antenna-band {
-  top: 0px;
-  left: 0px;
-  width: 8px;
-  height: 7px;
-  opacity: 0.60;
-  position: absolute;
-}
-.portfolio-antenna-band1 {
-  top: 0.000213623046875px;
-  left: 364.34149169921875px;
-  width: 8px;
-  height: 7px;
-  opacity: 0.60;
-  position: absolute;
-}
-.portfolio-antenna-band2 {
-  top: 577.7577514648438px;
-  left: -0.0000171661376953125px;
-  width: 8px;
-  height: 7px;
-  opacity: 0.60;
-  position: absolute;
-}
-.portfolio-antenna-band3 {
-  top: 577.7576904296875px;
-  left: 364.34149169921875px;
-  width: 8px;
-  height: 7px;
-  opacity: 0.60;
-  position: absolute;
-}
-.portfolio-buttons {
-  top: 99.36658477783203px;
-  left: 0px;
-  width: 375px;
-  height: 164px;
-  position: absolute;
-}
-.portfolio-front {
-  top: 27.476299285888672px;
-  left: 166.06301879882812px;
-  width: 63.28036880493164px;
-  height: 9.40972900390625px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-speaker {
-  top: 1.505784511566162px;
-  left: -0.00008821487426757812px;
-  width: 42.953941345214844px;
-  height: 6.775003433227539px;
-  display: flex;
-  opacity: 0.80;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-.portfolio-mask1 {
-  top: 0.00041022198274731636px;
-  left: -0.00008821487426757812px;
-  width: 43px;
-  height: 7px;
-  position: absolute;
-  border-radius: 16.17081069946289px;
-}
-.portfolio-object1 {
-  top: 0.0008204439654946327px;
-  left: -0.00017642974853515625px;
-  width: 42.953941345214844px;
-  height: 6.775003433227539px;
-  display: flex;
+  z-index: 3;
   overflow: hidden;
   position: absolute;
   align-items: flex-start;
   flex-shrink: 1;
-  background-color: rgba(28, 27, 28, 1);
+  background-color: #000000;
 }
-.portfolio-grid {
-  top: 0.00041022198274731636px;
-  left: -0.00008821487426757812px;
-  width: 43px;
-  height: 6px;
-  position: absolute;
-}
-.portfolio-grid1 {
-  top: 1.069583535194397px;
-  left: 0px;
-  width: 43px;
-  height: 6px;
-  position: absolute;
-}
-.portfolio-grid2 {
-  top: 0.31405094265937805px;
-  left: 0.30733925104141235px;
-  width: 42px;
-  height: 7px;
-  position: absolute;
-}
-.portfolio-grid3 {
-  top: 0.31405094265937805px;
-  left: -0.4270370900630951px;
-  width: 42px;
-  height: 7px;
-  position: absolute;
-}
-.portfolio-shadow5 {
-  top: 0.00041022198274731636px;
-  left: -0.00008821487426757812px;
-  width: 43px;
-  height: 7px;
-  opacity: 0.24;
-  position: absolute;
-  border-radius: 16.17081069946289px;
-}
-.portfolio-shadow6 {
-  top: 0.00041022198274731636px;
-  left: -0.00008821487426757812px;
-  width: 43px;
-  height: 7px;
-  position: absolute;
-  border-radius: 16.17081069946289px;
-}
-.portfolio-camera1 {
-  top: 0.000057220458984375px;
-  left: 53.69233322143555px;
-  width: 10px;
-  height: 9px;
-  position: absolute;
-}
-.portfolio-screen1 {
-  top: 26.723194122314453px;
-  left: 28.7639102935791px;
-  width: 317.5523986816406px;
-  height: 674.4893798828125px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.portfolio-mask2 {
+.portfolio-facecap22 {
   top: 0px;
   left: 0px;
-  width: 318px;
-  height: 674px;
-  position: absolute;
-}
-.portfolio-applei-phone-xr-expandthis-frame-replace-image {
-  top: 0px;
-  left: 0px;
-  width: 317.5523986816406px;
-  height: 674.4893798828125px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-.portfolio-placeimagehere1 {
-  top: -0.0004237997345626354px;
-  left: 0.00010538101196289062px;
-  width: 318px;
-  height: 674px;
+  width: 102%;
+  height: 100%;
   position: absolute;
 }
 .portfolio-frame {
@@ -925,74 +306,17 @@
   overflow: hidden;
   align-self: stretch;
   align-items: flex-start;
-  flex-direction: column;
+  flex-shrink: 0;
 }
 .portfolio-frame01 {
   display: flex;
+  z-index: 1;
   overflow: hidden;
   align-self: stretch;
   align-items: flex-start;
-  flex-direction: column;
+  flex-shrink: 0;
 }
 .portfolio-frame02 {
-  display: flex;
-  overflow: hidden;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.portfolio-frame03 {
-  display: flex;
-  overflow: hidden;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.portfolio-frame04 {
-  display: flex;
-  overflow: hidden;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-.portfolio-maskgroup1 {
-  top: 67.93171691894531px;
-  left: 24.504602432250977px;
-  width: 325.5154113769531px;
-  height: 683.6740112304688px;
-  display: flex;
-  z-index: 3;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-  background-color: rgba(217, 217, 217, 1);
-}
-.portfolio-facecap22 {
-  top: -16.842369079589844px;
-  left: -13.882851600646973px;
-  width: 346px;
-  height: 719px;
-  position: absolute;
-  border-radius: 48.55773162841797px;
-}
-.portfolio-frame05 {
-  display: flex;
-  z-index: 1;
-  overflow: hidden;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-.portfolio-frame06 {
-  display: flex;
-  z-index: 1;
-  overflow: hidden;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-.portfolio-frame07 {
   display: flex;
   z-index: 1;
   overflow: hidden;
@@ -1014,7 +338,7 @@
   flex-direction: column;
 }
 .portfolio-workcard04 {
-  width: auto;
+  width: 100%;
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
@@ -1054,26 +378,21 @@
   height: auto;
   flex-grow: 1;
   font-size: 36px;
-  font-style: SemiBold;
   text-align: left;
-  font-family: Epilogue;
-  font-weight: 600;
+  font-family: "Epilogue";
   line-height: 46px;
   font-stretch: normal;
   text-decoration: none;
 }
-.portfolio-text18 {
-  font-weight: 600;
-}
 .portfolio-text20 {
-  color: var(--dl-color-default-textdefault);
-  width: 197px;
+  color: var(--dl-color-default-textgreyout1);
+  width: 250px;
   height: auto;
   text-align: right;
-  line-height: 27px;
+  font-stretch: normal;
 }
 .portfolio-text22 {
-  color: var(--dl-color-default-textdefault);
+  color: var(--dl-color-default-textmute1);
   height: auto;
   align-self: stretch;
   text-align: left;
@@ -1084,6 +403,7 @@
   overflow: hidden;
   position: relative;
   align-self: stretch;
+  max-height: 700px;
   align-items: flex-start;
   flex-direction: column;
 }
@@ -1095,10 +415,12 @@
   align-items: flex-start;
   flex-shrink: 0;
   flex-direction: column;
-  background-size: cover;
+  background-size: contain;
   background-image: url("/external/tq_bbiihmrvsu-6xr-200h.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.portfolio-navlink1 {
+.portfolio-navlink {
   display: contents;
 }
 .portfolio-homecontentimage-locked-aspect-ratio2 {
@@ -1119,7 +441,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.portfolio-frame08 {
+.portfolio-frame03 {
   display: flex;
   z-index: 1;
   overflow: hidden;
@@ -1127,7 +449,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.portfolio-frame09 {
+.portfolio-frame04 {
   display: flex;
   z-index: 1;
   overflow: hidden;
@@ -1135,7 +457,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.portfolio-frame10 {
+.portfolio-frame05 {
   display: flex;
   z-index: 1;
   overflow: hidden;
@@ -1143,7 +465,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.portfolio-frame11 {
+.portfolio-frame06 {
   display: flex;
   z-index: 1;
   overflow: hidden;
@@ -1203,12 +525,7 @@
   color: rgba(243, 243, 243, 1);
   height: auto;
   flex-grow: 1;
-  font-size: 36px;
-  font-style: Light;
   text-align: left;
-  font-family: Epilogue;
-  font-weight: 300;
-  line-height: 46px;
   font-stretch: normal;
   text-decoration: none;
 }
@@ -1216,14 +533,14 @@
   font-weight: 300;
 }
 .portfolio-text27 {
-  color: var(--dl-color-default-textdefault);
+  color: var(--dl-color-default-textgreyout1);
   width: 197px;
   height: auto;
   text-align: right;
-  line-height: 27px;
+  font-stretch: normal;
 }
 .portfolio-text29 {
-  color: rgba(243, 243, 243, 1);
+  color: var(--dl-color-default-textmute1);
   width: auto;
   height: auto;
   align-self: stretch;
@@ -1244,33 +561,36 @@
   display: flex;
   position: relative;
   align-self: stretch;
+  max-height: 700px;
   align-items: flex-start;
   flex-shrink: 0;
 }
-.portfolio-navlink2 {
+.portfolio-navlink1 {
   display: contents;
 }
 .portfolio-homecontentimage04 {
   top: 0px;
   left: -0.0283203125px;
   width: 100%;
-  height: 779.5411376953125px;
+  height: 100%;
   display: flex;
   position: absolute;
   align-items: flex-start;
   flex-shrink: 0;
-  background-size: cover;
+  background-size: contain;
   text-decoration: none;
-  background-image: url("/external/tq_3wizyydqij-35t-1500h.png");
+  background-image: url("/external/tq_3wizyydqij-35t-1500w.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .portfolio-vsethomegif1 {
-  top: 84.5422592163086px;
-  left: 146.8756866455078px;
-  width: 47%;
-  height: auto;
+  top: 13.5%;
+  left: 10.7%;
+  width: 39%;
+  height: 35%;
   position: absolute;
 }
-.portfolio-frame12 {
+.portfolio-frame07 {
   display: flex;
   z-index: 1;
   overflow: hidden;
@@ -1278,7 +598,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.portfolio-frame13 {
+.portfolio-frame08 {
   display: flex;
   z-index: 1;
   overflow: hidden;
@@ -1286,7 +606,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.portfolio-frame14 {
+.portfolio-frame09 {
   display: flex;
   z-index: 1;
   overflow: hidden;
@@ -1296,6 +616,8 @@
 }
 .portfolio-latestwork-section-property3 {
   gap: 60px;
+  width: 100%;
+  height: auto;
   display: flex;
   padding: 60px 0;
   align-self: stretch;
@@ -1303,7 +625,7 @@
   flex-direction: column;
 }
 .portfolio-text31 {
-  color: rgba(243, 243, 243, 1);
+  color: var(--dl-color-default-textmute1);
   height: auto;
   text-align: center;
   line-height: 46px;
@@ -1340,6 +662,9 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.portfolio-link {
+  display: contents;
+}
 .portfolio-homecontentimage06 {
   width: 355.9715576171875px;
   height: 236.5411376953125px;
@@ -1348,9 +673,10 @@
   align-items: flex-start;
   flex-shrink: 0;
   background-size: cover;
-  background-image: url("/external/tq_cich_7iffm-72n-1500h.png");
+  text-decoration: none;
+  background-image: 5674003b-7707-4576-a434-61de2ebc49ce;
 }
-.portfolio-frame15 {
+.portfolio-frame10 {
   display: flex;
   z-index: 1;
   overflow: hidden;
@@ -1367,24 +693,12 @@
   flex-direction: column;
 }
 .portfolio-text33 {
-  color: rgba(243, 243, 243, 1);
+  color: var(--dl-color-default-textmute1);
   width: 315px;
   height: auto;
-  font-size: 24px;
-  font-style: Bold;
   text-align: left;
-  font-family: Epilogue;
-  font-weight: 700;
   line-height: 32px;
-  font-stretch: normal;
   text-decoration: none;
-}
-.portfolio-text35 {
-  color: rgba(243, 243, 243, 1);
-  width: 315px;
-  height: auto;
-  text-align: left;
-  line-height: 27px;
 }
 .portfolio-workcard10 {
   gap: 25px;
@@ -1409,6 +723,9 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.portfolio-link1 {
+  display: contents;
+}
 .portfolio-homecontentimage08 {
   width: 355.9715576171875px;
   height: 236.5411376953125px;
@@ -1417,9 +734,10 @@
   align-items: flex-start;
   flex-shrink: 0;
   background-size: cover;
-  background-image: url("/external/tq_h1a77tffs8-g1n-1500h.png");
+  text-decoration: none;
+  background-image: 9037d7f6-8c51-4a54-9471-4f4da81a5088;
 }
-.portfolio-frame16 {
+.portfolio-frame11 {
   display: flex;
   z-index: 1;
   overflow: hidden;
@@ -1435,25 +753,15 @@
   flex-shrink: 0;
   flex-direction: column;
 }
-.portfolio-text37 {
-  color: rgba(243, 243, 243, 1);
+.portfolio-text35 {
+  color: var(--dl-color-default-textmute1);
   width: 315px;
   height: auto;
-  font-size: 24px;
   font-style: Bold;
   text-align: left;
-  font-family: Epilogue;
-  font-weight: 700;
   line-height: 32px;
   font-stretch: normal;
   text-decoration: none;
-}
-.portfolio-text39 {
-  color: rgba(243, 243, 243, 1);
-  width: 315px;
-  height: auto;
-  text-align: left;
-  line-height: 27px;
 }
 .portfolio-workcard11 {
   gap: 25px;
@@ -1478,6 +786,9 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.portfolio-link2 {
+  display: contents;
+}
 .portfolio-homecontentimage10 {
   width: 355.9715576171875px;
   height: 236.5411376953125px;
@@ -1486,9 +797,10 @@
   align-items: flex-start;
   flex-shrink: 0;
   background-size: cover;
-  background-image: url("/external/tq_hzyxatqmdx-3e97-1500h.png");
+  text-decoration: none;
+  background-image: 9f0aea29-d5e2-4c5c-9168-3ec9dd49de53;
 }
-.portfolio-frame17 {
+.portfolio-frame12 {
   display: flex;
   z-index: 1;
   overflow: hidden;
@@ -1504,23 +816,26 @@
   flex-shrink: 0;
   flex-direction: column;
 }
-.portfolio-text41 {
-  color: rgba(243, 243, 243, 1);
+.portfolio-text37 {
+  color: var(--dl-color-default-textmute1);
   width: 315px;
   height: auto;
-  font-size: 24px;
   font-style: Bold;
   text-align: left;
-  font-family: Epilogue;
-  font-weight: 700;
   line-height: 32px;
   font-stretch: normal;
   text-decoration: none;
 }
-.portfolio-text43 {
-  color: rgba(243, 243, 243, 1);
-  width: 315px;
-  height: auto;
-  text-align: left;
-  line-height: 27px;
+@media(max-width: 991px) {
+  .portfolio-header {
+    height: auto;
+  }
+}
+@media(max-width: 767px) {
+  .portfolio-header {
+    height: auto;
+  }
+  .portfolio-workcard05 {
+    width: 100%;
+  }
 }
