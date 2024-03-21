@@ -1,0 +1,698 @@
+.portfolioproject3-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolioproject3-portfolioproject3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: var(--dl-color-default-backgrounddark);
+}
+.portfolioproject3-portfolio1 {
+  width: 100%;
+  display: flex;
+  padding: 0 120px 100px;
+  max-width: 1449px;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolioproject3-projectheader {
+  gap: 40px;
+  display: flex;
+  padding: 60px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.portfolioproject3-headline-subhead {
+  gap: 40px;
+  width: auto;
+  display: flex;
+  flex-grow: 1;
+  max-width: 50%;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.portfolioproject3-headline-subhead01 {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.portfolioproject3-text {
+  color: var(--dl-color-default-textdefault);
+  height: auto;
+  font-size: 64px;
+  align-self: stretch;
+  font-style: Light;
+  text-align: left;
+  font-family: "Epilogue";
+  font-weight: 300;
+  line-height: 74px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolioproject3-text01 {
+  font-weight: 300;
+}
+.portfolioproject3-text03 {
+  color: var(--dl-color-default-textmute1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 27px;
+}
+.portfolioproject3-stickerfinallayer1 {
+  width: auto;
+  height: auto;
+  flex-grow: 1;
+  max-width: 50%;
+  align-self: stretch;
+}
+.portfolioproject3-project-myrole {
+  gap: 10px;
+  display: flex;
+  padding: 60px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolioproject3-header {
+  gap: 28px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.portfolioproject3-headline-subhead02 {
+  gap: 40px;
+  width: 100%;
+  display: flex;
+  padding: 0 0 30px;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.portfolioproject3-headline-subhead03 {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.portfolioproject3-text06 {
+  color: var(--dl-color-default-textdefault);
+  height: auto;
+  font-size: 48px;
+  align-self: stretch;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Epilogue;
+  font-weight: 600;
+  line-height: 68px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolioproject3-graphtext {
+  gap: 40px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.portfolioproject3-text08 {
+  color: var(--dl-color-default-textdefault);
+  height: auto;
+  flex-grow: 1;
+  font-size: 17px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Epilogue";
+  font-weight: 400;
+  line-height: 27px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolioproject3-text09 {
+  font-weight: 700;
+}
+.portfolioproject3-text10 {
+  font-weight: 700;
+}
+.portfolioproject3-text11 {
+  font-weight: 700;
+}
+.portfolioproject3-text12 {
+  font-weight: 700;
+}
+.portfolioproject3-stickerfinallayer1-locked-aspect-ratio {
+  height: 40vw;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.portfolioproject3-stickerfinallayer11 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  flex-grow: 1;
+  align-self: stretch;
+}
+.portfolioproject3-frame {
+  display: flex;
+  z-index: 1;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.portfolioproject3-headertitle {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+}
+.portfolioproject3-text28 {
+  color: var(--dl-color-default-textdefault);
+  width: 100%;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 46px;
+}
+.portfolioproject3-project-casestudies {
+  gap: 10px;
+  display: flex;
+  padding: 80px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolioproject3-header1 {
+  gap: 40px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.portfolioproject3-headline-subhead04 {
+  gap: 40px;
+  width: auto;
+  display: flex;
+  flex-grow: 1;
+  max-width: 50%;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.portfolioproject3-headline-subhead05 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.portfolioproject3-titletop {
+  width: 83px;
+  height: 96px;
+  display: flex;
+  opacity: 0.55;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.portfolioproject3-frame2d-video-player {
+  top: 0px;
+  left: 0px;
+  width: 83px;
+  height: 83px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.portfolioproject3-combined-shape {
+  top: 19.463796615600586px;
+  left: 10.375px;
+  width: 62px;
+  height: 44px;
+  position: absolute;
+}
+.portfolioproject3-text30 {
+  color: var(--dl-color-default-textdefault);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 46px;
+}
+.portfolioproject3-text32 {
+  color: #a1a1a1;
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 27px;
+}
+.portfolioproject3-button {
+  width: 224px;
+  height: 51px;
+  display: flex;
+  opacity: 0.00;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 98, 80, 1);
+}
+.portfolioproject3-text38 {
+  top: 5px;
+  left: 28px;
+  color: var(--dl-color-default-textdefault);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Epilogue;
+  font-weight: 600;
+  line-height: 42px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolioproject3-stickerfinallayer12 {
+  width: auto;
+  height: auto;
+  flex-grow: 1;
+  max-width: 50%;
+  align-self: stretch;
+}
+.portfolioproject3-project-casestudies1 {
+  gap: 10px;
+  display: flex;
+  padding: 80px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolioproject3-header2 {
+  gap: 40px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.portfolioproject3-stickerfinallayer13 {
+  width: auto;
+  height: auto;
+  flex-grow: 1;
+  max-width: 50%;
+  align-self: stretch;
+}
+.portfolioproject3-headline-subhead06 {
+  gap: 40px;
+  width: 724px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.portfolioproject3-headline-subhead07 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.portfolioproject3-titletop1 {
+  width: 83px;
+  height: 96px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.portfolioproject3-virtual-productiond-keyer-component {
+  top: 0px;
+  left: 0px;
+  width: 83px;
+  height: 83px;
+  opacity: 0.55;
+  position: absolute;
+}
+.portfolioproject3-text40 {
+  color: var(--dl-color-default-textdefault);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 46px;
+}
+.portfolioproject3-text42 {
+  color: rgba(161, 161, 161, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 27px;
+}
+.portfolioproject3-project-casestudies2 {
+  gap: 10px;
+  display: flex;
+  padding: 80px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolioproject3-header3 {
+  gap: 40px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.portfolioproject3-headline-subhead08 {
+  gap: 40px;
+  width: 620px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.portfolioproject3-headline-subhead09 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.portfolioproject3-titletop2 {
+  width: 83px;
+  height: 96px;
+  display: flex;
+  opacity: 0.50;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.portfolioproject3-animation-weight-slider {
+  top: 0px;
+  left: 0px;
+  width: 83px;
+  height: 83px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.portfolioproject3-union {
+  top: 5.1875px;
+  left: 5.1875px;
+  width: 67px;
+  height: 67px;
+  position: absolute;
+}
+.portfolioproject3-text47 {
+  color: var(--dl-color-default-textdefault);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 46px;
+}
+.portfolioproject3-text49 {
+  color: #a1a1a1;
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 27px;
+}
+.portfolioproject3-stickerfinallayer14 {
+  width: auto;
+  height: auto;
+  flex-grow: 1;
+  max-width: 50%;
+  align-self: stretch;
+}
+.portfolioproject3-project-myrole1 {
+  gap: 10px;
+  display: flex;
+  padding: 60px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolioproject3-header4 {
+  gap: 28px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.portfolioproject3-headline-subhead10 {
+  gap: 40px;
+  width: 100%;
+  display: flex;
+  padding: 0 0 30px;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.portfolioproject3-headline-subhead11 {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.portfolioproject3-text55 {
+  color: var(--dl-color-default-textdefault);
+  height: auto;
+  font-size: 36px;
+  align-self: stretch;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Epilogue;
+  font-weight: 600;
+  line-height: 46px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolioproject3-text56 {
+  font-weight: 600;
+}
+.portfolioproject3-graphtext1 {
+  gap: 40px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.portfolioproject3-text58 {
+  color: var(--dl-color-default-textdefault);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 27px;
+}
+.portfolioproject3-stickerfinallayer1-locked-aspect-ratio1 {
+  width: 100%;
+  height: 40vw;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.portfolioproject3-stickerfinallayer15 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  flex-grow: 1;
+  align-self: stretch;
+}
+.portfolioproject3-frame1 {
+  display: flex;
+  z-index: 1;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.portfolioproject3-project-casestudies3 {
+  gap: 10px;
+  display: flex;
+  padding: 80px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolioproject3-header5 {
+  gap: 40px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.portfolioproject3-headline-subhead12 {
+  gap: 40px;
+  width: 620px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.portfolioproject3-headline-subhead13 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.portfolioproject3-text63 {
+  color: var(--dl-color-default-textdefault);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 46px;
+}
+.portfolioproject3-text65 {
+  color: rgb(161, 161, 161);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 27px;
+}
+.portfolioproject3-text68 {
+  color: #a1a1a1;
+  line-height: 27px;
+}
+.portfolioproject3-stickerfinallayer16 {
+  width: auto;
+  height: auto;
+  flex-grow: 1;
+  max-width: 50%;
+  align-self: stretch;
+}
+.portfolioproject3-project-casestudies4 {
+  gap: 10px;
+  display: flex;
+  padding: 80px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolioproject3-header6 {
+  gap: 40px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.portfolioproject3-headline-subhead14 {
+  gap: 40px;
+  width: 620px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.portfolioproject3-headline-subhead15 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.portfolioproject3-text72 {
+  color: var(--dl-color-default-textdefault);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 46px;
+}
+.portfolioproject3-text74 {
+  color: rgba(161, 161, 161, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 27px;
+}
+.portfolioproject3-stickerfinallayer17 {
+  width: auto;
+  height: auto;
+  flex-grow: 1;
+  max-width: 50%;
+  align-self: stretch;
+}
+.portfolioproject3-project-casestudies5 {
+  gap: 10px;
+  display: flex;
+  padding: 80px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolioproject3-header7 {
+  gap: 40px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.portfolioproject3-headline-subhead16 {
+  gap: 40px;
+  width: 620px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.portfolioproject3-headline-subhead17 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.portfolioproject3-text79 {
+  color: var(--dl-color-default-textdefault);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 46px;
+}
+.portfolioproject3-text80 {
+  color: rgba(161, 161, 161, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 27px;
+}
+.portfolioproject3-stickerfinallayer18 {
+  width: auto;
+  height: auto;
+  flex-grow: 1;
+  max-width: 50%;
+  align-self: stretch;
+}

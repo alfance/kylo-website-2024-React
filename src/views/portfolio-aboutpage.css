@@ -1,0 +1,76 @@
+.portfolio-aboutpage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolio-aboutpage-portfolio-aboutpage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: var(--dl-color-default-backgrounddark);
+}
+.portfolio-aboutpage-aboutheader {
+  gap: 10px;
+  display: flex;
+  padding: 120px 320px;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolio-aboutpage-aboutheader1 {
+  gap: 70px;
+  width: 880px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.portfolio-aboutpage-persona {
+  gap: 20px;
+  width: 342px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.portfolio-aboutpage-image {
+  width: 342px;
+  height: 342px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.portfolio-aboutpage-image1 {
+  top: 0px;
+  left: 0px;
+  width: 342px;
+  height: 342px;
+  position: absolute;
+}
+.portfolio-aboutpage-text {
+  color: rgb(243, 243, 243);
+  height: auto;
+  flex-grow: 1;
+  font-size: 17px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Epilogue";
+  font-weight: 400;
+  line-height: 27px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolio-aboutpage-text1 {
+  font-weight: 400;
+}
+.portfolio-aboutpage-text2 {
+  font-weight: 700;
+}
