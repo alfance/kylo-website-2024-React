@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/alfance/kylo-website-2024-React/static/css/main.7c7a65cc.css",
+    "main.js": "/alfance/kylo-website-2024-React/static/js/main.d1ff4fc5.js",
+    "index.html": "/alfance/kylo-website-2024-React/index.html",
+    "main.7c7a65cc.css.map": "/alfance/kylo-website-2024-React/static/css/main.7c7a65cc.css.map",
+    "main.d1ff4fc5.js.map": "/alfance/kylo-website-2024-React/static/js/main.d1ff4fc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c7a65cc.css",
+    "static/js/main.d1ff4fc5.js"
+  ]
+}
