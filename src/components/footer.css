@@ -15,7 +15,7 @@
   align-items: flex-end;
   flex-shrink: 0;
   justify-content: center;
-  background-color: var(--dl-color-default-backgrounddark);
+  background-color: var(--dl-color-gray-black);
 }
 .footer-footermessage {
   gap: 40px;
@@ -50,7 +50,7 @@
   align-items: flex-start;
   flex-shrink: 0;
   border-radius: 3px;
-  background-color: var(--dl-color-default-textmute1);
+  background-color: var(--dl-color-default-textdefault);
 }
 .footer-fill1 {
   top: 5.0625px;
@@ -65,6 +65,7 @@
 .footer-fimail {
   width: 27px;
   height: 27px;
+  text-decoration: none;
 }
 
 
@@ -72,3 +73,12 @@
 
 
 
+@media(max-width: 767px) {
+  .footer-contactinfo {
+    align-content: center;
+  }
+  .footer-text {
+    width: 100%;
+    text-align: center;
+  }
+}

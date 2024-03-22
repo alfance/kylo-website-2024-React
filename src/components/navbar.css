@@ -14,7 +14,7 @@
   position: relative;
   align-self: stretch;
   align-items: flex-start;
-  background-color: var(--dl-color-default-backgrounddark);
+  background-color: var(--dl-color-gray-black);
 }
 .navbar-navnavmenu {
   gap: 50px;
@@ -42,7 +42,8 @@
 }
 .navbar-line1 {
   width: 24px;
-  height: 1px;
+  height: var(--dl-size-size-xsmall);
+  align-self: center;
 }
 .navbar-text04 {
   color: var(--dl-color-default-textmute1);
@@ -89,3 +90,22 @@
 
 
 
+@media(max-width: 767px) {
+  .navbar-navnavmenu {
+    gap: 20px;
+  }
+  .navbar-line1 {
+    display: none;
+  }
+  .navbar-frame427319348 {
+    left: 24px;
+  }
+}
+@media(max-width: 479px) {
+  .navbar-text02 {
+    display: none;
+  }
+  .navbar-text04 {
+    display: none;
+  }
+}

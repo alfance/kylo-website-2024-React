@@ -15,19 +15,25 @@ const Portfolio = (props) => {
       </Helmet>
       <div className="portfolio-portfolio">
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
-        <div className="portfolio-portfolio1">
-          <div className="portfolio-header Epilogue-17 content-divide">
+        <div className="portfolio-portfolio1 port-container-responsive">
+          <div className="portfolio-header">
             <div className="portfolio-header1 Epilogue-17 content-divide">
-              <div className="portfolio-headline-subhead content-divide-child">
+              <section className="portfolio-headline-subhead">
                 <div className="portfolio-headline-subhead1">
-                  <span className="portfolio-text Subtitle">
-                    Nice to meet you :)
-                  </span>
+                  <span className="portfolio-text">Nice to meet you :)</span>
                   <span className="portfolio-text01">
-                    <span className="Epilogue-64Bold">I am Kylo Xue</span>
+                    <span className="Epilogue-64Bold">
+                      I am
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                    <span className="Epilogue-64Bold">Kylo Xue</span>
                     <br></br>
                     <br></br>
-                    <span className="portfolio-text05 Epilogue-24Light">
+                    <span className="Epilogue-24Light">
                       I&apos;m a product and interactive designer passionate
                       about crafting user-centric digital experiences.
                       <span
@@ -36,9 +42,9 @@ const Portfolio = (props) => {
                         }}
                       />
                     </span>
-                    <br className="portfolio-text06 Epilogue-24Light"></br>
-                    <br className="portfolio-text07 Epilogue-24Light"></br>
-                    <span className="portfolio-text08 Epilogue-24Light">
+                    <br className="Epilogue-24Light"></br>
+                    <br className="Epilogue-24Light"></br>
+                    <span className="Epilogue-24Light">
                       With over 9 years of experience, I&apos;ve been enhancing
                       User experience in the Gaming, VFX, e-commerce, and
                       e-Retail sectors, from startups to corporations.
@@ -52,16 +58,16 @@ const Portfolio = (props) => {
                     </span>
                   </span>
                 </div>
-              </div>
+              </section>
               <img
                 alt="stickerfinallayer1I176"
-                src="/external/stickerfinallayer1i176-2l5o-1500w.png"
-                className="portfolio-stickerfinallayer1 content-divide-child"
+                src="/external/stickerfinallayer1i176-2l5o.png"
+                className="portfolio-stickerfinallayer1"
               />
             </div>
           </div>
           <div className="portfolio-latestwork-section">
-            <span className="portfolio-text10 Epilogue-36Light">
+            <span className="portfolio-text11 Epilogue-36Light">
               <span>Projects &amp; Work</span>
             </span>
             <div className="portfolio-workcards">
@@ -74,15 +80,19 @@ const Portfolio = (props) => {
                           <div className="portfolio-frame2">
                             <Link
                               to="/portfolioproject1"
-                              className="portfolio-text12 Epilogue-36Bold"
+                              className="portfolio-text13"
                             >
-                              Unity Live Capture Packages
+                              <span className="Epilogue-36Light">Unity</span>
+                              <span className="Epilogue-36Bold">
+                                {' '}
+                                Live Capture Packages
+                              </span>
                             </Link>
-                            <span className="portfolio-text13 Epilogue-24Light">
+                            <span className="portfolio-text16 Epilogue-24Light">
                               <span>2022 - 2023</span>
                             </span>
                           </div>
-                          <span className="portfolio-text15 Epilogue-17">
+                          <span className="portfolio-text18 Epilogue-17">
                             <span>
                               The Live Capture package in Unity brings
                               characters and cameras to life easily, using Apple
@@ -94,11 +104,16 @@ const Portfolio = (props) => {
                         </div>
                         <div className="portfolio-homecontentimage-locked-aspect-ratio">
                           <div className="portfolio-homecontentimage">
-                            <div className="portfolio-frame427319349"></div>
+                            <Link
+                              to="/portfolioproject1"
+                              className="portfolio-navlink"
+                            >
+                              <div className="portfolio-frame427319349"></div>
+                            </Link>
                             <div className="portfolio-maskgroup">
                               <img
                                 alt="facecap21I176"
-                                src="/external/facecap21i176-blw-1000w.png"
+                                src="/external/facecap21i176-blw.png"
                                 className="portfolio-facecap21 image-contain"
                               />
                             </div>
@@ -129,7 +144,7 @@ const Portfolio = (props) => {
                           <div className="portfolio-frame21">
                             <Link
                               to="/portfolioproject2"
-                              className="portfolio-text17"
+                              className="portfolio-text20"
                             >
                               <span className="Epilogue-36Bold">
                                 Wētā Realtime
@@ -143,11 +158,11 @@ const Portfolio = (props) => {
                                 Tools Integration
                               </span>
                             </Link>
-                            <span className="portfolio-text20 Epilogue-24Light">
+                            <span className="portfolio-text23 Epilogue-24Light">
                               <span>July 2023 - Present</span>
                             </span>
                           </div>
-                          <span className="portfolio-text22 Epilogue-17">
+                          <span className="portfolio-text25 Epilogue-17">
                             <span>
                               The Weta Realtime Tools for Unity editor enhance
                               workflow efficiency and enable the creation of
@@ -162,7 +177,7 @@ const Portfolio = (props) => {
                           <div className="portfolio-homecontentimage01 background-contain image-contain">
                             <Link
                               to="/portfolioproject3"
-                              className="portfolio-navlink"
+                              className="portfolio-navlink1"
                             >
                               <div className="portfolio-homecontentimage-locked-aspect-ratio2 image-contain">
                                 <div className="portfolio-homecontentimage02"></div>
@@ -188,16 +203,16 @@ const Portfolio = (props) => {
                           <div className="portfolio-frame22">
                             <Link
                               to="/portfolioproject3"
-                              className="portfolio-text24 Epilogue-36Bold"
+                              className="portfolio-text27 Epilogue-36Bold"
                             >
-                              <span className="portfolio-text25">Unity</span>
+                              <span className="portfolio-text28">Unity</span>
                               <span> Virtual Production</span>
                             </Link>
-                            <span className="portfolio-text27 Epilogue-24Light">
+                            <span className="portfolio-text30 Epilogue-24Light">
                               <span>2021 - 2023</span>
                             </span>
                           </div>
-                          <span className="portfolio-text29 Epilogue-17">
+                          <span className="portfolio-text32 Epilogue-17">
                             <span>
                               Unity&apos;s toolkit for TV, broadcast, and
                               animations equips artists and filmmakers with
@@ -212,12 +227,12 @@ const Portfolio = (props) => {
                           <div className="portfolio-homecontentimage03">
                             <Link
                               to="/portfolioproject3"
-                              className="portfolio-navlink1"
+                              className="portfolio-navlink2"
                             >
                               <div className="portfolio-homecontentimage04 image-contain">
                                 <img
                                   alt="vsethomegif1I176"
-                                  src="/external/vsethomegif1i176-jhca-600w.png"
+                                  src="/external/vsethomegif1i176-jhca.png"
                                   className="portfolio-vsethomegif1"
                                 />
                               </div>
@@ -235,7 +250,7 @@ const Portfolio = (props) => {
             </div>
           </div>
           <div className="portfolio-latestwork-section-property3">
-            <span className="portfolio-text31 Epilogue-36Light">
+            <span className="portfolio-text34 Epilogue-36Light">
               <span>Case Studies</span>
             </span>
             <div className="portfolio-workcards1">
@@ -250,7 +265,6 @@ const Portfolio = (props) => {
                     >
                       <div className="portfolio-homecontentimage06"></div>
                     </a>
-                    <div className="portfolio-frame10"></div>
                   </div>
                 </div>
                 <div className="portfolio-headline-subhead5">
@@ -258,7 +272,7 @@ const Portfolio = (props) => {
                     href="https://www.figma.com/proto/lcnMBhcQTDwYR9ndPfYrOS/Presentation-hair?page-id=635%3A885&amp;type=design&amp;node-id=635-2037&amp;viewport=181%2C232%2C0.03&amp;t=Cq1ANUWaZeh9LHS5-1&amp;scaling=scale-down&amp;starting-point-node-id=635%3A2037&amp;mode=design"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="portfolio-text33 Epilogue-24Bold"
+                    className="portfolio-text36 Epilogue-24Bold"
                   >
                     <span>Strand-based Hair Rendering</span>
                   </a>
@@ -275,7 +289,6 @@ const Portfolio = (props) => {
                     >
                       <div className="portfolio-homecontentimage08"></div>
                     </a>
-                    <div className="portfolio-frame11"></div>
                   </div>
                 </div>
                 <div className="portfolio-headline-subhead6">
@@ -283,7 +296,7 @@ const Portfolio = (props) => {
                     href="https://www.figma.com/proto/aKWOHcDnwx4CRrdNEq34f4/Waypoints-Presentation?page-id=1%3A1684&amp;type=design&amp;node-id=1-1881&amp;viewport=2098%2C1296%2C0.13&amp;t=sQIUnMH35P0cdNNE-1&amp;scaling=scale-down&amp;mode=design"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="portfolio-text35 Epilogue-24Bold"
+                    className="portfolio-text38 Epilogue-24Bold"
                   >
                     <span>Waypoint System Design</span>
                   </a>
@@ -300,7 +313,6 @@ const Portfolio = (props) => {
                     >
                       <div className="portfolio-homecontentimage10"></div>
                     </a>
-                    <div className="portfolio-frame12"></div>
                   </div>
                 </div>
                 <div className="portfolio-headline-subhead7">
@@ -308,7 +320,7 @@ const Portfolio = (props) => {
                     href="https://alfance.github.io//kyloport/#/joist"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="portfolio-text37 Epilogue-24Bold"
+                    className="portfolio-text40 Epilogue-24Bold"
                   >
                     <span>Invoicing App Pricing Plan</span>
                   </a>

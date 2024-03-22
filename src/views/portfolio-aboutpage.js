@@ -8,24 +8,24 @@ import './portfolio-aboutpage.css'
 
 const PortfolioAboutpage = (props) => {
   return (
-    <div className="portfolio-aboutpage-container">
+    <main className="portfolio-aboutpage-container">
       <Helmet>
         <title>exported project</title>
       </Helmet>
       <div className="portfolio-aboutpage-portfolio-aboutpage">
         <Navbar rootClassName="navbar-root-class-name1"></Navbar>
-        <div className="portfolio-aboutpage-aboutheader">
-          <div className="portfolio-aboutpage-aboutheader1">
+        <div className="portfolio-aboutpage-aboutheader port-container-responsive">
+          <div className="portfolio-aboutpage-aboutheader1 Epilogue-17 content-divide">
             <div className="portfolio-aboutpage-persona">
               <div className="portfolio-aboutpage-image">
                 <img
                   alt="ImageI176"
-                  src="/external/imagei176-xyx-400w.png"
+                  src="/external/imagei176-xyx.png"
                   className="portfolio-aboutpage-image1"
                 />
               </div>
             </div>
-            <span className="portfolio-aboutpage-text">
+            <span className="portfolio-aboutpage-text content-divide-child">
               <span className="portfolio-aboutpage-text1 Epilogue-17">
                 I&apos;m a UX/UI designer with a passion for user-centered
                 design and human-computer interaction. After years of empowering
@@ -54,7 +54,7 @@ const PortfolioAboutpage = (props) => {
         </div>
       </div>
       <Footer rootClassName="footer-root-class-name2"></Footer>
-    </div>
+    </main>
   )
 }
 

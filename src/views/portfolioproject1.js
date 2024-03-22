@@ -3,6 +3,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import Navbar from '../components/navbar'
+import HeaderTitle from '../components/header-title'
 import Footer from '../components/footer'
 import './portfolioproject1.css'
 
@@ -14,9 +15,9 @@ const Portfolioproject1 = (props) => {
       </Helmet>
       <div className="portfolioproject1-portfolioproject1">
         <Navbar rootClassName="navbar-root-class-name2"></Navbar>
-        <div className="portfolioproject1-portfolio1">
+        <div className="portfolioproject1-portfolio1 port-container-responsive">
           <div className="portfolioproject1-projectheader Epilogue-17 content-divide">
-            <div className="portfolioproject1-headline-subhead content-divide-child">
+            <section className="portfolioproject1-headline-subhead">
               <div className="portfolioproject1-headline-subhead01">
                 <span className="portfolioproject1-text Epilogue-64Bold">
                   <span className="portfolioproject1-text01">
@@ -71,11 +72,11 @@ const Portfolioproject1 = (props) => {
                 <br></br>
                 <span>Documentation Page</span>
               </span>
-            </div>
+            </section>
             <img
               alt="stickerfinallayer1I275"
-              src="/external/stickerfinallayer1i275-bpr-1500w.png"
-              className="portfolioproject1-stickerfinallayer1 content-divide-child image-contain"
+              src="/external/stickerfinallayer1i275-bpr.png"
+              className="portfolioproject1-stickerfinallayer1 image-contain"
             />
           </div>
           <div className="portfolioproject1-skills-section">
@@ -193,20 +194,16 @@ const Portfolioproject1 = (props) => {
             <div className="portfolioproject1-stickerfinallayer1-locked-aspect-ratio image-contain">
               <img
                 alt="stickerfinallayer1I275"
-                src="/external/stickerfinallayer1i275-ln17-1500w.png"
+                src="/external/stickerfinallayer1i275-ln17.png"
                 className="portfolioproject1-stickerfinallayer11"
               />
               <div className="portfolioproject1-frame"></div>
             </div>
           </div>
-          <div className="portfolioproject1-headertitle">
-            <span className="portfolioproject1-text42 Epilogue-36Light">
-              Projects
-            </span>
-          </div>
+          <HeaderTitle rootClassName="header-title-root-class-name"></HeaderTitle>
           <div className="portfolioproject1-project-casestudies">
             <div className="portfolioproject1-header1 Epilogue-17 content-divide">
-              <div className="portfolioproject1-headline-subhead07 content-divide-child">
+              <section className="portfolioproject1-headline-subhead07">
                 <div className="portfolioproject1-headline-subhead08">
                   <div className="portfolioproject1-titletop">
                     <img
@@ -215,8 +212,8 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-virtual-productiond-take-recorder"
                     />
                   </div>
-                  <span className="portfolioproject1-text43 Epilogue-36Bold">
-                    <span className="portfolioproject1-text44">
+                  <span className="portfolioproject1-text42 Epilogue-36Bold">
+                    <span className="portfolioproject1-text43">
                       Virtual Camera
                       <span
                         dangerouslySetInnerHTML={{
@@ -227,7 +224,7 @@ const Portfolioproject1 = (props) => {
                     <span>System Redesign</span>
                   </span>
                 </div>
-                <span className="portfolioproject1-text46">
+                <span className="portfolioproject1-text45">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">:</span>
                   <span className="Epilogue-17">
@@ -252,22 +249,22 @@ const Portfolioproject1 = (props) => {
                   <br className="Epilogue-17"></br>
                   <br className="Epilogue-17"></br>
                 </span>
-              </div>
+              </section>
               <img
                 alt="stickerfinallayer1I275"
-                src="/external/stickerfinallayer1i275-suu-200h.png"
-                className="portfolioproject1-stickerfinallayer12 content-divide-child image-contain"
+                src="/external/stickerfinallayer1i275-suu.png"
+                className="portfolioproject1-stickerfinallayer12 image-contain"
               />
             </div>
           </div>
           <div className="portfolioproject1-project-casestudies1">
-            <div className="portfolioproject1-header2 Epilogue-17 content-divide-reverse">
+            <div className="portfolioproject1-header2 Epilogue-17 content-divide content-divide-reverse">
               <img
                 alt="stickerfinallayer1I275"
-                src="/external/stickerfinallayer1i275-imhw-200h.png"
-                className="portfolioproject1-stickerfinallayer13 content-divide-child image-contain"
+                src="/external/stickerfinallayer1i275-imhw.png"
+                className="portfolioproject1-stickerfinallayer13 image-contain"
               />
-              <div className="portfolioproject1-headline-subhead09 content-divide-child">
+              <section className="portfolioproject1-headline-subhead09">
                 <div className="portfolioproject1-headline-subhead10">
                   <div className="portfolioproject1-titletop1">
                     <img
@@ -276,8 +273,8 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-virtual-productiond-virtual-camera-actor"
                     />
                   </div>
-                  <span className="portfolioproject1-text58 Epilogue-36Bold">
-                    <span className="portfolioproject1-text59">
+                  <span className="portfolioproject1-text57 Epilogue-36Bold">
+                    <span className="portfolioproject1-text58">
                       Revamping the Live Capture
                       <span
                         dangerouslySetInnerHTML={{
@@ -288,7 +285,7 @@ const Portfolioproject1 = (props) => {
                     <span>Onboarding Experience</span>
                   </span>
                 </div>
-                <span className="portfolioproject1-text61">
+                <span className="portfolioproject1-text60">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">
                     : Low user acquisition for Live Capture stems from its
@@ -307,12 +304,12 @@ const Portfolioproject1 = (props) => {
                   <br className="Epilogue-17"></br>
                   <br className="Epilogue-17"></br>
                 </span>
-              </div>
+              </section>
             </div>
           </div>
           <div className="portfolioproject1-project-casestudies2">
             <div className="portfolioproject1-header3 Epilogue-17 content-divide">
-              <div className="portfolioproject1-headline-subhead11 content-divide-child">
+              <section className="portfolioproject1-headline-subhead11">
                 <div className="portfolioproject1-headline-subhead12">
                   <div className="portfolioproject1-titletop2">
                     <img
@@ -321,11 +318,11 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-input-gamepad"
                     />
                   </div>
-                  <span className="portfolioproject1-text70 Epilogue-36Bold">
+                  <span className="portfolioproject1-text69 Epilogue-36Bold">
                     <span>Gamepad Controller</span>
                   </span>
                 </div>
-                <span className="portfolioproject1-text72">
+                <span className="portfolioproject1-text71">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">
                     : For film professionals, Camerawork often demands more
@@ -347,29 +344,29 @@ const Portfolioproject1 = (props) => {
                   <br className="Epilogue-17"></br>
                   <br className="Epilogue-17"></br>
                 </span>
-              </div>
+              </section>
               <img
                 alt="stickerfinallayer1I275"
-                src="/external/stickerfinallayer1i275-1get-200h.png"
-                className="portfolioproject1-stickerfinallayer14 content-divide-child image-contain"
+                src="/external/stickerfinallayer1i275-1get.png"
+                className="portfolioproject1-stickerfinallayer14 image-contain"
               />
             </div>
           </div>
           <div className="portfolioproject1-project-casestudies3">
-            <div className="portfolioproject1-header4 Epilogue-17 content-divide-reverse">
+            <div className="portfolioproject1-header4 Epilogue-17 content-divide-reverse content-divide">
               <div className="portfolioproject1-frame3 content-divide-child">
                 <img
                   alt="stickerfinallayer16762"
-                  src="/external/stickerfinallayer16762-l5y-500w.png"
+                  src="/external/stickerfinallayer16762-l5y.png"
                   className="portfolioproject1-stickerfinallayer15 image-contain"
                 />
                 <img
                   alt="stickerfinallayer26762"
-                  src="/external/stickerfinallayer26762-24h6-400h.png"
+                  src="/external/stickerfinallayer26762-24h6.png"
                   className="portfolioproject1-stickerfinallayer2 image-contain"
                 />
               </div>
-              <div className="portfolioproject1-headline-subhead13 content-divide-child">
+              <section className="portfolioproject1-headline-subhead13">
                 <div className="portfolioproject1-headline-subhead14">
                   <div className="portfolioproject1-titletop3">
                     <img
@@ -378,11 +375,11 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-editor-u-id-sync-search"
                     />
                   </div>
-                  <span className="portfolioproject1-text83 Epilogue-36Bold">
+                  <span className="portfolioproject1-text82 Epilogue-36Bold">
                     <span>Timecode Synchronization</span>
                   </span>
                 </div>
-                <span className="portfolioproject1-text85">
+                <span className="portfolioproject1-text84">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">
                     : A major challenge onset is managing and synchronizing
@@ -401,7 +398,7 @@ const Portfolioproject1 = (props) => {
                   </span>
                   <br className="Epilogue-17"></br>
                 </span>
-              </div>
+              </section>
             </div>
           </div>
         </div>

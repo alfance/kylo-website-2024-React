@@ -5,6 +5,8 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-default-backgrounddark);
 }
 .portfolio-aboutpage-portfolio-aboutpage {
   width: 100%;
@@ -17,11 +19,15 @@
 }
 .portfolio-aboutpage-aboutheader {
   gap: 10px;
+  width: 100%;
   display: flex;
-  padding: 120px 320px;
-  align-self: stretch;
+  align-self: center;
   align-items: center;
+  padding-top: 120px;
+  padding-left: auto;
+  padding-right: auto;
   flex-direction: column;
+  padding-bottom: 120px;
   justify-content: center;
 }
 .portfolio-aboutpage-aboutheader1 {
@@ -51,8 +57,8 @@
 .portfolio-aboutpage-image1 {
   top: 0px;
   left: 0px;
-  width: 342px;
-  height: 342px;
+  width: 100%;
+  height: 100%;
   position: absolute;
 }
 .portfolio-aboutpage-text {
@@ -77,4 +83,9 @@
 .portfolio-aboutpage-text5 {
   color: var(--dl-color-default-textgreyout1);
   font-weight: 400;
+}
+@media(max-width: 767px) {
+  .portfolio-aboutpage-aboutheader1 {
+    width: auto;
+  }
 }

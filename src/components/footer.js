@@ -29,9 +29,7 @@ const Footer = (props) => {
             </div>
           </a>
           <a
-            href={props.linkFimail}
-            target="_blank"
-            rel="noreferrer noopener"
+            href="mailto:jiao_xue@hotmail.com?subject="
             className="footer-link1"
           >
             <img

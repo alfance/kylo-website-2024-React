@@ -18,11 +18,14 @@
 .portfolioproject3-portfolio1 {
   width: 100%;
   display: flex;
-  padding: 0 120px 100px;
   max-width: 1449px;
   align-self: center;
   align-items: center;
+  padding-top: 0 120px 100px;
+  padding-left: auto;
+  padding-right: auto;
   flex-direction: column;
+  padding-bottom: 0 120px 100px;
 }
 .portfolioproject3-projectheader {
   gap: 40px;
@@ -115,7 +118,7 @@
   align-self: stretch;
   font-style: SemiBold;
   text-align: left;
-  font-family: Epilogue;
+  font-family: "Epilogue";
   font-weight: 600;
   line-height: 68px;
   font-stretch: normal;
@@ -128,12 +131,12 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.portfolioproject3-text08 {
-  color: var(--dl-color-default-textdefault);
+.portfolioproject3-text07 {
+  color: var(--dl-color-default-textmute1);
   height: auto;
   flex-grow: 1;
   font-size: 17px;
-  font-style: Regular;
+  font-style: normal;
   text-align: left;
   font-family: "Epilogue";
   font-weight: 400;
@@ -141,24 +144,13 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.portfolioproject3-text09 {
-  font-weight: 700;
-}
-.portfolioproject3-text10 {
-  font-weight: 700;
-}
-.portfolioproject3-text11 {
-  font-weight: 700;
-}
-.portfolioproject3-text12 {
-  font-weight: 700;
-}
 .portfolioproject3-stickerfinallayer1-locked-aspect-ratio {
   height: 40vw;
   display: flex;
   overflow: hidden;
   position: relative;
   align-self: stretch;
+  max-height: 700px;
   align-items: flex-start;
   flex-direction: column;
 }
@@ -178,22 +170,6 @@
   align-self: stretch;
   align-items: flex-start;
   flex-shrink: 0;
-}
-.portfolioproject3-headertitle {
-  width: 100%;
-  height: 140px;
-  display: flex;
-  position: relative;
-  align-self: stretch;
-  align-items: flex-start;
-}
-.portfolioproject3-text28 {
-  color: var(--dl-color-default-textdefault);
-  width: 100%;
-  height: auto;
-  position: absolute;
-  text-align: center;
-  line-height: 46px;
 }
 .portfolioproject3-project-casestudies {
   gap: 10px;
@@ -253,14 +229,14 @@
   height: 44px;
   position: absolute;
 }
-.portfolioproject3-text30 {
+.portfolioproject3-text28 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
   text-align: left;
   line-height: 46px;
 }
-.portfolioproject3-text32 {
+.portfolioproject3-text30 {
   color: rgb(161, 161, 161);
   height: auto;
   font-size: 17px;
@@ -270,10 +246,10 @@
   font-family: "Epilogue";
   line-height: 27px;
 }
-.portfolioproject3-text33 {
+.portfolioproject3-text31 {
   color: var(--dl-color-default-textgreyout1);
 }
-.portfolioproject3-text36 {
+.portfolioproject3-text34 {
   color: var(--dl-color-default-textdefault);
 }
 .portfolioproject3-button {
@@ -287,7 +263,7 @@
   flex-shrink: 0;
   background-color: rgba(255, 98, 80, 1);
 }
-.portfolioproject3-text38 {
+.portfolioproject3-text36 {
   top: 5px;
   left: 28px;
   color: var(--dl-color-default-textdefault);
@@ -363,21 +339,21 @@
   opacity: 0.55;
   position: absolute;
 }
-.portfolioproject3-text40 {
+.portfolioproject3-text38 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
   text-align: left;
   line-height: 46px;
 }
-.portfolioproject3-text41 {
+.portfolioproject3-text39 {
   color: var(--dl-color-default-textgreyout1);
   height: auto;
   align-self: stretch;
   text-align: left;
   line-height: 27px;
 }
-.portfolioproject3-text45 {
+.portfolioproject3-text43 {
   color: var(--dl-color-default-textdefault);
 }
 .portfolioproject3-project-casestudies2 {
@@ -437,14 +413,14 @@
   height: 67px;
   position: absolute;
 }
-.portfolioproject3-text48 {
+.portfolioproject3-text46 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
   text-align: left;
   line-height: 46px;
 }
-.portfolioproject3-text50 {
+.portfolioproject3-text48 {
   color: var(--dl-color-default-textgreyout1);
   height: auto;
   font-size: 17px;
@@ -454,10 +430,10 @@
   font-family: "Epilogue";
   line-height: 27px;
 }
-.portfolioproject3-text54 {
+.portfolioproject3-text52 {
   color: var(--dl-color-default-textdefault);
 }
-.portfolioproject3-text55 {
+.portfolioproject3-text53 {
   color: var(--dl-color-default-textdefault);
 }
 .portfolioproject3-stickerfinallayer14 {
@@ -499,7 +475,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.portfolioproject3-text57 {
+.portfolioproject3-text55 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   font-size: 36px;
@@ -518,7 +494,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.portfolioproject3-text60 {
+.portfolioproject3-text58 {
   color: var(--dl-color-default-textmute1);
   height: auto;
   flex-grow: 1;
@@ -582,32 +558,32 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.portfolioproject3-text65 {
+.portfolioproject3-text63 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
   text-align: left;
   line-height: 46px;
 }
-.portfolioproject3-text67 {
+.portfolioproject3-text65 {
   color: var(--dl-color-default-textgreyout1);
   height: auto;
   align-self: stretch;
   text-align: left;
 }
+.portfolioproject3-text66 {
+  color: var(--dl-color-default-textgreyout1);
+}
+.portfolioproject3-text67 {
+  color: var(--dl-color-default-textgreyout1);
+}
 .portfolioproject3-text68 {
   color: var(--dl-color-default-textgreyout1);
 }
 .portfolioproject3-text69 {
-  color: var(--dl-color-default-textgreyout1);
-}
-.portfolioproject3-text70 {
-  color: var(--dl-color-default-textgreyout1);
-}
-.portfolioproject3-text71 {
   color: var(--dl-color-default-textdefault);
 }
-.portfolioproject3-text72 {
+.portfolioproject3-text70 {
   color: var(--dl-color-default-textgreyout1);
 }
 .portfolioproject3-stickerfinallayer16 {
@@ -616,6 +592,7 @@
   flex-grow: 1;
   max-width: 50%;
   align-self: stretch;
+  min-height: 400px;
 }
 .portfolioproject3-project-casestudies4 {
   gap: 10px;
@@ -647,20 +624,20 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.portfolioproject3-text73 {
+.portfolioproject3-text71 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
   text-align: left;
   line-height: 46px;
 }
-.portfolioproject3-text75 {
+.portfolioproject3-text73 {
   color: var(--dl-color-default-textgreyout1);
   height: auto;
   align-self: stretch;
   text-align: left;
 }
-.portfolioproject3-text79 {
+.portfolioproject3-text77 {
   color: var(--dl-color-default-textdefault);
 }
 .portfolioproject3-stickerfinallayer17 {
@@ -700,23 +677,23 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.portfolioproject3-text81 {
+.portfolioproject3-text79 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
   text-align: left;
   line-height: 46px;
 }
-.portfolioproject3-text82 {
+.portfolioproject3-text80 {
   color: var(--dl-color-default-textgreyout1);
   height: auto;
   align-self: stretch;
   text-align: left;
 }
-.portfolioproject3-text85 {
+.portfolioproject3-text83 {
   color: var(--dl-color-default-textdefault);
 }
-.portfolioproject3-text86 {
+.portfolioproject3-text84 {
   color: var(--dl-color-default-textdefault);
 }
 .portfolioproject3-stickerfinallayer18 {

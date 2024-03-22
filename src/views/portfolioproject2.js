@@ -3,6 +3,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import Navbar from '../components/navbar'
+import HeaderTitle from '../components/header-title'
 import Footer from '../components/footer'
 import './portfolioproject2.css'
 
@@ -14,7 +15,7 @@ const Portfolioproject2 = (props) => {
       </Helmet>
       <div className="portfolioproject2-portfolioproject2">
         <Navbar rootClassName="navbar-root-class-name3"></Navbar>
-        <div className="portfolioproject2-portfolio1">
+        <div className="portfolioproject2-portfolio1 port-container-responsive">
           <div className="portfolioproject2-projectheader Epilogue-17 content-divide">
             <div className="portfolioproject2-headline-subhead content-divide-child">
               <div className="portfolioproject2-headline-subhead01">
@@ -50,7 +51,7 @@ const Portfolioproject2 = (props) => {
             </div>
             <img
               alt="stickerfinallayer1I546"
-              src="/external/stickerfinallayer1i546-ih6s-200h.png"
+              src="/external/stickerfinallayer1i546-ih6s.png"
               className="portfolioproject2-stickerfinallayer1 content-divide-child image-contain"
             />
           </div>
@@ -81,6 +82,15 @@ const Portfolioproject2 = (props) => {
                         />
                       </span>
                       <br className="Epilogue-17Bold"></br>
+                      <span className="Epilogue-17Bold">
+                        {' '}
+                        •
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
                       <span className="Epilogue-17Bold">
                         Competitor Auditing:
                       </span>
@@ -129,22 +139,18 @@ const Portfolioproject2 = (props) => {
             <div className="portfolioproject2-stickerfinallayer1-locked-aspect-ratio">
               <img
                 alt="stickerfinallayer1I585"
-                src="/external/stickerfinallayer1i585-2po9-1500w.png"
+                src="/external/stickerfinallayer1i585-2po9.png"
                 className="portfolioproject2-stickerfinallayer11 image-contain"
               />
               <div className="portfolioproject2-frame"></div>
             </div>
           </div>
-          <div className="portfolioproject2-headertitle">
-            <span className="portfolioproject2-text34 Epilogue-36Light">
-              <span>Projects</span>
-            </span>
-          </div>
+          <HeaderTitle rootClassName="header-title-root-class-name1"></HeaderTitle>
           <div className="portfolioproject2-project-casestudies">
             <div className="portfolioproject2-header1 Epilogue-17 content-divide-reverse">
               <img
                 alt="stickerfinallayer1I546"
-                src="/external/stickerfinallayer1i546-p2it-200h.png"
+                src="/external/stickerfinallayer1i546-p2it.png"
                 className="portfolioproject2-stickerfinallayer12 content-divide-child image-contain"
               />
               <div className="portfolioproject2-headline-subhead04 content-divide-child">
@@ -156,8 +162,8 @@ const Portfolioproject2 = (props) => {
                       className="portfolioproject2-graphics-weta-real-time-iconsd-strand-based-hair"
                     />
                   </div>
-                  <span className="portfolioproject2-text36">
-                    <span className="portfolioproject2-text37">
+                  <span className="portfolioproject2-text35">
+                    <span className="portfolioproject2-text36">
                       Hair Simulation
                       <span
                         dangerouslySetInnerHTML={{
@@ -168,8 +174,8 @@ const Portfolioproject2 = (props) => {
                     <span>Optimization</span>
                   </span>
                 </div>
-                <span className="portfolioproject2-text39">
-                  <span className="portfolioproject2-text40">
+                <span className="portfolioproject2-text38">
+                  <span className="portfolioproject2-text39">
                     The Hair package in Unity is a comprehensive toolset for
                     creating, importing, simulating, and rendering strand-based
                     hair, suited for both lifelike digital humans and stylized
@@ -178,8 +184,8 @@ const Portfolioproject2 = (props) => {
                     (DCC).
                   </span>
                   <br className="Epilogue-17"></br>
-                  <br className="portfolioproject2-text42"></br>
-                  <span className="portfolioproject2-text43">
+                  <br className="portfolioproject2-text41"></br>
+                  <span className="portfolioproject2-text42">
                     As the lead designer, I initiated a number of projects to
                     refine the hair system workflow, significantly cutting down
                     the time and effort needed to achieve the perfect hair look
@@ -187,12 +193,12 @@ const Portfolioproject2 = (props) => {
                   </span>
                 </span>
                 <a
-                  href="google.com"
+                  href="https://www.figma.com/proto/lcnMBhcQTDwYR9ndPfYrOS/Presentation-hair?page-id=635%3A885&amp;type=design&amp;node-id=635-2037&amp;viewport=68%2C237%2C0.03&amp;t=YZhuXSHVG48L5m2W-1&amp;scaling=scale-down&amp;starting-point-node-id=635%3A2037&amp;mode=design"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="portfolioproject2-button"
                 >
-                  <span className="portfolioproject2-text44">
+                  <span className="portfolioproject2-text43">
                     <span>View Case Study</span>
                   </span>
                 </a>
@@ -210,8 +216,8 @@ const Portfolioproject2 = (props) => {
                       className="portfolioproject2-graphics-weta-real-time-iconsd-speed-tree"
                     />
                   </div>
-                  <span className="portfolioproject2-text46">
-                    <span className="portfolioproject2-text47">
+                  <span className="portfolioproject2-text45">
+                    <span className="portfolioproject2-text46">
                       Speedtree
                       <span
                         dangerouslySetInnerHTML={{
@@ -219,8 +225,8 @@ const Portfolioproject2 = (props) => {
                         }}
                       />
                     </span>
-                    <span className="portfolioproject2-text48">x</span>
-                    <span className="portfolioproject2-text49">
+                    <span className="portfolioproject2-text47">x</span>
+                    <span className="portfolioproject2-text48">
                       {' '}
                       Unity
                       <span
@@ -232,17 +238,17 @@ const Portfolioproject2 = (props) => {
                     <span>Integration</span>
                   </span>
                 </div>
-                <span className="portfolioproject2-text51">
-                  <span className="portfolioproject2-text52 Epilogue-17">
+                <span className="portfolioproject2-text50">
+                  <span className="portfolioproject2-text51 Epilogue-17">
                     SpeedTree, the go-to vegetation toolkit in the industry,
                     serves companies large and small for both realistic and
                     stylized projects. Its integration with Unity is seamless,
                     ensuring that imported assets maintain their data format for
                     easy scalability and world-building.
                   </span>
+                  <br className="portfolioproject2-text52"></br>
                   <br className="portfolioproject2-text53"></br>
-                  <br className="portfolioproject2-text54"></br>
-                  <span className="portfolioproject2-text55">
+                  <span className="portfolioproject2-text54">
                     I contributed to enhancing the SpeedTree-Unity workflow,
                     enabling users to tweak SpeedTree models directly within a
                     Unity scene. This allows for on-the-fly adjustments and
@@ -254,7 +260,7 @@ const Portfolioproject2 = (props) => {
               </div>
               <img
                 alt="stickerfinallayer1I546"
-                src="/external/stickerfinallayer1i546-2h2-200h.png"
+                src="/external/stickerfinallayer1i546-2h2.png"
                 className="portfolioproject2-stickerfinallayer13 content-divide-child image-contain"
               />
             </div>
@@ -263,7 +269,7 @@ const Portfolioproject2 = (props) => {
             <div className="portfolioproject2-header3 Epilogue-17 content-divide-reverse">
               <img
                 alt="stickerfinallayer1I546"
-                src="/external/stickerfinallayer1i546-6mkp-200h.png"
+                src="/external/stickerfinallayer1i546-6mkp.png"
                 className="portfolioproject2-stickerfinallayer14 content-divide-child image-contain"
               />
               <div className="portfolioproject2-headline-subhead08 content-divide-child">
@@ -272,12 +278,12 @@ const Portfolioproject2 = (props) => {
                     <div className="portfolioproject2-graphics-weta-real-time-iconsd-mesh-lod">
                       <img
                         alt="Rectangle39CopyI546"
-                        src="/external/rectangle39copyi546-py9m-200h.png"
+                        src="/external/rectangle39copyi546-py9m.png"
                         className="portfolioproject2-rectangle39-copy"
                       />
                       <img
                         alt="Rectangle39CopyI546"
-                        src="/external/rectangle39copyi546-efbg-200h.png"
+                        src="/external/rectangle39copyi546-efbg.png"
                         className="portfolioproject2-rectangle39-copy1"
                       />
                       <img
@@ -292,28 +298,28 @@ const Portfolioproject2 = (props) => {
                       />
                     </div>
                   </div>
-                  <span className="portfolioproject2-text57 Epilogue-36Bold">
+                  <span className="portfolioproject2-text56 Epilogue-36Bold">
                     Progressive LOD (AutoLOD)
                   </span>
                 </div>
-                <span className="portfolioproject2-text58">
-                  <span className="portfolioproject2-text59">
+                <span className="portfolioproject2-text57">
+                  <span className="portfolioproject2-text58">
                     AutoLOD streamlines the process of importing geometric model
                     assets by automatically generating simplified
                     levels-of-detail (LOD), crucial for reducing manual LOD
                     creation workload, scene complexity, and aiding in
                     optimization.
                   </span>
+                  <br className="portfolioproject2-text59"></br>
                   <br className="portfolioproject2-text60"></br>
-                  <br className="portfolioproject2-text61"></br>
-                  <span className="portfolioproject2-text62">
+                  <span className="portfolioproject2-text61">
                     I developed the workflow and UI for Unity’s AutoLOD,
                     allowing users to generate a low-poly version of their asset
                     with a single click upon import. Additionally, we integrated
                     AutoLOD with Unity’s existing LOD system and various
                     third-party plugins.
                   </span>
-                  <br className="portfolioproject2-text63"></br>
+                  <br className="portfolioproject2-text62"></br>
                 </span>
               </div>
             </div>
@@ -331,11 +337,11 @@ const Portfolioproject2 = (props) => {
                       />
                     </div>
                   </div>
-                  <span className="portfolioproject2-text64 Epilogue-36Bold">
+                  <span className="portfolioproject2-text63 Epilogue-36Bold">
                     HDR Color Picker
                   </span>
                 </div>
-                <span className="portfolioproject2-text65">
+                <span className="portfolioproject2-text64">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">
                     : The existing color picker struggles with HDR (High Dynamic
@@ -357,7 +363,7 @@ const Portfolioproject2 = (props) => {
               </div>
               <img
                 alt="stickerfinallayer1I546"
-                src="/external/stickerfinallayer1i546-f4us-200h.png"
+                src="/external/stickerfinallayer1i546-f4us.png"
                 className="portfolioproject2-stickerfinallayer15 content-divide-child image-contain"
               />
             </div>
