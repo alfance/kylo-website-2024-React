@@ -18,7 +18,7 @@ import NotFound from './views/not-found'
 
 const App = () => {
   return (
-    <HashRouter>
+    <Router basename="/kylo-website-2024-React/">
       <Switch>
         <Route component={Portfolioproject3} exact path="/portfolioproject3" />
         <Route
@@ -32,7 +32,7 @@ const App = () => {
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
-    </HashRouter>
+    </Router>
   )
 }
 
