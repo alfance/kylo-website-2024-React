@@ -51,7 +51,7 @@ const Portfolioproject2 = (props) => {
             <img
               alt="stickerfinallayer1I546"
               src="/external/stickerfinallayer1i546-ih6s-200h.png"
-              className="portfolioproject2-stickerfinallayer1 image-contain content-divide-child"
+              className="portfolioproject2-stickerfinallayer1 content-divide-child image-contain"
             />
           </div>
           <div className="portfolioproject2-project-myrole">
@@ -145,7 +145,7 @@ const Portfolioproject2 = (props) => {
               <img
                 alt="stickerfinallayer1I546"
                 src="/external/stickerfinallayer1i546-p2it-200h.png"
-                className="portfolioproject2-stickerfinallayer12 image-contain content-divide-child"
+                className="portfolioproject2-stickerfinallayer12 content-divide-child image-contain"
               />
               <div className="portfolioproject2-headline-subhead04 content-divide-child">
                 <div className="portfolioproject2-headline-subhead05">
@@ -255,7 +255,7 @@ const Portfolioproject2 = (props) => {
               <img
                 alt="stickerfinallayer1I546"
                 src="/external/stickerfinallayer1i546-2h2-200h.png"
-                className="portfolioproject2-stickerfinallayer13 image-contain content-divide-child"
+                className="portfolioproject2-stickerfinallayer13 content-divide-child image-contain"
               />
             </div>
           </div>
@@ -264,7 +264,7 @@ const Portfolioproject2 = (props) => {
               <img
                 alt="stickerfinallayer1I546"
                 src="/external/stickerfinallayer1i546-6mkp-200h.png"
-                className="portfolioproject2-stickerfinallayer14 image-contain content-divide-child"
+                className="portfolioproject2-stickerfinallayer14 content-divide-child image-contain"
               />
               <div className="portfolioproject2-headline-subhead08 content-divide-child">
                 <div className="portfolioproject2-headline-subhead09">
@@ -358,7 +358,7 @@ const Portfolioproject2 = (props) => {
               <img
                 alt="stickerfinallayer1I546"
                 src="/external/stickerfinallayer1i546-f4us-200h.png"
-                className="portfolioproject2-stickerfinallayer15 image-contain content-divide-child"
+                className="portfolioproject2-stickerfinallayer15 content-divide-child image-contain"
               />
             </div>
           </div>

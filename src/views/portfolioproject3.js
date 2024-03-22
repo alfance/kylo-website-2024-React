@@ -38,7 +38,7 @@ const Portfolioproject3 = (props) => {
             <img
               alt="stickerfinallayer1I546"
               src="/external/stickerfinallayer1i546-61mo-200h.png"
-              className="portfolioproject3-stickerfinallayer1 image-contain content-divide-child"
+              className="portfolioproject3-stickerfinallayer1 content-divide-child image-contain"
             />
           </div>
           <div className="portfolioproject3-project-myrole">
@@ -185,7 +185,7 @@ const Portfolioproject3 = (props) => {
               <img
                 alt="stickerfinallayer1I546"
                 src="/external/stickerfinallayer1i546-ocut-200h.png"
-                className="portfolioproject3-stickerfinallayer12 image-contain content-divide-child"
+                className="portfolioproject3-stickerfinallayer12 content-divide-child image-contain"
               />
             </div>
           </div>
@@ -194,7 +194,7 @@ const Portfolioproject3 = (props) => {
               <img
                 alt="stickerfinallayer1I616"
                 src="/external/stickerfinallayer1i616-r0js-200h.png"
-                className="portfolioproject3-stickerfinallayer13 image-contain content-divide-child"
+                className="portfolioproject3-stickerfinallayer13 content-divide-child image-contain"
               />
               <div className="portfolioproject3-headline-subhead06 content-divide-child">
                 <div className="portfolioproject3-headline-subhead07">
@@ -285,7 +285,7 @@ const Portfolioproject3 = (props) => {
               <img
                 alt="stickerfinallayer1I616"
                 src="/external/stickerfinallayer1i616-temmn-200h.png"
-                className="portfolioproject3-stickerfinallayer14 image-contain content-divide-child"
+                className="portfolioproject3-stickerfinallayer14 content-divide-child image-contain"
               />
             </div>
           </div>
@@ -349,7 +349,7 @@ const Portfolioproject3 = (props) => {
                   </span>
                 </div>
                 <span className="portfolioproject3-text67 Epilogue-17">
-                  <span className="Epilogue-17">
+                  <span className="portfolioproject3-text68 Epilogue-17">
                     Live Editing enables the generation and control of all
                     monitors (render-nodes) to display virtual set imagery in
                     real time.
@@ -363,13 +363,13 @@ const Portfolioproject3 = (props) => {
                     allowing Vset operators to efficiently deploy their Unity
                     scenes across the network.
                   </span>
-                  <br className="Epilogue-17"></br>
+                  <br className="portfolioproject3-text72 Epilogue-17"></br>
                 </span>
               </div>
               <img
                 alt="stickerfinallayer1I737"
                 src="/external/stickerfinallayer1i737-jlah-200h.png"
-                className="portfolioproject3-stickerfinallayer16 image-contain content-divide-child"
+                className="portfolioproject3-stickerfinallayer16 content-divide-child image-contain"
               />
             </div>
           </div>
@@ -402,7 +402,7 @@ const Portfolioproject3 = (props) => {
               <img
                 alt="stickerfinallayer1I737"
                 src="/external/stickerfinallayer1i737-oc0a-200h.png"
-                className="portfolioproject3-stickerfinallayer17 image-contain content-divide-child"
+                className="portfolioproject3-stickerfinallayer17 content-divide-child image-contain"
               />
             </div>
           </div>
@@ -436,7 +436,7 @@ const Portfolioproject3 = (props) => {
               <img
                 alt="stickerfinallayer1I737"
                 src="/external/stickerfinallayer1i737-u98-200h.png"
-                className="portfolioproject3-stickerfinallayer18 image-contain content-divide-child"
+                className="portfolioproject3-stickerfinallayer18 content-divide-child image-contain"
               />
             </div>
           </div>

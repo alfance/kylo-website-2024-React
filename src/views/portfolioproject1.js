@@ -75,7 +75,7 @@ const Portfolioproject1 = (props) => {
             <img
               alt="stickerfinallayer1I275"
               src="/external/stickerfinallayer1i275-bpr-1500w.png"
-              className="portfolioproject1-stickerfinallayer1 image-contain content-divide-child"
+              className="portfolioproject1-stickerfinallayer1 content-divide-child image-contain"
             />
           </div>
           <div className="portfolioproject1-skills-section">
@@ -256,7 +256,7 @@ const Portfolioproject1 = (props) => {
               <img
                 alt="stickerfinallayer1I275"
                 src="/external/stickerfinallayer1i275-suu-200h.png"
-                className="portfolioproject1-stickerfinallayer12 image-contain content-divide-child"
+                className="portfolioproject1-stickerfinallayer12 content-divide-child image-contain"
               />
             </div>
           </div>
@@ -265,7 +265,7 @@ const Portfolioproject1 = (props) => {
               <img
                 alt="stickerfinallayer1I275"
                 src="/external/stickerfinallayer1i275-imhw-200h.png"
-                className="portfolioproject1-stickerfinallayer13 image-contain content-divide-child"
+                className="portfolioproject1-stickerfinallayer13 content-divide-child image-contain"
               />
               <div className="portfolioproject1-headline-subhead09 content-divide-child">
                 <div className="portfolioproject1-headline-subhead10">
@@ -351,7 +351,7 @@ const Portfolioproject1 = (props) => {
               <img
                 alt="stickerfinallayer1I275"
                 src="/external/stickerfinallayer1i275-1get-200h.png"
-                className="portfolioproject1-stickerfinallayer14 image-contain content-divide-child"
+                className="portfolioproject1-stickerfinallayer14 content-divide-child image-contain"
               />
             </div>
           </div>

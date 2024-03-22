@@ -97,16 +97,16 @@ const Portfolio = (props) => {
                             <div className="portfolio-frame427319349"></div>
                             <div className="portfolio-maskgroup">
                               <img
-                                src="/external/facecap21i176-blw-1000w.png"
                                 alt="facecap21I176"
+                                src="/external/facecap21i176-blw-1000w.png"
                                 className="portfolio-facecap21 image-contain"
                               />
                             </div>
                             <div className="portfolio-applei-phone-xr-locked-aspect-ratio"></div>
                             <div className="portfolio-maskgroup1">
                               <img
-                                src="/external/facecap22i176-l6m4-400w.png"
                                 alt="facecap22I176"
+                                src="/external/facecap22i176-l6m4-400w.png"
                                 className="portfolio-facecap22"
                               />
                             </div>
