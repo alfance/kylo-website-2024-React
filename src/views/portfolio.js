@@ -61,7 +61,7 @@ const Portfolio = (props) => {
               </section>
               <img
                 alt="stickerfinallayer1I176"
-                src="/external/stickerfinallayer1i176-2l5o.png"
+                src="/kylo-website-2024-React/external/stickerfinallayer1i176-2l5o.png"
                 className="portfolio-stickerfinallayer1"
               />
             </div>
@@ -113,7 +113,7 @@ const Portfolio = (props) => {
                             <div className="portfolio-maskgroup">
                               <img
                                 alt="facecap21I176"
-                                src="/external/facecap21i176-blw.png"
+                                src="/kylo-website-2024-React/external/facecap21i176-blw.png"
                                 className="portfolio-facecap21 image-contain"
                               />
                             </div>
@@ -121,7 +121,7 @@ const Portfolio = (props) => {
                             <div className="portfolio-maskgroup1">
                               <img
                                 alt="facecap22I176"
-                                src="/external/facecap22i176-l6m4-400w.png"
+                                src="/kylo-website-2024-React/external/facecap22i176-l6m4-400w.png"
                                 className="portfolio-facecap22"
                               />
                             </div>
@@ -232,7 +232,7 @@ const Portfolio = (props) => {
                               <div className="portfolio-homecontentimage04 image-contain">
                                 <img
                                   alt="vsethomegif1I176"
-                                  src="/external/vsethomegif1i176-jhca.png"
+                                  src="/kylo-website-2024-React/external/vsethomegif1i176-jhca.png"
                                   className="portfolio-vsethomegif1"
                                 />
                               </div>
