@@ -1,5 +1,5 @@
 {
-  "homepage": ".",
+  "homepage": "https://alfance.github.io/kylo-website-2024-React/",
   "name": "kylo-website-2024",
   "version": "1.0.0",
   "private": true,
@@ -12,9 +12,9 @@
     "react-router-dom": "^5.2.0"
   },
   "scripts": {
-    "start": "craco start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "craco start",
     "build": "craco build",
     "test": "craco test --env=jsdom",
     "eject": "craco eject"
