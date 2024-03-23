@@ -239,12 +239,8 @@
 .portfolioproject3-text30 {
   color: rgb(161, 161, 161);
   height: auto;
-  font-size: 17px;
   align-self: stretch;
-  font-style: normal;
   text-align: left;
-  font-family: "Epilogue";
-  line-height: 27px;
 }
 .portfolioproject3-text31 {
   color: var(--dl-color-default-textgreyout1);
@@ -351,7 +347,6 @@
   height: auto;
   align-self: stretch;
   text-align: left;
-  line-height: 27px;
 }
 .portfolioproject3-text43 {
   color: var(--dl-color-default-textdefault);
@@ -423,12 +418,8 @@
 .portfolioproject3-text48 {
   color: var(--dl-color-default-textgreyout1);
   height: auto;
-  font-size: 17px;
   align-self: stretch;
-  font-style: normal;
   text-align: left;
-  font-family: "Epilogue";
-  line-height: 27px;
 }
 .portfolioproject3-text52 {
   color: var(--dl-color-default-textdefault);
@@ -498,8 +489,11 @@
   color: var(--dl-color-default-textmute1);
   height: auto;
   flex-grow: 1;
+  font-size: 17px;
   text-align: left;
+  font-family: "Epilogue";
   line-height: 27px;
+  font-stretch: normal;
 }
 .portfolioproject3-stickerfinallayer1-locked-aspect-ratio1 {
   width: 100%;
@@ -558,32 +552,35 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.portfolioproject3-text63 {
+.portfolioproject3-text65 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
   text-align: left;
   line-height: 46px;
 }
-.portfolioproject3-text65 {
+.portfolioproject3-text67 {
   color: var(--dl-color-default-textgreyout1);
   height: auto;
   align-self: stretch;
   text-align: left;
 }
-.portfolioproject3-text66 {
-  color: var(--dl-color-default-textgreyout1);
-}
-.portfolioproject3-text67 {
-  color: var(--dl-color-default-textgreyout1);
-}
 .portfolioproject3-text68 {
   color: var(--dl-color-default-textgreyout1);
 }
 .portfolioproject3-text69 {
-  color: var(--dl-color-default-textdefault);
+  color: var(--dl-color-default-textgreyout1);
 }
 .portfolioproject3-text70 {
+  color: var(--dl-color-default-textgreyout1);
+}
+.portfolioproject3-text71 {
+  color: var(--dl-color-default-textdefault);
+}
+.portfolioproject3-text72 {
+  color: var(--dl-color-default-textgreyout1);
+}
+.portfolioproject3-text73 {
   color: var(--dl-color-default-textgreyout1);
 }
 .portfolioproject3-stickerfinallayer16 {
@@ -624,21 +621,36 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.portfolioproject3-text71 {
+.portfolioproject3-text74 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
   text-align: left;
   line-height: 46px;
 }
-.portfolioproject3-text73 {
+.portfolioproject3-text76 {
   color: var(--dl-color-default-textgreyout1);
   height: auto;
   align-self: stretch;
   text-align: left;
 }
 .portfolioproject3-text77 {
+  color: var(--dl-color-default-textgreyout1);
+}
+.portfolioproject3-text78 {
+  color: var(--dl-color-default-textgreyout1);
+}
+.portfolioproject3-text79 {
+  color: var(--dl-color-default-textgreyout1);
+}
+.portfolioproject3-text80 {
   color: var(--dl-color-default-textdefault);
+}
+.portfolioproject3-text81 {
+  color: var(--dl-color-default-textgreyout1);
+}
+.portfolioproject3-text82 {
+  color: var(--dl-color-default-textgreyout1);
 }
 .portfolioproject3-stickerfinallayer17 {
   width: auto;
@@ -677,24 +689,36 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.portfolioproject3-text79 {
+.portfolioproject3-text83 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
   text-align: left;
   line-height: 46px;
 }
-.portfolioproject3-text80 {
+.portfolioproject3-text84 {
   color: var(--dl-color-default-textgreyout1);
   height: auto;
   align-self: stretch;
   text-align: left;
 }
-.portfolioproject3-text83 {
+.portfolioproject3-text85 {
+  color: var(--dl-color-default-textgreyout1);
+}
+.portfolioproject3-text86 {
+  color: var(--dl-color-default-textgreyout1);
+}
+.portfolioproject3-text87 {
   color: var(--dl-color-default-textdefault);
 }
-.portfolioproject3-text84 {
+.portfolioproject3-text88 {
   color: var(--dl-color-default-textdefault);
+}
+.portfolioproject3-text89 {
+  color: var(--dl-color-default-textgreyout1);
+}
+.portfolioproject3-text90 {
+  color: var(--dl-color-default-textgreyout1);
 }
 .portfolioproject3-stickerfinallayer18 {
   width: auto;

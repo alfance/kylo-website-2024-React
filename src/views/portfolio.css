@@ -89,7 +89,7 @@
   width: auto;
   height: auto;
   max-width: auto;
-  animation-name: none;
+  animation-name: fadeInUp;
   animation-delay: 0s;
   animation-duration: 300ms;
   animation-direction: normal;
@@ -790,6 +790,30 @@
   .portfolio-header {
     height: auto;
   }
+  .portfolio-text01 {
+    color: var(--dl-color-default-textdefault);
+    font-size: 17px;
+    font-family: Epilogue;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .portfolio-text11 {
+    animation-name: none;
+    animation-delay: 0s;
+    animation-duration: 300ms;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+  }
+  .portfolio-headline-subhead4 {
+    animation-name: fadeInUp;
+    animation-delay: 0s;
+    animation-duration: 300ms;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+  }
 }
 @media(max-width: 767px) {
   .portfolio-header {
@@ -802,5 +826,21 @@
 @media(max-width: 479px) {
   .portfolio-headline-subhead {
     max-width: auto;
+  }
+  .portfolio-workcard-locked-aspect-ratio1 {
+    animation-name: none;
+    animation-delay: 0s;
+    animation-duration: 300ms;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+  }
+  .portfolio-homecontentimage-locked-aspect-ratio {
+    animation-name: fadeInUp;
+    animation-delay: 0s;
+    animation-duration: 300ms;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
   }
 }

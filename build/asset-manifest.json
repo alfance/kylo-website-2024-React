@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kylo-website-2024-React/static/css/main.c79bae05.css",
+    "main.js": "/kylo-website-2024-React/static/js/main.ce08a7cf.js",
+    "index.html": "/kylo-website-2024-React/index.html",
+    "main.c79bae05.css.map": "/kylo-website-2024-React/static/css/main.c79bae05.css.map",
+    "main.ce08a7cf.js.map": "/kylo-website-2024-React/static/js/main.ce08a7cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c79bae05.css",
+    "static/js/main.ce08a7cf.js"
+  ]
+}

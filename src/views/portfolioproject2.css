@@ -225,7 +225,7 @@
   opacity: 0.55;
   position: absolute;
 }
-.portfolioproject2-text35 {
+.portfolioproject2-text39 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   font-size: 36px;
@@ -238,26 +238,22 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.portfolioproject2-text36 {
+.portfolioproject2-text40 {
   font-weight: 600;
 }
-.portfolioproject2-text38 {
+.portfolioproject2-text42 {
   color: rgb(161, 161, 161);
   height: auto;
-  font-size: 17px;
   align-self: stretch;
-  font-style: normal;
   text-align: left;
-  font-family: "Epilogue";
-  line-height: 27px;
 }
-.portfolioproject2-text39 {
+.portfolioproject2-text43 {
   color: var(--dl-color-default-textgreyout1);
 }
-.portfolioproject2-text41 {
+.portfolioproject2-text45 {
   color: var(--dl-color-default-textdefault);
 }
-.portfolioproject2-text42 {
+.portfolioproject2-text46 {
   color: var(--dl-color-default-textdefault);
 }
 .portfolioproject2-button {
@@ -270,7 +266,7 @@
   flex-shrink: 0;
   background-color: rgba(255, 98, 80, 1);
 }
-.portfolioproject2-text43 {
+.portfolioproject2-text47 {
   top: 5px;
   left: 28px;
   color: var(--dl-color-default-textdefault);
@@ -333,7 +329,7 @@
   height: 83px;
   position: absolute;
 }
-.portfolioproject2-text45 {
+.portfolioproject2-text49 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   font-size: 36px;
@@ -346,36 +342,35 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.portfolioproject2-text46 {
+.portfolioproject2-text50 {
   font-weight: 600;
 }
-.portfolioproject2-text47 {
+.portfolioproject2-text51 {
   font-weight: 300;
 }
-.portfolioproject2-text48 {
+.portfolioproject2-text52 {
   font-weight: 600;
 }
-.portfolioproject2-text50 {
+.portfolioproject2-text54 {
   color: rgb(161, 161, 161);
   height: auto;
   align-self: stretch;
   text-align: left;
-  line-height: 27px;
 }
-.portfolioproject2-text51 {
+.portfolioproject2-text55 {
   color: var(--dl-color-default-textgreyout1);
   font-size: 17px;
   font-style: normal;
   font-family: "Epilogue";
   line-height: 27px;
 }
-.portfolioproject2-text52 {
+.portfolioproject2-text56 {
   color: var(--dl-color-default-textgreyout1);
 }
-.portfolioproject2-text53 {
+.portfolioproject2-text57 {
   color: var(--dl-color-default-textgreyout1);
 }
-.portfolioproject2-text54 {
+.portfolioproject2-text58 {
   color: var(--dl-color-default-textdefault);
 }
 .portfolioproject2-stickerfinallayer13 {
@@ -474,7 +469,7 @@
   height: 73px;
   position: absolute;
 }
-.portfolioproject2-text56 {
+.portfolioproject2-text60 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   font-size: 36px;
@@ -487,29 +482,25 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.portfolioproject2-text57 {
+.portfolioproject2-text61 {
   color: rgb(161, 161, 161);
   height: auto;
-  font-size: 17px;
   align-self: stretch;
-  font-style: normal;
   text-align: left;
-  font-family: "Epilogue";
-  line-height: 27px;
-}
-.portfolioproject2-text58 {
-  color: var(--dl-color-default-textgreyout1);
-}
-.portfolioproject2-text59 {
-  color: var(--dl-color-default-textgreyout1);
-}
-.portfolioproject2-text60 {
-  color: var(--dl-color-default-textgreyout1);
-}
-.portfolioproject2-text61 {
-  color: var(--dl-color-default-textdefault);
 }
 .portfolioproject2-text62 {
+  color: var(--dl-color-default-textgreyout1);
+}
+.portfolioproject2-text63 {
+  color: var(--dl-color-default-textgreyout1);
+}
+.portfolioproject2-text64 {
+  color: var(--dl-color-default-textgreyout1);
+}
+.portfolioproject2-text65 {
+  color: var(--dl-color-default-textdefault);
+}
+.portfolioproject2-text66 {
   color: var(--dl-color-default-textgreyout1);
 }
 .portfolioproject2-project-casestudies3 {
@@ -572,21 +563,18 @@
   position: absolute;
   box-sizing: content-box;
 }
-.portfolioproject2-text63 {
+.portfolioproject2-text67 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
   text-align: left;
   line-height: 46px;
 }
-.portfolioproject2-text64 {
+.portfolioproject2-text68 {
   color: var(--dl-color-default-textmute1);
   height: auto;
-  font-size: 17px;
   align-self: stretch;
   text-align: left;
-  font-family: "Epilogue";
-  line-height: 27px;
   font-stretch: normal;
   text-decoration: none;
 }

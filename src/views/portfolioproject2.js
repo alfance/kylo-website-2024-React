@@ -100,12 +100,28 @@ const Portfolioproject2 = (props) => {
                         define strategic design directions.
                       </span>
                       <br></br>
+                      <span>
+                        •
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
                       <span className="Epilogue-17Bold">Alignment</span>
                       <span>
                         : Regular sync-ups with the product manager and
                         developers to align on project goals and progress.
                       </span>
                       <br></br>
+                      <span>
+                        •
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
                       <span className="Epilogue-17Bold">
                         Solo Design Leadership
                       </span>
@@ -114,6 +130,14 @@ const Portfolioproject2 = (props) => {
                         ensuring coherence and quality.
                       </span>
                       <br></br>
+                      <span>
+                        •
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
                       <span className="Epilogue-17Bold">
                         User Experience Reengineering
                       </span>
@@ -122,6 +146,14 @@ const Portfolioproject2 = (props) => {
                         within the product environment.
                       </span>
                       <br></br>
+                      <span>
+                        •
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
                       <span className="Epilogue-17Bold">
                         Cross-Platform Implementation
                       </span>
@@ -162,8 +194,8 @@ const Portfolioproject2 = (props) => {
                       className="portfolioproject2-graphics-weta-real-time-iconsd-strand-based-hair"
                     />
                   </div>
-                  <span className="portfolioproject2-text35">
-                    <span className="portfolioproject2-text36">
+                  <span className="portfolioproject2-text39">
+                    <span className="portfolioproject2-text40">
                       Hair Simulation
                       <span
                         dangerouslySetInnerHTML={{
@@ -174,8 +206,8 @@ const Portfolioproject2 = (props) => {
                     <span>Optimization</span>
                   </span>
                 </div>
-                <span className="portfolioproject2-text38">
-                  <span className="portfolioproject2-text39">
+                <span className="portfolioproject2-text42 Epilogue-17">
+                  <span className="portfolioproject2-text43">
                     The Hair package in Unity is a comprehensive toolset for
                     creating, importing, simulating, and rendering strand-based
                     hair, suited for both lifelike digital humans and stylized
@@ -184,8 +216,8 @@ const Portfolioproject2 = (props) => {
                     (DCC).
                   </span>
                   <br className="Epilogue-17"></br>
-                  <br className="portfolioproject2-text41"></br>
-                  <span className="portfolioproject2-text42">
+                  <br className="portfolioproject2-text45"></br>
+                  <span className="portfolioproject2-text46">
                     As the lead designer, I initiated a number of projects to
                     refine the hair system workflow, significantly cutting down
                     the time and effort needed to achieve the perfect hair look
@@ -198,7 +230,7 @@ const Portfolioproject2 = (props) => {
                   rel="noreferrer noopener"
                   className="portfolioproject2-button"
                 >
-                  <span className="portfolioproject2-text43">
+                  <span className="portfolioproject2-text47">
                     <span>View Case Study</span>
                   </span>
                 </a>
@@ -216,8 +248,8 @@ const Portfolioproject2 = (props) => {
                       className="portfolioproject2-graphics-weta-real-time-iconsd-speed-tree"
                     />
                   </div>
-                  <span className="portfolioproject2-text45">
-                    <span className="portfolioproject2-text46">
+                  <span className="portfolioproject2-text49">
+                    <span className="portfolioproject2-text50">
                       Speedtree
                       <span
                         dangerouslySetInnerHTML={{
@@ -225,8 +257,8 @@ const Portfolioproject2 = (props) => {
                         }}
                       />
                     </span>
-                    <span className="portfolioproject2-text47">x</span>
-                    <span className="portfolioproject2-text48">
+                    <span className="portfolioproject2-text51">x</span>
+                    <span className="portfolioproject2-text52">
                       {' '}
                       Unity
                       <span
@@ -238,17 +270,17 @@ const Portfolioproject2 = (props) => {
                     <span>Integration</span>
                   </span>
                 </div>
-                <span className="portfolioproject2-text50">
-                  <span className="portfolioproject2-text51 Epilogue-17">
+                <span className="portfolioproject2-text54 Epilogue-17">
+                  <span className="portfolioproject2-text55 Epilogue-17">
                     SpeedTree, the go-to vegetation toolkit in the industry,
                     serves companies large and small for both realistic and
                     stylized projects. Its integration with Unity is seamless,
                     ensuring that imported assets maintain their data format for
                     easy scalability and world-building.
                   </span>
-                  <br className="portfolioproject2-text52"></br>
-                  <br className="portfolioproject2-text53"></br>
-                  <span className="portfolioproject2-text54">
+                  <br className="portfolioproject2-text56"></br>
+                  <br className="portfolioproject2-text57"></br>
+                  <span className="portfolioproject2-text58">
                     I contributed to enhancing the SpeedTree-Unity workflow,
                     enabling users to tweak SpeedTree models directly within a
                     Unity scene. This allows for on-the-fly adjustments and
@@ -298,28 +330,28 @@ const Portfolioproject2 = (props) => {
                       />
                     </div>
                   </div>
-                  <span className="portfolioproject2-text56 Epilogue-36Bold">
+                  <span className="portfolioproject2-text60 Epilogue-36Bold">
                     Progressive LOD (AutoLOD)
                   </span>
                 </div>
-                <span className="portfolioproject2-text57">
-                  <span className="portfolioproject2-text58">
+                <span className="portfolioproject2-text61 Epilogue-17">
+                  <span className="portfolioproject2-text62">
                     AutoLOD streamlines the process of importing geometric model
                     assets by automatically generating simplified
                     levels-of-detail (LOD), crucial for reducing manual LOD
                     creation workload, scene complexity, and aiding in
                     optimization.
                   </span>
-                  <br className="portfolioproject2-text59"></br>
-                  <br className="portfolioproject2-text60"></br>
-                  <span className="portfolioproject2-text61">
+                  <br className="portfolioproject2-text63"></br>
+                  <br className="portfolioproject2-text64"></br>
+                  <span className="portfolioproject2-text65">
                     I developed the workflow and UI for Unity’s AutoLOD,
                     allowing users to generate a low-poly version of their asset
                     with a single click upon import. Additionally, we integrated
                     AutoLOD with Unity’s existing LOD system and various
                     third-party plugins.
                   </span>
-                  <br className="portfolioproject2-text62"></br>
+                  <br className="portfolioproject2-text66"></br>
                 </span>
               </div>
             </div>
@@ -337,11 +369,11 @@ const Portfolioproject2 = (props) => {
                       />
                     </div>
                   </div>
-                  <span className="portfolioproject2-text63 Epilogue-36Bold">
+                  <span className="portfolioproject2-text67 Epilogue-36Bold">
                     HDR Color Picker
                   </span>
                 </div>
-                <span className="portfolioproject2-text64">
+                <span className="portfolioproject2-text68 Epilogue-17">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">
                     : The existing color picker struggles with HDR (High Dynamic

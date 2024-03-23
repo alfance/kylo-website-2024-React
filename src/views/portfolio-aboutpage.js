@@ -26,28 +26,39 @@ const PortfolioAboutpage = (props) => {
               </div>
             </div>
             <span className="portfolio-aboutpage-text content-divide-child">
-              <span className="portfolio-aboutpage-text1 Epilogue-17">
-                I&apos;m a UX/UI designer with a passion for user-centered
-                design and human-computer interaction. After years of empowering
-                others to excel, I continue to enjoy resolving both significant
-                and minor issues that users encounter every day.
+              <span className="Epilogue-17">
+                I&apos;m a UX/UI designer with a passion for human-computer
+                interaction. After years of empowering others to excel, I
+                continue to enjoy resolving both significant and minor issues
+                that users encounter every day.
               </span>
               <br className="Epilogue-17"></br>
               <br className="Epilogue-17"></br>
-              <span className="portfolio-aboutpage-text4 Epilogue-17">
+              <span className="portfolio-aboutpage-text04 Epilogue-17">
                 Thanks for visiting. I&apos;m always happy to connect,
                 especially if you&apos;re into
               </span>
-              <span className="portfolio-aboutpage-text5 Epilogue-17">
-                {' '}
-                design, digital painting, the latest in AI trends, or gaming!
-                I&apos;m also trying to read more books—a challenge amid
+              <span className="portfolio-aboutpage-text05 Epilogue-17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="portfolio-aboutpage-text06 Epilogue-17Bold">
+                design, digital painting, the latest in AI trends, or gaming
+              </span>
+              <span className="portfolio-aboutpage-text07 Epilogue-17">
+                ! I&apos;m also trying to read more books—a challenge amid
                 distractions, but I&apos;m getting there! If you have a good
                 read to share, I&apos;d love to hear about it. And even if you
                 just want to connect, I&apos;m all for a coffee chat
               </span>
-              <span className="Epilogue-17"> 😄</span>
-              <br className="Epilogue-17Bold"></br>
+              <span className="portfolio-aboutpage-text08 Epilogue-17">
+                {' '}
+                😄
+              </span>
+              <br className="portfolio-aboutpage-text09 Epilogue-17Bold"></br>
               <br className="Epilogue-17"></br>
             </span>
           </div>

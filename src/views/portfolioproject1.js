@@ -31,36 +31,22 @@ const Portfolioproject1 = (props) => {
                   <span>Live Capture Packages</span>
                 </span>
               </div>
-              <span className="portfolioproject1-text03 Epilogue-17">
-                <span className="portfolioproject1-text04">Virtual Camera</span>
-                <span className="portfolioproject1-text05">
-                  {' '}
-                  and
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="portfolioproject1-text06">Face Capture</span>
-                <br></br>
-                <span>
+              <span className="portfolioproject1-text03">
+                <span className="Epilogue-17">
                   The Unity Live Capture package is a powerful tool that allows
                   for real-time performance capture and recording within the
                   Unity Editor.
                 </span>
-                <br></br>
-                <br></br>
-                <span>
-                  The package consists of two major features:
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                <br className="Epilogue-17"></br>
+                <br className="Epilogue-17"></br>
+                <span className="Epilogue-17">
+                  The package consists of two major features: 
                 </span>
-                <span>
-                  , bothing utilizing the power of IOS ARKIT to help artists and
+                <span className="Epilogue-17Bold">
+                  Virtual Camera and Face Capture
+                </span>
+                <span className="Epilogue-17">
+                  , both utilizing the power of IOS ARKIT to help artists and
                   creators create immersive camera movements and natural facial
                   animation.
                   <span
@@ -69,8 +55,9 @@ const Portfolioproject1 = (props) => {
                     }}
                   />
                 </span>
+                <br className="Epilogue-17"></br>
                 <br></br>
-                <span>Documentation Page</span>
+                <br></br>
               </span>
             </section>
             <img
@@ -80,70 +67,83 @@ const Portfolioproject1 = (props) => {
             />
           </div>
           <div className="portfolioproject1-skills-section">
-            <div className="portfolioproject1-skills">
-              <div className="portfolioproject1-skill">
-                <div className="portfolioproject1-skill1">
-                  <div className="portfolioproject1-imageplaceholder"></div>
-                  <div className="portfolioproject1-headline-subhead02">
-                    <span className="portfolioproject1-text15 Epilogue-24Bold">
-                      <span>Virtual Camera</span>
-                    </span>
-                    <span className="portfolioproject1-text17 Epilogue-17">
-                      <span>
-                        Capture and record camera motion through an iPhone or
-                        iPad as if you were physically in the Unity Scene.
+            <animate-on-reveal
+              animation="fadeInUp"
+              duration="300ms"
+              delay="0s"
+              direction="normal"
+              easing="ease"
+              iteration="1"
+            >
+              <div
+                data-thq-animate-on-reveal="true"
+                className="portfolioproject1-skills"
+              >
+                <div className="portfolioproject1-skill">
+                  <div className="portfolioproject1-skill1">
+                    <div className="portfolioproject1-imageplaceholder"></div>
+                    <div className="portfolioproject1-headline-subhead02">
+                      <span className="portfolioproject1-text13 Epilogue-24Bold">
+                        <span>Virtual Camera</span>
                       </span>
-                    </span>
+                      <span className="portfolioproject1-text15 Epilogue-17">
+                        <span>
+                          Capture and record camera motion through an iPhone or
+                          iPad as if you were physically in the Unity Scene.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="portfolioproject1-skill2">
+                  <div className="portfolioproject1-skill3">
+                    <div className="portfolioproject1-imageplaceholder1"></div>
+                    <div className="portfolioproject1-headline-subhead03">
+                      <span className="portfolioproject1-text17 Epilogue-24Bold">
+                        Face Capture
+                      </span>
+                      <span className="portfolioproject1-text18 Epilogue-17">
+                        <span>
+                          Capture and record face movements through an iOS
+                          device and apply them on a character in the Unity
+                          Scene.
+                        </span>
+                        <br></br>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="portfolioproject1-skill4">
+                  <div className="portfolioproject1-skill5">
+                    <div className="portfolioproject1-imageplaceholder2"></div>
+                    <div className="portfolioproject1-headline-subhead04">
+                      <span className="portfolioproject1-text21 Epilogue-24Bold">
+                        Synchronization
+                      </span>
+                      <span className="portfolioproject1-text22 Epilogue-17">
+                        <span>
+                          Genlock and synchronize all connected devices to get
+                          frame accuracy across the timeline and the captured
+                          dataset.
+                        </span>
+                        <br></br>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="portfolioproject1-skill2">
-                <div className="portfolioproject1-skill3">
-                  <div className="portfolioproject1-imageplaceholder1"></div>
-                  <div className="portfolioproject1-headline-subhead03">
-                    <span className="portfolioproject1-text19 Epilogue-24Bold">
-                      Face Capture
-                    </span>
-                    <span className="portfolioproject1-text20 Epilogue-17">
-                      <span>
-                        Capture and record face movements through an iOS device
-                        and apply them on a character in the Unity Scene.
-                      </span>
-                      <br></br>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="portfolioproject1-skill4">
-                <div className="portfolioproject1-skill5">
-                  <div className="portfolioproject1-imageplaceholder2"></div>
-                  <div className="portfolioproject1-headline-subhead04">
-                    <span className="portfolioproject1-text23 Epilogue-24Bold">
-                      Synchronization
-                    </span>
-                    <span className="portfolioproject1-text24 Epilogue-17">
-                      <span>
-                        Genlock and synchronize all connected devices to get
-                        frame accuracy across the timeline and the captured
-                        dataset.
-                      </span>
-                      <br></br>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </animate-on-reveal>
           </div>
           <div className="portfolioproject1-project-myrole">
             <div className="portfolioproject1-header">
               <div className="portfolioproject1-headline-subhead05">
                 <div className="portfolioproject1-headline-subhead06">
-                  <span className="portfolioproject1-text27">
+                  <span className="portfolioproject1-text25">
                     <span>My Responsibilities</span>
                   </span>
                   <div className="portfolioproject1-graphtext">
-                    <span className="portfolioproject1-text29 Bodytext">
-                      <span>
+                    <span className="portfolioproject1-text27">
+                      <span className="Bodytext">
                         As the lead designer, I worked closely with the product
                         manager, researchers, and owners to align with business
                         goals, grasp user needs, and tackle pain points. My task
@@ -154,9 +154,17 @@ const Portfolioproject1 = (props) => {
                         operation and transitions across Windows, macOS, and
                         IOS, boosting user engagement and satisfaction.
                       </span>
-                      <br></br>
-                      <br></br>
+                      <br className="Bodytext"></br>
+                      <br className="Bodytext"></br>
                       <span>
+                        •
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <span className="Bodytext">
                         Define User pain point and Business Goals.
                         <span
                           dangerouslySetInnerHTML={{
@@ -164,10 +172,28 @@ const Portfolioproject1 = (props) => {
                           }}
                         />
                       </span>
-                      <br></br>
-                      <span>Research and User interviews</span>
-                      <br></br>
+                      <br className="Bodytext"></br>
                       <span>
+                        •
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <span className="Bodytext">
+                        Research and User interviews
+                      </span>
+                      <br className="Bodytext"></br>
+                      <span>
+                        •
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <span className="Bodytext">
                         Wireframing and updating user workflow.
                         <span
                           dangerouslySetInnerHTML={{
@@ -175,10 +201,28 @@ const Portfolioproject1 = (props) => {
                           }}
                         />
                       </span>
-                      <br></br>
-                      <span>High fidelity prototyping</span>
-                      <br></br>
+                      <br className="Bodytext"></br>
                       <span>
+                        •
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <span className="Bodytext">
+                        High fidelity prototyping
+                      </span>
+                      <br className="Bodytext"></br>
+                      <span>
+                        •
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <span className="Bodytext">
                         Usability Testing and validation
                         <span
                           dangerouslySetInnerHTML={{
@@ -212,8 +256,8 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-virtual-productiond-take-recorder"
                     />
                   </div>
-                  <span className="portfolioproject1-text42 Epilogue-36Bold">
-                    <span className="portfolioproject1-text43">
+                  <span className="portfolioproject1-text45 Epilogue-36Bold">
+                    <span className="portfolioproject1-text46">
                       Virtual Camera
                       <span
                         dangerouslySetInnerHTML={{
@@ -224,7 +268,7 @@ const Portfolioproject1 = (props) => {
                     <span>System Redesign</span>
                   </span>
                 </div>
-                <span className="portfolioproject1-text45">
+                <span className="portfolioproject1-text48">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">:</span>
                   <span className="Epilogue-17">
@@ -273,8 +317,8 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-virtual-productiond-virtual-camera-actor"
                     />
                   </div>
-                  <span className="portfolioproject1-text57 Epilogue-36Bold">
-                    <span className="portfolioproject1-text58">
+                  <span className="portfolioproject1-text60 Epilogue-36Bold">
+                    <span className="portfolioproject1-text61">
                       Revamping the Live Capture
                       <span
                         dangerouslySetInnerHTML={{
@@ -285,7 +329,7 @@ const Portfolioproject1 = (props) => {
                     <span>Onboarding Experience</span>
                   </span>
                 </div>
-                <span className="portfolioproject1-text60">
+                <span className="portfolioproject1-text63">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">
                     : Low user acquisition for Live Capture stems from its
@@ -318,11 +362,11 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-input-gamepad"
                     />
                   </div>
-                  <span className="portfolioproject1-text69 Epilogue-36Bold">
+                  <span className="portfolioproject1-text72 Epilogue-36Bold">
                     <span>Gamepad Controller</span>
                   </span>
                 </div>
-                <span className="portfolioproject1-text71">
+                <span className="portfolioproject1-text74">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">
                     : For film professionals, Camerawork often demands more
@@ -375,11 +419,11 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-editor-u-id-sync-search"
                     />
                   </div>
-                  <span className="portfolioproject1-text82 Epilogue-36Bold">
+                  <span className="portfolioproject1-text85 Epilogue-36Bold">
                     <span>Timecode Synchronization</span>
                   </span>
                 </div>
-                <span className="portfolioproject1-text84">
+                <span className="portfolioproject1-text87">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">
                     : A major challenge onset is managing and synchronizing

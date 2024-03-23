@@ -45,9 +45,10 @@ const Portfolio = (props) => {
                     <br className="Epilogue-24Light"></br>
                     <br className="Epilogue-24Light"></br>
                     <span className="Epilogue-24Light">
-                      With over 9 years of experience, I&apos;ve been enhancing
-                      User experience in the Gaming, VFX, e-commerce, and
-                      e-Retail sectors, from startups to corporations.
+                      Working in the design field for over 9 years, I&apos;ve
+                      been enhancing User experience in the Gaming, VFX,
+                      e-commerce, and e-Retail sectors, from startups to
+                      corporations.
                     </span>
                     <span>
                       <span
@@ -61,47 +62,64 @@ const Portfolio = (props) => {
               </section>
               <img
                 alt="stickerfinallayer1I176"
-                src="/kylo-website-2024-React/external/stickerfinallayer1i176-2l5o.png"
+                src="/external/stickerfinallayer1i176-2l5o.png"
                 className="portfolio-stickerfinallayer1"
               />
             </div>
           </div>
           <div className="portfolio-latestwork-section">
-            <span className="portfolio-text11 Epilogue-36Light">
-              <span>Projects &amp; Work</span>
-            </span>
+            <animate-on-reveal animation="fadeInUp">
+              <span
+                data-thq-animate-on-reveal="true"
+                className="portfolio-text11 Epilogue-36Light"
+              >
+                <span>Projects &amp; Work</span>
+              </span>
+            </animate-on-reveal>
             <div className="portfolio-workcards">
               <div className="portfolio-workcard">
                 <div className="portfolio-workcard-locked-aspect-ratio">
                   <div className="portfolio-workcard01">
                     <div className="portfolio-workcard-locked-aspect-ratio1">
                       <div className="portfolio-workcard02">
-                        <div className="portfolio-headline-subhead2">
-                          <div className="portfolio-frame2">
-                            <Link
-                              to="/portfolioproject1"
-                              className="portfolio-text13"
-                            >
-                              <span className="Epilogue-36Light">Unity</span>
-                              <span className="Epilogue-36Bold">
-                                {' '}
-                                Live Capture Packages
+                        <animate-on-reveal
+                          animation="fadeInUp"
+                          duration="300ms"
+                          delay="0s"
+                          direction="normal"
+                          easing="ease"
+                          iteration="1"
+                        >
+                          <div
+                            data-thq-animate-on-reveal="true"
+                            className="portfolio-headline-subhead2"
+                          >
+                            <div className="portfolio-frame2">
+                              <Link
+                                to="/portfolioproject1"
+                                className="portfolio-text13"
+                              >
+                                <span className="Epilogue-36Light">Unity</span>
+                                <span className="Epilogue-36Bold">
+                                  {' '}
+                                  Live Capture Packages
+                                </span>
+                              </Link>
+                              <span className="portfolio-text16 Epilogue-24Light">
+                                <span>2022 - 2023</span>
                               </span>
-                            </Link>
-                            <span className="portfolio-text16 Epilogue-24Light">
-                              <span>2022 - 2023</span>
+                            </div>
+                            <span className="portfolio-text18 Epilogue-17">
+                              <span>
+                                The Live Capture package in Unity brings
+                                characters and cameras to life easily, using
+                                Apple devices for intuitive motion capture. This
+                                streamlines the animation process, removing the
+                                hassle of manual keyframing.
+                              </span>
                             </span>
                           </div>
-                          <span className="portfolio-text18 Epilogue-17">
-                            <span>
-                              The Live Capture package in Unity brings
-                              characters and cameras to life easily, using Apple
-                              devices for intuitive motion capture. This
-                              streamlines the animation process, removing the
-                              hassle of manual keyframing.
-                            </span>
-                          </span>
-                        </div>
+                        </animate-on-reveal>
                         <div className="portfolio-homecontentimage-locked-aspect-ratio">
                           <div className="portfolio-homecontentimage">
                             <Link
@@ -113,7 +131,7 @@ const Portfolio = (props) => {
                             <div className="portfolio-maskgroup">
                               <img
                                 alt="facecap21I176"
-                                src="/kylo-website-2024-React/external/facecap21i176-blw.png"
+                                src="/external/facecap21i176-blw.png"
                                 className="portfolio-facecap21 image-contain"
                               />
                             </div>
@@ -121,7 +139,7 @@ const Portfolio = (props) => {
                             <div className="portfolio-maskgroup1">
                               <img
                                 alt="facecap22I176"
-                                src="/kylo-website-2024-React/external/facecap22i176-l6m4-400w.png"
+                                src="/external/facecap22i176-l6m4-400w.png"
                                 className="portfolio-facecap22"
                               />
                             </div>
@@ -140,39 +158,52 @@ const Portfolio = (props) => {
                   <div className="portfolio-workcard04">
                     <div className="portfolio-workcard-locked-aspect-ratio3">
                       <div className="portfolio-workcard05">
-                        <div className="portfolio-headline-subhead3">
-                          <div className="portfolio-frame21">
-                            <Link
-                              to="/portfolioproject2"
-                              className="portfolio-text20"
-                            >
-                              <span className="Epilogue-36Bold">
-                                Wētā Realtime
-                                <span
-                                  dangerouslySetInnerHTML={{
-                                    __html: ' ',
-                                  }}
-                                />
+                        <animate-on-reveal
+                          animation="fadeInUp"
+                          duration="300ms"
+                          delay="0s"
+                          direction="normal"
+                          easing="ease"
+                          iteration="1"
+                        >
+                          <div
+                            data-thq-animate-on-reveal="true"
+                            className="portfolio-headline-subhead3"
+                          >
+                            <div className="portfolio-frame21">
+                              <Link
+                                to="/portfolioproject2"
+                                className="portfolio-text20"
+                              >
+                                <span className="Epilogue-36Bold">
+                                  Wētā Realtime
+                                  <span
+                                    dangerouslySetInnerHTML={{
+                                      __html: ' ',
+                                    }}
+                                  />
+                                </span>
+                                <span className="Epilogue-36Light">
+                                  Tools Integration
+                                </span>
+                              </Link>
+                              <span className="portfolio-text23 Epilogue-24Light">
+                                <span>July 2023 - Present</span>
                               </span>
-                              <span className="Epilogue-36Light">
-                                Tools Integration
+                            </div>
+                            <span className="portfolio-text25 Epilogue-17">
+                              <span>
+                                The Weta Realtime Tools for Unity editor enhance
+                                workflow efficiency and enable the creation of
+                                visually impressive content for both game and
+                                film production. This suite of features
+                                streamlines the development process,
+                                facilitating the rapid creation of high-quality
+                                visuals.
                               </span>
-                            </Link>
-                            <span className="portfolio-text23 Epilogue-24Light">
-                              <span>July 2023 - Present</span>
                             </span>
                           </div>
-                          <span className="portfolio-text25 Epilogue-17">
-                            <span>
-                              The Weta Realtime Tools for Unity editor enhance
-                              workflow efficiency and enable the creation of
-                              visually impressive content for both game and film
-                              production. This suite of features streamlines the
-                              development process, facilitating the rapid
-                              creation of high-quality visuals.
-                            </span>
-                          </span>
-                        </div>
+                        </animate-on-reveal>
                         <div className="portfolio-homecontentimage-locked-aspect-ratio1">
                           <div className="portfolio-homecontentimage01 background-contain image-contain">
                             <Link
@@ -199,30 +230,35 @@ const Portfolio = (props) => {
                   <div className="portfolio-workcard07">
                     <div className="portfolio-workcard-locked-aspect-ratio5">
                       <div className="portfolio-workcard08">
-                        <div className="portfolio-headline-subhead4">
-                          <div className="portfolio-frame22">
-                            <Link
-                              to="/portfolioproject3"
-                              className="portfolio-text27 Epilogue-36Bold"
-                            >
-                              <span className="portfolio-text28">Unity</span>
-                              <span> Virtual Production</span>
-                            </Link>
-                            <span className="portfolio-text30 Epilogue-24Light">
-                              <span>2021 - 2023</span>
+                        <animate-on-reveal animation="fadeInUp">
+                          <div
+                            data-thq-animate-on-reveal="true"
+                            className="portfolio-headline-subhead4"
+                          >
+                            <div className="portfolio-frame22">
+                              <Link
+                                to="/portfolioproject3"
+                                className="portfolio-text27 Epilogue-36Bold"
+                              >
+                                <span className="portfolio-text28">Unity</span>
+                                <span> Virtual Production</span>
+                              </Link>
+                              <span className="portfolio-text30 Epilogue-24Light">
+                                <span>2021 - 2023</span>
+                              </span>
+                            </div>
+                            <span className="portfolio-text32 Epilogue-17">
+                              <span>
+                                Unity&apos;s toolkit for TV, broadcast, and
+                                animations equips artists and filmmakers with
+                                advanced capabilities for creating real-time
+                                cinematics and pre-visualizations. This empowers
+                                creative professionals to seamlessly bring their
+                                visions to life.
+                              </span>
                             </span>
                           </div>
-                          <span className="portfolio-text32 Epilogue-17">
-                            <span>
-                              Unity&apos;s toolkit for TV, broadcast, and
-                              animations equips artists and filmmakers with
-                              advanced capabilities for creating real-time
-                              cinematics and pre-visualizations. This empowers
-                              creative professionals to seamlessly bring their
-                              visions to life.
-                            </span>
-                          </span>
-                        </div>
+                        </animate-on-reveal>
                         <div className="portfolio-homecontentimage-locked-aspect-ratio3">
                           <div className="portfolio-homecontentimage03">
                             <Link
@@ -232,7 +268,7 @@ const Portfolio = (props) => {
                               <div className="portfolio-homecontentimage04 image-contain">
                                 <img
                                   alt="vsethomegif1I176"
-                                  src="/kylo-website-2024-React/external/vsethomegif1i176-jhca.png"
+                                  src="/external/vsethomegif1i176-jhca.png"
                                   className="portfolio-vsethomegif1"
                                 />
                               </div>

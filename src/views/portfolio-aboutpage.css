@@ -73,16 +73,31 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.portfolio-aboutpage-text1 {
-  color: var(--dl-color-default-textdefault);
-}
-.portfolio-aboutpage-text4 {
+.portfolio-aboutpage-text04 {
   color: var(--dl-color-default-textgreyout1);
-  font-weight: 400;
+  font-style: normal;
 }
-.portfolio-aboutpage-text5 {
+.portfolio-aboutpage-text05 {
   color: var(--dl-color-default-textgreyout1);
-  font-weight: 400;
+  font-style: normal;
+}
+.portfolio-aboutpage-text06 {
+  color: var(--dl-color-default-textgreyout1);
+  font-weight: 700;
+}
+.portfolio-aboutpage-text07 {
+  color: var(--dl-color-default-textgreyout1);
+  font-style: normal;
+  font-weight: 700;
+}
+.portfolio-aboutpage-text08 {
+  color: var(--dl-color-default-textgreyout1);
+  font-style: normal;
+  font-weight: 700;
+}
+.portfolio-aboutpage-text09 {
+  color: var(--dl-color-default-textgreyout1);
+  font-weight: 700;
 }
 @media(max-width: 767px) {
   .portfolio-aboutpage-aboutheader1 {

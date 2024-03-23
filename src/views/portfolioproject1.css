@@ -18,10 +18,13 @@
 .portfolioproject1-portfolio1 {
   width: 100%;
   display: flex;
-  padding: 0 120px 100px;
   align-self: center;
   align-items: center;
+  padding-top: 0 120px 100px;
+  padding-left: auto;
+  padding-right: auto;
   flex-direction: column;
+  padding-bottom: 0 120px 100px;
 }
 .portfolioproject1-projectheader {
   gap: 40px;
@@ -66,15 +69,6 @@
   text-align: left;
   line-height: 27px;
   text-decoration: none;
-}
-.portfolioproject1-text04 {
-  font-weight: 700;
-}
-.portfolioproject1-text05 {
-  font-weight: 400;
-}
-.portfolioproject1-text06 {
-  font-weight: 700;
 }
 .portfolioproject1-stickerfinallayer1 {
   width: auto;
@@ -132,14 +126,14 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.portfolioproject1-text15 {
+.portfolioproject1-text13 {
   color: var(--dl-color-default-textdefault);
   width: 250px;
   height: auto;
   text-align: center;
   line-height: 32px;
 }
-.portfolioproject1-text17 {
+.portfolioproject1-text15 {
   color: var(--dl-color-default-textgreyout1);
   width: 250px;
   height: auto;
@@ -175,14 +169,14 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.portfolioproject1-text19 {
+.portfolioproject1-text17 {
   color: var(--dl-color-default-textdefault);
   width: 250px;
   height: auto;
   text-align: center;
   line-height: 32px;
 }
-.portfolioproject1-text20 {
+.portfolioproject1-text18 {
   color: var(--dl-color-default-textgreyout1);
   width: 250px;
   height: auto;
@@ -218,14 +212,14 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.portfolioproject1-text23 {
+.portfolioproject1-text21 {
   color: var(--dl-color-default-textdefault);
   width: 250px;
   height: auto;
   text-align: center;
   line-height: 32px;
 }
-.portfolioproject1-text24 {
+.portfolioproject1-text22 {
   color: var(--dl-color-default-textgreyout1);
   width: 250px;
   height: auto;
@@ -264,7 +258,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.portfolioproject1-text27 {
+.portfolioproject1-text25 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   font-size: 48px;
@@ -286,7 +280,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.portfolioproject1-text29 {
+.portfolioproject1-text27 {
   color: var(--dl-color-default-textdefault);
   width: 100%;
   height: auto;
@@ -370,7 +364,7 @@
   height: 83px;
   position: absolute;
 }
-.portfolioproject1-text42 {
+.portfolioproject1-text45 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
@@ -379,10 +373,10 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.portfolioproject1-text43 {
+.portfolioproject1-text46 {
   font-weight: 300;
 }
-.portfolioproject1-text45 {
+.portfolioproject1-text48 {
   color: var(--dl-color-default-textmute1);
   height: auto;
   font-size: 17px;
@@ -456,7 +450,7 @@
   opacity: 0.55;
   position: absolute;
 }
-.portfolioproject1-text57 {
+.portfolioproject1-text60 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
@@ -465,10 +459,10 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.portfolioproject1-text58 {
+.portfolioproject1-text61 {
   font-weight: 300;
 }
-.portfolioproject1-text60 {
+.portfolioproject1-text63 {
   color: var(--dl-color-default-textmute1);
   height: auto;
   font-size: 17px;
@@ -527,13 +521,13 @@
   height: 83px;
   position: absolute;
 }
-.portfolioproject1-text69 {
+.portfolioproject1-text72 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
   text-align: left;
 }
-.portfolioproject1-text71 {
+.portfolioproject1-text74 {
   color: var(--dl-color-default-textmute1);
   height: auto;
   font-size: 17px;
@@ -625,14 +619,14 @@
   opacity: 0.55;
   position: absolute;
 }
-.portfolioproject1-text82 {
+.portfolioproject1-text85 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
   text-align: left;
   line-height: 46px;
 }
-.portfolioproject1-text84 {
+.portfolioproject1-text87 {
   color: var(--dl-color-default-textmute1);
   height: auto;
   font-size: 17px;

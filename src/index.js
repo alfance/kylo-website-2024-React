@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import {
-  BrowserRouter,
+  BrowserRouter as Router,
+  HashRouter,
   Route,
   Switch,
   Redirect,
@@ -17,7 +18,7 @@ import NotFound from './views/not-found'
 
 const App = () => {
   return (
-    <BrowserRouter basename="/kylo-website-2024-React">
+    <HashRouterRouter>
       <Switch>
         <Route component={Portfolioproject3} exact path="/portfolioproject3" />
         <Route
@@ -31,7 +32,7 @@ const App = () => {
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
-    </BrowserRouter>
+    </HashRouterRouter>
   )
 }
 
