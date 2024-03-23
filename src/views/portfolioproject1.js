@@ -13,7 +13,7 @@ const Portfolioproject1 = (props) => {
       <Helmet>
         <title>exported project</title>
       </Helmet>
-      <div className="portfolioproject1-portfolioproject1">
+      <div className="portfolioproject1-portfolioproject1 overflown-small-size">
         <Navbar rootClassName="navbar-root-class-name2"></Navbar>
         <div className="portfolioproject1-portfolio1 port-container-responsive">
           <div className="portfolioproject1-projectheader Epilogue-17 content-divide">
@@ -446,8 +446,8 @@ const Portfolioproject1 = (props) => {
             </div>
           </div>
         </div>
+        <Footer rootClassName="footer-root-class-name3"></Footer>
       </div>
-      <Footer rootClassName="footer-root-class-name3"></Footer>
     </div>
   )
 }

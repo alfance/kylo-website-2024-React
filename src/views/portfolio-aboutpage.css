@@ -99,6 +99,11 @@
   color: var(--dl-color-default-textgreyout1);
   font-weight: 700;
 }
+@media(max-width: 991px) {
+  .portfolio-aboutpage-container {
+    background-color: #000000;
+  }
+}
 @media(max-width: 767px) {
   .portfolio-aboutpage-aboutheader1 {
     width: auto;

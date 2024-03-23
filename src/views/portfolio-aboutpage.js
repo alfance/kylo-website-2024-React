@@ -12,7 +12,7 @@ const PortfolioAboutpage = (props) => {
       <Helmet>
         <title>exported project</title>
       </Helmet>
-      <div className="portfolio-aboutpage-portfolio-aboutpage">
+      <div className="portfolio-aboutpage-portfolio-aboutpage overflown-small-size">
         <Navbar rootClassName="navbar-root-class-name1"></Navbar>
         <div className="portfolio-aboutpage-aboutheader port-container-responsive">
           <div className="portfolio-aboutpage-aboutheader1 Epilogue-17 content-divide">
@@ -63,8 +63,8 @@ const PortfolioAboutpage = (props) => {
             </span>
           </div>
         </div>
+        <Footer rootClassName="footer-root-class-name2"></Footer>
       </div>
-      <Footer rootClassName="footer-root-class-name2"></Footer>
     </main>
   )
 }
