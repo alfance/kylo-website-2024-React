@@ -816,6 +816,9 @@
   }
 }
 @media(max-width: 767px) {
+  .portfolio-portfolio {
+    overflow-y: hidden;
+  }
   .portfolio-header {
     height: auto;
   }

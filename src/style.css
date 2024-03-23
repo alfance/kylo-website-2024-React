@@ -112,6 +112,7 @@
   width: 48%;
   max-width: 50%;
 }
+
 .Epilogue-24Light {
   font-size: 24px;
   font-family: Epilogue;
@@ -199,6 +200,9 @@
   }
   .port-container-responsive {
     padding: 0 60px;
+  }
+  .overflown-small-size {
+    overflow-y: hidden;
   }
 }
 @media(max-width: 479px) {
