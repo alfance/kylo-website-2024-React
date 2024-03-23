@@ -17,7 +17,7 @@ import NotFound from './views/not-found'
 
 const App = () => {
   return (
-    <BrowserRouter basename="/kylo-website-2024-React/">
+    <BrowserRouter basename="/kylo-website-2024-React">
       <Switch>
         <Route component={Portfolioproject3} exact path="/portfolioproject3" />
         <Route
