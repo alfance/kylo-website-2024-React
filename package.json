@@ -1,4 +1,5 @@
 {
+  "homebase":"https://alfance.github.io/kylo-website-2024-React/",
   "name": "kylo-website-2024",
   "version": "1.0.0",
   "private": true,
@@ -11,6 +12,8 @@
     "prop-types": "15.7.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test --env=jsdom",
