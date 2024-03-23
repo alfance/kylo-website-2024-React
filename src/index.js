@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Route,
   Switch,
   Redirect,
@@ -17,7 +17,7 @@ import NotFound from './views/not-found'
 
 const App = () => {
   return (
-    <Router basename="/kylo-website-2024-React">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route component={Portfolioproject3} exact path="/portfolioproject3" />
         <Route
@@ -31,7 +31,7 @@ const App = () => {
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
-    </Router>
+    </BrowserRouter>
   )
 }
 
