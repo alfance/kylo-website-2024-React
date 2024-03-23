@@ -62,7 +62,7 @@ const Portfolioproject1 = (props) => {
             </section>
             <img
               alt="stickerfinallayer1I275"
-              src="/external/stickerfinallayer1i275-bpr.png"
+              src="/external/vcam-gif.gif"
               className="portfolioproject1-stickerfinallayer1 image-contain"
             />
           </div>
@@ -406,7 +406,7 @@ const Portfolioproject1 = (props) => {
                 />
                 <img
                   alt="stickerfinallayer26762"
-                  src="/external/stickerfinallayer26762-24h6.png"
+                  src="/external/synchronization.gif"
                   className="portfolioproject1-stickerfinallayer2 image-contain"
                 />
               </div>
