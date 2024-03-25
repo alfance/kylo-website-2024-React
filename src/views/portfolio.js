@@ -131,7 +131,7 @@ const Portfolio = (props) => {
                             <div className="portfolio-maskgroup">
                               <img
                                 alt="facecap21I176"
-                                src="/external/facecap21i176-blw.png"
+                                src="/external/face-cap2-mac.gif"
                                 className="portfolio-facecap21 image-contain"
                               />
                             </div>
@@ -139,7 +139,7 @@ const Portfolio = (props) => {
                             <div className="portfolio-maskgroup1">
                               <img
                                 alt="facecap22I176"
-                                src="/external/facecap22i176-l6m4-400w.png"
+                                src="/external/face-cap2-iphone.gif"
                                 className="portfolio-facecap22"
                               />
                             </div>
@@ -158,14 +158,7 @@ const Portfolio = (props) => {
                   <div className="portfolio-workcard04">
                     <div className="portfolio-workcard-locked-aspect-ratio3">
                       <div className="portfolio-workcard05">
-                        <animate-on-reveal
-                          animation="fadeInUp"
-                          duration="300ms"
-                          delay="0s"
-                          direction="normal"
-                          easing="ease"
-                          iteration="1"
-                        >
+                        <animate-on-reveal animation="fadeInUp" class="portfolio-workcard04">
                           <div
                             data-thq-animate-on-reveal="true"
                             className="portfolio-headline-subhead3"
@@ -268,7 +261,7 @@ const Portfolio = (props) => {
                               <div className="portfolio-homecontentimage04 image-contain">
                                 <img
                                   alt="vsethomegif1I176"
-                                  src="/external/vsethomegif1i176-jhca.png"
+                                  src="/external/vset-home-gif.gif"
                                   className="portfolio-vsethomegif1"
                                 />
                               </div>

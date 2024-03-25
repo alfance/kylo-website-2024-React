@@ -292,7 +292,7 @@ const Portfolioproject3 = (props) => {
               </div>
               <img
                 alt="stickerfinallayer1I616"
-                src="/external/stickerfinallayer1i616-temmn.png"
+                src="/external/title-osc.gif"
                 className="portfolioproject3-stickerfinallayer14 content-divide-child image-contain"
               />
             </div>
