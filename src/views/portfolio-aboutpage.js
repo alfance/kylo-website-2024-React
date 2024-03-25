@@ -10,7 +10,7 @@ const PortfolioAboutpage = (props) => {
   return (
     <main className="portfolio-aboutpage-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Kylo Xue Portfolio Website</title>
       </Helmet>
       <div className="portfolio-aboutpage-portfolio-aboutpage overflown-small-size">
         <Navbar rootClassName="navbar-root-class-name1"></Navbar>

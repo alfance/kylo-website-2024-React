@@ -11,7 +11,7 @@ const Portfolioproject1 = (props) => {
   return (
     <div className="portfolioproject1-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Kylo Xue Portfolio Website</title>
       </Helmet>
       <div className="portfolioproject1-portfolioproject1 overflown-small-size">
         <Navbar rootClassName="navbar-root-class-name2"></Navbar>

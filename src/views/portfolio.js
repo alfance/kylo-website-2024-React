@@ -11,7 +11,7 @@ const Portfolio = (props) => {
   return (
     <div className="portfolio-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Kylo Xue Portfolio Website</title>
       </Helmet>
       <div className="portfolio-portfolio">
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
@@ -122,35 +122,23 @@ const Portfolio = (props) => {
                         </animate-on-reveal>
                         <div className="portfolio-homecontentimage-locked-aspect-ratio">
                           <div className="portfolio-homecontentimage">
-                            <Link
-                              to="/portfolioproject1"
-                              className="portfolio-navlink"
-                            >
-                              <div className="portfolio-frame427319349"></div>
-                            </Link>
-                            <div className="portfolio-maskgroup">
-                              <img
-                                alt="facecap21I176"
-                                src="/external/face-cap2-mac.gif"
-                                className="portfolio-facecap21 image-contain"
-                              />
-                            </div>
-                            <div className="portfolio-applei-phone-xr-locked-aspect-ratio"></div>
-                            <div className="portfolio-maskgroup1">
-                              <img
-                                alt="facecap22I176"
-                                src="/external/face-cap2-iphone.gif"
-                                className="portfolio-facecap22"
-                              />
-                            </div>
+                            <img
+                              src="/external/face-cap2-mac-case.gif"
+                              alt="image"
+                              className="portfolio-image"
+                            />
+                            <img
+                              src="/external/face-cap2-iphone-case.gif"
+                              alt="image"
+                              className="portfolio-image1"
+                            />
                           </div>
-                          <div className="portfolio-frame"></div>
                         </div>
                       </div>
-                      <div className="portfolio-frame01"></div>
+                      <div className="portfolio-frame"></div>
                     </div>
                   </div>
-                  <div className="portfolio-frame02"></div>
+                  <div className="portfolio-frame1"></div>
                 </div>
               </div>
               <div className="portfolio-workcard03">
