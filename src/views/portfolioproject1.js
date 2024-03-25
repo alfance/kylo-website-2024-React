@@ -62,7 +62,7 @@ const Portfolioproject1 = (props) => {
             </section>
             <img
               alt="stickerfinallayer1I275"
-              src="/external/stickerfinal-vcam-gif.gif"
+              src="/external/vcam-gif.gif"
               className="portfolioproject1-stickerfinallayer1 image-contain content-divide-child"
             />
           </div>
