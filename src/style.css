@@ -87,10 +87,6 @@
 .background-contain {
   background-size: 300px 150px;
 }
-.content-divide {
-  width: 100%;
-  max-width: 1449px;
-}
 .content-divide-reverse {
   width: 100%;
   max-width: 1449px;
@@ -108,11 +104,23 @@
   width: 48%;
   max-width: 50%;
 }
+.content-divide-reverse >section {
+  width: 48%;
+  max-width: 50%;
+}
+.content-divide-reverse > img {
+  width: 48%;
+  max-width: 50%;
+}
 .content-divide > img {
   width: 48%;
   max-width: 50%;
 }
 
+.content-divide {
+  width: 100%;
+  max-width: 1449px;
+}
 .Epilogue-24Light {
   font-size: 24px;
   font-family: Epilogue;
@@ -186,13 +194,9 @@
   text-decoration: none;
 }
 @media(max-width: 767px) {
-  .content-divide > img {
+  .content-divide-reverse > img {
     width: 100% !important;
     max-width: 100% !important;
-  }
-  .content-divide-reverse {
-    display: flex;
-    flex-direction: column-reverse;
   }
   .content-divide-child {
     width: 100% !important;
@@ -200,6 +204,14 @@
   }
   .port-container-responsive {
     padding: 0 60px;
+  }
+  .content-divide {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-divide-reverse {
+    display: flex;
+    flex-direction: column-reverse;
   }
   .overflown-small-size {
     overflow-y: hidden;

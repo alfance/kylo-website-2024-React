@@ -16,8 +16,8 @@ const Portfolioproject1 = (props) => {
       <div className="portfolioproject1-portfolioproject1 overflown-small-size">
         <Navbar rootClassName="navbar-root-class-name2"></Navbar>
         <div className="portfolioproject1-portfolio1 port-container-responsive">
-          <div className="portfolioproject1-projectheader Epilogue-17 content-divide">
-            <section className="portfolioproject1-headline-subhead">
+          <div className="portfolioproject1-projectheader content-divide">
+            <section className="portfolioproject1-headline-subhead content-divide-child">
               <div className="portfolioproject1-headline-subhead01">
                 <span className="portfolioproject1-text Epilogue-64Bold">
                   <span className="portfolioproject1-text01">
@@ -62,8 +62,8 @@ const Portfolioproject1 = (props) => {
             </section>
             <img
               alt="stickerfinallayer1I275"
-              src="/external/vcam-gif.gif"
-              className="portfolioproject1-stickerfinallayer1 image-contain"
+              src="/external/stickerfinallayer1i275-bpr.png"
+              className="portfolioproject1-stickerfinallayer1 image-contain content-divide-child"
             />
           </div>
           <div className="portfolioproject1-skills-section">
@@ -246,8 +246,8 @@ const Portfolioproject1 = (props) => {
           </div>
           <HeaderTitle rootClassName="header-title-root-class-name"></HeaderTitle>
           <div className="portfolioproject1-project-casestudies">
-            <div className="portfolioproject1-header1 Epilogue-17 content-divide">
-              <section className="portfolioproject1-headline-subhead07">
+            <div className="portfolioproject1-header1 content-divide">
+              <section className="portfolioproject1-headline-subhead07 content-divide-child">
                 <div className="portfolioproject1-headline-subhead08">
                   <div className="portfolioproject1-titletop">
                     <img
@@ -297,18 +297,18 @@ const Portfolioproject1 = (props) => {
               <img
                 alt="stickerfinallayer1I275"
                 src="/external/stickerfinallayer1i275-suu.png"
-                className="portfolioproject1-stickerfinallayer12 image-contain"
+                className="portfolioproject1-stickerfinallayer12 image-contain content-divide-child"
               />
             </div>
           </div>
           <div className="portfolioproject1-project-casestudies1">
-            <div className="portfolioproject1-header2 Epilogue-17 content-divide content-divide-reverse">
+            <div className="portfolioproject1-header2 Epilogue-17 content-divide-reverse">
               <img
                 alt="stickerfinallayer1I275"
                 src="/external/stickerfinallayer1i275-imhw.png"
-                className="portfolioproject1-stickerfinallayer13 image-contain"
+                className="portfolioproject1-stickerfinallayer13 image-contain content-divide-child"
               />
-              <section className="portfolioproject1-headline-subhead09">
+              <section className="portfolioproject1-headline-subhead09 content-divide-child">
                 <div className="portfolioproject1-headline-subhead10">
                   <div className="portfolioproject1-titletop1">
                     <img
@@ -352,8 +352,8 @@ const Portfolioproject1 = (props) => {
             </div>
           </div>
           <div className="portfolioproject1-project-casestudies2">
-            <div className="portfolioproject1-header3 Epilogue-17 content-divide">
-              <section className="portfolioproject1-headline-subhead11">
+            <div className="portfolioproject1-header3 content-divide">
+              <section className="portfolioproject1-headline-subhead11 content-divide-child">
                 <div className="portfolioproject1-headline-subhead12">
                   <div className="portfolioproject1-titletop2">
                     <img
@@ -392,12 +392,12 @@ const Portfolioproject1 = (props) => {
               <img
                 alt="stickerfinallayer1I275"
                 src="/external/stickerfinallayer1i275-1get.png"
-                className="portfolioproject1-stickerfinallayer14 image-contain"
+                className="portfolioproject1-stickerfinallayer14 image-contain content-divide-child"
               />
             </div>
           </div>
           <div className="portfolioproject1-project-casestudies3">
-            <div className="portfolioproject1-header4 Epilogue-17 content-divide-reverse content-divide">
+            <div className="portfolioproject1-header4 Epilogue-17 content-divide-reverse">
               <div className="portfolioproject1-frame3 content-divide-child">
                 <img
                   alt="stickerfinallayer16762"
@@ -406,11 +406,11 @@ const Portfolioproject1 = (props) => {
                 />
                 <img
                   alt="stickerfinallayer26762"
-                  src="/external/synchronization.gif"
+                  src="/external/stickerfinallayer26762-24h6.png"
                   className="portfolioproject1-stickerfinallayer2 image-contain"
                 />
               </div>
-              <section className="portfolioproject1-headline-subhead13">
+              <section className="portfolioproject1-headline-subhead13 content-divide-child">
                 <div className="portfolioproject1-headline-subhead14">
                   <div className="portfolioproject1-titletop3">
                     <img

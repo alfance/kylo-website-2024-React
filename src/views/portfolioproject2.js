@@ -16,7 +16,7 @@ const Portfolioproject2 = (props) => {
       <div className="portfolioproject2-portfolioproject2 overflown-small-size">
         <Navbar rootClassName="navbar-root-class-name3"></Navbar>
         <div className="portfolioproject2-portfolio1 port-container-responsive">
-          <div className="portfolioproject2-projectheader Epilogue-17 content-divide">
+          <div className="portfolioproject2-projectheader content-divide">
             <div className="portfolioproject2-headline-subhead content-divide-child">
               <div className="portfolioproject2-headline-subhead01">
                 <span className="portfolioproject2-text">
@@ -238,7 +238,7 @@ const Portfolioproject2 = (props) => {
             </div>
           </div>
           <div className="portfolioproject2-project-casestudies1">
-            <div className="portfolioproject2-header2 Epilogue-17 content-divide">
+            <div className="portfolioproject2-header2 content-divide">
               <div className="portfolioproject2-headline-subhead06 content-divide-child">
                 <div className="portfolioproject2-headline-subhead07">
                   <div className="portfolioproject2-titletop1">
@@ -357,7 +357,7 @@ const Portfolioproject2 = (props) => {
             </div>
           </div>
           <div className="portfolioproject2-project-casestudies3">
-            <div className="portfolioproject2-header4 Epilogue-17 content-divide">
+            <div className="portfolioproject2-header4 content-divide">
               <div className="portfolioproject2-headline-subhead10 content-divide-child">
                 <div className="portfolioproject2-headline-subhead11">
                   <div className="portfolioproject2-titletop3">

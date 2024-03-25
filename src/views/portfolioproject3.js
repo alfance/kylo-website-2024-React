@@ -16,7 +16,7 @@ const Portfolioproject3 = (props) => {
       <div className="portfolioproject3-portfolioproject3 overflown-small-size">
         <Navbar rootClassName="navbar-root-class-name4"></Navbar>
         <div className="portfolioproject3-portfolio1 port-container-responsive">
-          <div className="portfolioproject3-projectheader Epilogue-17 content-divide">
+          <div className="portfolioproject3-projectheader content-divide">
             <div className="portfolioproject3-headline-subhead content-divide-child">
               <div className="portfolioproject3-headline-subhead01">
                 <span className="portfolioproject3-text Epilogue-64Bold">
@@ -145,7 +145,7 @@ const Portfolioproject3 = (props) => {
           </div>
           <HeaderTitle rootClassName="header-title-root-class-name2"></HeaderTitle>
           <div className="portfolioproject3-project-casestudies">
-            <div className="portfolioproject3-header1 Epilogue-17 content-divide">
+            <div className="portfolioproject3-header1 content-divide">
               <div className="portfolioproject3-headline-subhead04 content-divide-child">
                 <div className="portfolioproject3-headline-subhead05">
                   <div className="portfolioproject3-titletop">
@@ -247,7 +247,7 @@ const Portfolioproject3 = (props) => {
             </div>
           </div>
           <div className="portfolioproject3-project-casestudies2">
-            <div className="portfolioproject3-header3 Epilogue-17 content-divide">
+            <div className="portfolioproject3-header3 content-divide">
               <div className="portfolioproject3-headline-subhead08 content-divide-child">
                 <div className="portfolioproject3-headline-subhead09">
                   <div className="portfolioproject3-titletop2">
@@ -365,7 +365,7 @@ const Portfolioproject3 = (props) => {
             </div>
           </div>
           <div className="portfolioproject3-project-casestudies3">
-            <div className="portfolioproject3-header5 Epilogue-17 content-divide">
+            <div className="portfolioproject3-header5 content-divide">
               <div className="portfolioproject3-headline-subhead12 content-divide-child">
                 <div className="portfolioproject3-headline-subhead13">
                   <span className="portfolioproject3-text65 Epilogue-36Bold">
@@ -399,7 +399,7 @@ const Portfolioproject3 = (props) => {
             </div>
           </div>
           <div className="portfolioproject3-project-casestudies4">
-            <div className="portfolioproject3-header6 Epilogue-17 content-divide">
+            <div className="portfolioproject3-header6 content-divide">
               <div className="portfolioproject3-headline-subhead14 content-divide-child">
                 <div className="portfolioproject3-headline-subhead15">
                   <span className="portfolioproject3-text74 Epilogue-36Bold">
@@ -433,7 +433,7 @@ const Portfolioproject3 = (props) => {
             </div>
           </div>
           <div className="portfolioproject3-project-casestudies5">
-            <div className="portfolioproject3-header7 Epilogue-17 content-divide">
+            <div className="portfolioproject3-header7 content-divide">
               <div className="portfolioproject3-headline-subhead16 content-divide-child">
                 <div className="portfolioproject3-headline-subhead17">
                   <span className="portfolioproject3-text83 Epilogue-36Bold">

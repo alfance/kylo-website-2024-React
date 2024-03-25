@@ -22,12 +22,13 @@
   width: 100%;
   display: flex;
   align-self: center;
+  min-height: 600px;
   align-items: center;
-  padding-top: 120px;
+  padding-top: 140px;
   padding-left: auto;
   padding-right: auto;
   flex-direction: column;
-  padding-bottom: 120px;
+  padding-bottom: 140px;
   justify-content: center;
 }
 .portfolio-aboutpage-aboutheader1 {
@@ -66,7 +67,6 @@
   height: auto;
   flex-grow: 1;
   font-size: 17px;
-  font-style: normal;
   text-align: left;
   font-family: "Epilogue";
   line-height: 27px;
@@ -75,29 +75,38 @@
 }
 .portfolio-aboutpage-text04 {
   color: var(--dl-color-default-textgreyout1);
+  font-size: 17px;
   font-style: normal;
+  font-family: "Epilogue";
+  line-height: 27px;
 }
 .portfolio-aboutpage-text05 {
   color: var(--dl-color-default-textgreyout1);
+  font-size: 17px;
   font-style: normal;
+  font-family: "Epilogue";
+  line-height: 27px;
 }
 .portfolio-aboutpage-text06 {
   color: var(--dl-color-default-textgreyout1);
+  font-size: 17px;
+  font-family: "Epilogue";
   font-weight: 700;
+  line-height: 27px;
 }
 .portfolio-aboutpage-text07 {
   color: var(--dl-color-default-textgreyout1);
+  font-size: 17px;
   font-style: normal;
+  font-family: "Epilogue";
   font-weight: 700;
+  line-height: 27px;
 }
 .portfolio-aboutpage-text08 {
   color: var(--dl-color-default-textgreyout1);
-  font-style: normal;
-  font-weight: 700;
 }
 .portfolio-aboutpage-text09 {
   color: var(--dl-color-default-textgreyout1);
-  font-weight: 700;
 }
 @media(max-width: 991px) {
   .portfolio-aboutpage-container {

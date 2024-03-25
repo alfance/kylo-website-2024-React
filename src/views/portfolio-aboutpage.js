@@ -15,7 +15,7 @@ const PortfolioAboutpage = (props) => {
       <div className="portfolio-aboutpage-portfolio-aboutpage overflown-small-size">
         <Navbar rootClassName="navbar-root-class-name1"></Navbar>
         <div className="portfolio-aboutpage-aboutheader port-container-responsive">
-          <div className="portfolio-aboutpage-aboutheader1 Epilogue-17 content-divide">
+          <div className="portfolio-aboutpage-aboutheader1 content-divide">
             <div className="portfolio-aboutpage-persona">
               <div className="portfolio-aboutpage-image">
                 <img
@@ -48,17 +48,15 @@ const PortfolioAboutpage = (props) => {
               <span className="portfolio-aboutpage-text06 Epilogue-17Bold">
                 design, digital painting, the latest in AI trends, or gaming
               </span>
-              <span className="portfolio-aboutpage-text07 Epilogue-17">
-                ! I&apos;m also trying to read more books—a challenge amid
+              <span className="portfolio-aboutpage-text07 Epilogue-17">!</span>
+              <span className="portfolio-aboutpage-text08"> I</span>
+              <span className="portfolio-aboutpage-text09">
+                &apos;m also trying to read more books—a challenge amid
                 distractions, but I&apos;m getting there! If you have a good
                 read to share, I&apos;d love to hear about it. And even if you
-                just want to connect, I&apos;m all for a coffee chat
+                just want to connect, I&apos;m all for a coffee chat 😄
               </span>
-              <span className="portfolio-aboutpage-text08 Epilogue-17">
-                {' '}
-                😄
-              </span>
-              <br className="portfolio-aboutpage-text09 Epilogue-17Bold"></br>
+              <br className="Epilogue-17"></br>
               <br className="Epilogue-17"></br>
             </span>
           </div>

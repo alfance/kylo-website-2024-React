@@ -17,8 +17,8 @@ const Portfolio = (props) => {
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
         <div className="portfolio-portfolio1 port-container-responsive">
           <div className="portfolio-header">
-            <div className="portfolio-header1 Epilogue-17 content-divide">
-              <section className="portfolio-headline-subhead">
+            <div className="portfolio-header1 content-divide">
+              <section className="portfolio-headline-subhead content-divide-child">
                 <div className="portfolio-headline-subhead1">
                   <span className="portfolio-text">Nice to meet you :)</span>
                   <span className="portfolio-text01">
@@ -32,8 +32,8 @@ const Portfolio = (props) => {
                     </span>
                     <span className="Epilogue-64Bold">Kylo Xue</span>
                     <br></br>
-                    <br></br>
-                    <span className="Epilogue-24Light">
+                    <br className="Epilogue-17"></br>
+                    <span className="Epilogue-17">
                       I&apos;m a product and interactive designer passionate
                       about crafting user-centric digital experiences.
                       <span
@@ -42,9 +42,9 @@ const Portfolio = (props) => {
                         }}
                       />
                     </span>
-                    <br className="Epilogue-24Light"></br>
-                    <br className="Epilogue-24Light"></br>
-                    <span className="Epilogue-24Light">
+                    <br className="Epilogue-17"></br>
+                    <br className="Epilogue-17"></br>
+                    <span className="Epilogue-17">
                       Working in the design field for over 9 years, I&apos;ve
                       been enhancing User experience in the Gaming, VFX,
                       e-commerce, and e-Retail sectors, from startups to
@@ -63,7 +63,7 @@ const Portfolio = (props) => {
               <img
                 alt="stickerfinallayer1I176"
                 src="/external/stickerfinallayer1i176-2l5o.png"
-                className="portfolio-stickerfinallayer1"
+                className="portfolio-stickerfinallayer1 content-divide-child"
               />
             </div>
           </div>
@@ -131,7 +131,7 @@ const Portfolio = (props) => {
                             <div className="portfolio-maskgroup">
                               <img
                                 alt="facecap21I176"
-                                src="/external/face-cap2-mac.gif"
+                                src="/external/facecap21i176-blw.png"
                                 className="portfolio-facecap21 image-contain"
                               />
                             </div>
@@ -139,7 +139,7 @@ const Portfolio = (props) => {
                             <div className="portfolio-maskgroup1">
                               <img
                                 alt="facecap22I176"
-                                src="/external/face-cap2-iphone.gif"
+                                src="/external/facecap22i176-l6m4-400w.png"
                                 className="portfolio-facecap22"
                               />
                             </div>
@@ -268,7 +268,7 @@ const Portfolio = (props) => {
                               <div className="portfolio-homecontentimage04 image-contain">
                                 <img
                                   alt="vsethomegif1I176"
-                                  src="/external/vset-home-gif.gif"
+                                  src="/external/vsethomegif1i176-jhca.png"
                                   className="portfolio-vsethomegif1"
                                 />
                               </div>

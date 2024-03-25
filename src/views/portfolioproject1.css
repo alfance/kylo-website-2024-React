@@ -78,6 +78,7 @@
 }
 .portfolioproject1-skills-section {
   gap: 10px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-self: center;
@@ -90,7 +91,7 @@
   justify-content: center;
 }
 .portfolioproject1-skills {
-  gap: 125px;
+  gap: var(--dl-space-space-sixunits);
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -642,6 +643,8 @@
     align-self: center;
   }
   .portfolioproject1-skills {
+    gap: var(--dl-space-space-fourunits);
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
@@ -657,5 +660,8 @@
     max-width: auto;
     padding-left: auto;
     padding-right: auto;
+  }
+  .portfolioproject1-skills {
+    gap: var(--dl-space-space-fourunits);
   }
 }
