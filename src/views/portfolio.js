@@ -106,7 +106,7 @@ const Portfolio = (props) => {
                                 </span>
                               </Link>
                               <span className="portfolio-text16 Epilogue-24Light">
-                                <span>2022 - 2023</span>
+                                <span>2021 - 2023</span>
                               </span>
                             </div>
                             <span className="portfolio-text18 Epilogue-17">
