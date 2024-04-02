@@ -377,6 +377,11 @@
 .portfolioproject1-text46 {
   font-weight: 300;
 }
+.portfolioproject1-text47 {
+  color: var(--dl-color-default-textdefault);
+  font-weight: 700;
+  text-decoration: none;
+}
 .portfolioproject1-text48 {
   color: var(--dl-color-default-textmute1);
   height: auto;
@@ -385,6 +390,31 @@
   text-align: left;
   font-family: "Epilogue";
   line-height: 27px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.portfolioproject1-button {
+  width: 224px;
+  height: 51px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 98, 80, 1);
+}
+.portfolioproject1-text59 {
+  top: 5px;
+  left: 28px;
+  color: var(--dl-color-default-textdefault);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Epilogue;
+  font-weight: 600;
+  line-height: 42px;
   font-stretch: normal;
   text-decoration: none;
 }
@@ -451,7 +481,7 @@
   opacity: 0.55;
   position: absolute;
 }
-.portfolioproject1-text60 {
+.portfolioproject1-text61 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
@@ -460,10 +490,10 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.portfolioproject1-text61 {
+.portfolioproject1-text62 {
   font-weight: 300;
 }
-.portfolioproject1-text63 {
+.portfolioproject1-text64 {
   color: var(--dl-color-default-textmute1);
   height: auto;
   font-size: 17px;
@@ -522,13 +552,13 @@
   height: 83px;
   position: absolute;
 }
-.portfolioproject1-text72 {
+.portfolioproject1-text73 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
   text-align: left;
 }
-.portfolioproject1-text74 {
+.portfolioproject1-text75 {
   color: var(--dl-color-default-textmute1);
   height: auto;
   font-size: 17px;
@@ -620,14 +650,14 @@
   opacity: 0.55;
   position: absolute;
 }
-.portfolioproject1-text85 {
+.portfolioproject1-text86 {
   color: var(--dl-color-default-textdefault);
   height: auto;
   align-self: stretch;
   text-align: left;
   line-height: 46px;
 }
-.portfolioproject1-text87 {
+.portfolioproject1-text88 {
   color: var(--dl-color-default-textmute1);
   height: auto;
   font-size: 17px;

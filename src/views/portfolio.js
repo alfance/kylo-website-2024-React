@@ -120,20 +120,25 @@ const Portfolio = (props) => {
                             </span>
                           </div>
                         </animate-on-reveal>
-                        <div className="portfolio-homecontentimage-locked-aspect-ratio">
-                          <div className="portfolio-homecontentimage">
-                            <img
-                              src="/external/face-cap2-mac-case.gif"
-                              alt="image"
-                              className="portfolio-image"
-                            />
-                            <img
-                              src="/external/face-cap2-iphone-case.gif"
-                              alt="image"
-                              className="portfolio-image1"
-                            />
+                        <Link
+                                to="/portfolioproject1"
+                                className="portfolio-navlink"
+                              >
+                          <div className="portfolio-homecontentimage-locked-aspect-ratio">
+                            <div className="portfolio-homecontentimage">
+                              <img
+                                src="/external/face-cap2-mac-case.gif"
+                                alt="image"
+                                className="portfolio-image"
+                              />
+                              <img
+                                src="/external/face-cap2-iphone-case.gif"
+                                alt="image"
+                                className="portfolio-image1"
+                              />
+                            </div>
                           </div>
-                        </div>
+                        </Link>
                       </div>
                       <div className="portfolio-frame"></div>
                     </div>
@@ -188,7 +193,7 @@ const Portfolio = (props) => {
                         <div className="portfolio-homecontentimage-locked-aspect-ratio1">
                           <div className="portfolio-homecontentimage01 background-contain image-contain">
                             <Link
-                              to="/portfolioproject3"
+                              to="/portfolioproject2"
                               className="portfolio-navlink1"
                             >
                               <div className="portfolio-homecontentimage-locked-aspect-ratio2 image-contain">

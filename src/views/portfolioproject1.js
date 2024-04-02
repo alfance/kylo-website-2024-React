@@ -63,7 +63,7 @@ const Portfolioproject1 = (props) => {
             <img
               alt="stickerfinallayer1I275"
               src="/external/vcam-gif.gif"
-              className="portfolioproject1-stickerfinallayer1 image-contain content-divide-child"
+              className="portfolioproject1-stickerfinallayer1 content-divide-child image-contain"
             />
           </div>
           <div className="portfolioproject1-skills-section">
@@ -258,46 +258,72 @@ const Portfolioproject1 = (props) => {
                   </div>
                   <span className="portfolioproject1-text45 Epilogue-36Bold">
                     <span className="portfolioproject1-text46">
-                      Virtual Camera
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
+                      Live Capture 
                     </span>
-                    <span>System Redesign</span>
+                    <span className="portfolioproject1-text47">
+                      System Redesign
+                    </span>
                   </span>
                 </div>
                 <span className="portfolioproject1-text48">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">:</span>
                   <span className="Epilogue-17">
-                    {' '}
-                    The Virtual Camera system integrates simultaneous operations
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span className="Epilogue-17">
+                    The Live Capture system integrates simultaneous operations
                     between the Unity editor and the iOS app, presenting
                     challenges with its multiple windows, game objects, and
-                    components. These complexities can confuse users trying to
-                    create shots with their virtual camera.
+                    components.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
                   </span>
                   <br className="Epilogue-17"></br>
                   <br className="Epilogue-17"></br>
                   <span className="Epilogue-17Bold">Resolution</span>
                   <span className="Epilogue-17">
-                    : I streamlined the interface by consolidating various
-                    windows into a single control panel, redesigned the UI and
-                    workflow and minimizing the setup steps. This allows users
-                    to concentrate on their shooting tasks.
+                    :
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span className="Epilogue-17">
+                    I streamlined the interface by consolidating various windows
+                    into a single control panel, redesigned the UI and workflow
+                    and minimizing the setup steps.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
                   </span>
                   <br className="Epilogue-17"></br>
-                  <br className="Epilogue-17"></br>
-                  <br className="Epilogue-17"></br>
-                  <br className="Epilogue-17"></br>
                 </span>
+                <a
+                  href="https://www.figma.com/proto/4DXQb1JFrCXHADVfyL6Z0B/Live-capture-presentations?page-id=1%3A2&amp;type=design&amp;node-id=1-5112&amp;viewport=2649%2C551%2C0.13&amp;t=6sUiiloTIhLqv19q-1&amp;scaling=scale-down&amp;starting-point-node-id=1%3A5112&amp;mode=design"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="portfolioproject1-button"
+                >
+                  <span className="portfolioproject1-text59">
+                    <span>View Case Study</span>
+                  </span>
+                </a>
               </section>
               <img
                 alt="stickerfinallayer1I275"
                 src="/external/stickerfinallayer1i275-suu.png"
-                className="portfolioproject1-stickerfinallayer12 image-contain content-divide-child"
+                className="portfolioproject1-stickerfinallayer12 content-divide-child image-contain"
               />
             </div>
           </div>
@@ -306,7 +332,7 @@ const Portfolioproject1 = (props) => {
               <img
                 alt="stickerfinallayer1I275"
                 src="/external/stickerfinallayer1i275-imhw.png"
-                className="portfolioproject1-stickerfinallayer13 image-contain content-divide-child"
+                className="portfolioproject1-stickerfinallayer13 content-divide-child image-contain"
               />
               <section className="portfolioproject1-headline-subhead09 content-divide-child">
                 <div className="portfolioproject1-headline-subhead10">
@@ -317,8 +343,8 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-virtual-productiond-virtual-camera-actor"
                     />
                   </div>
-                  <span className="portfolioproject1-text60 Epilogue-36Bold">
-                    <span className="portfolioproject1-text61">
+                  <span className="portfolioproject1-text61 Epilogue-36Bold">
+                    <span className="portfolioproject1-text62">
                       Revamping the Live Capture
                       <span
                         dangerouslySetInnerHTML={{
@@ -329,7 +355,7 @@ const Portfolioproject1 = (props) => {
                     <span>Onboarding Experience</span>
                   </span>
                 </div>
-                <span className="portfolioproject1-text63">
+                <span className="portfolioproject1-text64">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">
                     : Low user acquisition for Live Capture stems from its
@@ -362,11 +388,11 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-input-gamepad"
                     />
                   </div>
-                  <span className="portfolioproject1-text72 Epilogue-36Bold">
+                  <span className="portfolioproject1-text73 Epilogue-36Bold">
                     <span>Gamepad Controller</span>
                   </span>
                 </div>
-                <span className="portfolioproject1-text74">
+                <span className="portfolioproject1-text75">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">
                     : For film professionals, Camerawork often demands more
@@ -392,7 +418,7 @@ const Portfolioproject1 = (props) => {
               <img
                 alt="stickerfinallayer1I275"
                 src="/external/stickerfinallayer1i275-1get.png"
-                className="portfolioproject1-stickerfinallayer14 image-contain content-divide-child"
+                className="portfolioproject1-stickerfinallayer14 content-divide-child image-contain"
               />
             </div>
           </div>
@@ -419,11 +445,11 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-editor-u-id-sync-search"
                     />
                   </div>
-                  <span className="portfolioproject1-text85 Epilogue-36Bold">
+                  <span className="portfolioproject1-text86 Epilogue-36Bold">
                     <span>Timecode Synchronization</span>
                   </span>
                 </div>
-                <span className="portfolioproject1-text87">
+                <span className="portfolioproject1-text88">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">
                     : A major challenge onset is managing and synchronizing
