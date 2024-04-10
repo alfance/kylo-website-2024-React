@@ -121,6 +121,13 @@
   width: 100%;
   max-width: 1449px;
 }
+.home-headline-align {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
 .Epilogue-24Light {
   font-size: 24px;
   font-family: Epilogue;
@@ -140,10 +147,26 @@
   font-weight: 700;
   line-height: 46px;
 }
+.Epilogue-24Bold1 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Epilogue;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
 .Epilogue-24Bold {
   font-size: 24px;
   font-family: Epilogue;
   font-weight: 700;
+}
+.Epilogue-17Regular {
+  font-size: 17px;
+  font-style: normal;
+  font-family: Epilogue;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
 }
 .Epilogue-64Bold {
   font-size: 64px;
@@ -193,6 +216,8 @@
   text-transform: none;
   text-decoration: none;
 }
+
+
 @media(max-width: 767px) {
   .content-divide-reverse > img {
     width: 100% !important;
@@ -220,5 +245,15 @@
 @media(max-width: 479px) {
   .port-container-responsive {
     padding: 0 40px;
+  }
+
+  .home-headline-align {
+    gap:10px;
+    text-align: left;
+    flex-direction: column-reverse;
+  }
+
+  .home-headline-align span {
+    text-align: left !important;
   }
 }

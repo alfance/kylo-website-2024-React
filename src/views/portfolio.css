@@ -104,8 +104,6 @@
   align-self: stretch;
   align-items: center;
   padding-top: 40px;
-  padding-left: 100px 0;
-  padding-right: 100px 0;
   flex-direction: column;
   padding-bottom: 40px;
 }
@@ -164,12 +162,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.portfolio-frame2 {
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
 .portfolio-text16 {
   color: var(--dl-color-default-textdefault);
   height: auto;
@@ -182,7 +174,7 @@
   text-decoration: none;
 }
 .portfolio-text19 {
-  color: var(--dl-color-default-textmute1);
+  color: var(--dl-color-default-textgreyout1);
   width: 197px;
   height: auto;
   text-align: right;
@@ -443,12 +435,6 @@
   align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
-}
-.portfolio-frame22 {
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
 }
 .portfolio-text28 {
   color: rgba(243, 243, 243, 1);
@@ -958,6 +944,13 @@
 @media(max-width: 479px) {
   .portfolio-headline-subhead {
     max-width: auto;
+  }
+  .portfolio-latestwork-section {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .portfolio-workcards {
+    gap: 150px;
   }
   .portfolio-workcard-locked-aspect-ratio1 {
     animation-name: none;

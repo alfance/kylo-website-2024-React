@@ -113,7 +113,7 @@ const Portfolio = (props) => {
                             data-thq-animate-on-reveal="true"
                             className="portfolio-headline-subhead02"
                           >
-                            <div className="portfolio-frame2">
+                            <div className="home-headline-align">
                               <Link
                                 to="/portfolioproject1"
                                 className="portfolio-text16"
@@ -145,12 +145,12 @@ const Portfolio = (props) => {
                             <div className="portfolio-homecontentimage">
                               <img
                                 alt="image"
-                                src="/external/face-cap2-mac-case.gif"
+                                src="/external/tq_etf2i-pa5l-hmmh-1400w.png"
                                 className="portfolio-image"
                               />
                               <img
                                 alt="image"
-                                src="/external/face-cap2-iphone-case.gif"
+                                src="/external/facecap22i176-0gy.png"
                                 className="portfolio-image1"
                               />
                             </div>
@@ -180,7 +180,7 @@ const Portfolio = (props) => {
                             data-thq-animate-on-reveal="true"
                             className="portfolio-headline-subhead03"
                           >
-                            <div className="portfolio-frame21">
+                            <div className="portfolio-frame21 home-headline-align">
                               <Link
                                 to="/portfolioproject2"
                                 className="portfolio-text21"
@@ -245,7 +245,7 @@ const Portfolio = (props) => {
                             data-thq-animate-on-reveal="true"
                             className="portfolio-headline-subhead04"
                           >
-                            <div className="portfolio-frame22">
+                            <div className="home-headline-align">
                               <Link
                                 to="/portfolioproject3"
                                 className="portfolio-text28 Epilogue-36Bold"
@@ -278,7 +278,7 @@ const Portfolio = (props) => {
                               <div className="portfolio-homecontentimage04 image-contain">
                                 <img
                                   alt="vsethomegif1I176"
-                                  src="/external/vset-home-gif.gif"
+                                  src="/external/vsethomegif1i176-jhca.png"
                                   className="portfolio-vsethomegif1"
                                 />
                               </div>
