@@ -145,12 +145,12 @@ const Portfolio = (props) => {
                             <div className="portfolio-homecontentimage">
                               <img
                                 alt="image"
-                                src="/external/tq_etf2i-pa5l-hmmh-1400w.png"
+                                src="/external/face-cap2-mac-case.gif"
                                 className="portfolio-image"
                               />
                               <img
                                 alt="image"
-                                src="/external/facecap22i176-0gy.png"
+                                src="/external/face-cap2-iphone-case.gif"
                                 className="portfolio-image1"
                               />
                             </div>
@@ -278,7 +278,7 @@ const Portfolio = (props) => {
                               <div className="portfolio-homecontentimage04 image-contain">
                                 <img
                                   alt="vsethomegif1I176"
-                                  src="/external/vsethomegif1i176-jhca.png"
+                                  src="/external/vset-home-gif.gif"
                                   className="portfolio-vsethomegif1"
                                 />
                               </div>
