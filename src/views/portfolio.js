@@ -123,6 +123,9 @@ const Portfolio = (props) => {
                                   {' '}
                                   Live Capture Packages
                                 </span>
+                                <span className="portfolio-text19 Epilogue-24Bold">
+                                &nbsp; ⋙
+                                </span>
                               </Link>
                               <span className="portfolio-text19 Epilogue-24Light">
                                 2021 - 2023
@@ -196,6 +199,9 @@ const Portfolio = (props) => {
                                 <span className="Epilogue-36Light">
                                   Tools Integration
                                 </span>
+                                <span className="portfolio-text19 Epilogue-24Bold">
+                                &nbsp; ⋙
+                                </span>
                               </Link>
                               <span className="portfolio-text24 Epilogue-24Light">
                                 <span>July 2023 - Present</span>
@@ -252,6 +258,9 @@ const Portfolio = (props) => {
                               >
                                 <span className="portfolio-text29">Unity</span>
                                 <span> Virtual Production</span>
+                                <span className="portfolio-text19 Epilogue-24Bold">
+                                &nbsp; ⋙
+                                </span>
                               </Link>
                               <span className="portfolio-text31 Epilogue-24Light">
                                 <span>2021 - 2023</span>
