@@ -19,7 +19,7 @@ const Portfolio = (props) => {
           <div className="portfolio-header1 content-divide">
             <video
               src="/external/10-gradient-depth-copy-6.mp4"
-              poster="https://play.teleporthq.io/static/svg/videoposter.svg"
+              poster="/external/10-gradient-depth-copy-6-1500h.jpg"
               loop="true"
               muted="true"
               autoPlay="true"
