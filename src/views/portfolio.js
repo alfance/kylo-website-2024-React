@@ -15,82 +15,57 @@ const Portfolio = (props) => {
       </Helmet>
       <div className="portfolio-portfolio">
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
-        <div className="portfolio-portfolio1 port-container-responsive">
-          <div className="portfolio-header">
-            <div className="portfolio-header1 content-divide">
-              <section className="portfolio-headline-subhead content-divide-child">
-                <div className="portfolio-headline-subhead01">
-                  <span className="portfolio-text">Nice to meet you :)</span>
-                  <span className="portfolio-text01">
-                    <span className="Epilogue-64Bold">
-                      I am
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    <span className="Epilogue-64Bold">Kylo Xue</span>
-                    <br></br>
-                    <br className="Epilogue-17"></br>
-                    <span className="Epilogue-17">
-                      I&apos;m a
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    <span className="Epilogue-17Bold">
-                      product and interactive designer
-                    </span>
-                    <span className="Epilogue-17">
-                      {' '}
-                      passionate about crafting user-centric digital
-                      experiences.
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    <br className="Epilogue-17"></br>
-                    <br className="Epilogue-17"></br>
-                    <span className="Epilogue-17">
-                      Working in the design field for over 10 years, I&apos;ve
-                      been enhancing User experience in the
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    <span className="Epilogue-17">
-                      Gaming, VFX, e-commerce, and e-Retail sectors, from
-                      startups to corporations.
-                    </span>
-                    <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                  </span>
-                </div>
-              </section>
-              <img
-                alt="stickerfinallayer1I176"
-                src="/external/stickerfinallayer1i176-2l5o.png"
-                className="portfolio-stickerfinallayer1 content-divide-child"
-              />
+        <div className="portfolio-header">
+          <div className="portfolio-header1 content-divide">
+            <video
+              src="/external/10-gradient-depth-copy-6.mp4"
+              poster="https://play.teleporthq.io/static/svg/videoposter.svg"
+              loop="true"
+              muted="true"
+              autoPlay="true"
+              preload="auto"
+              className="portfolio-video"
+            ></video>
+            <div className="portfolio-headline-subhead port-container-responsive">
+              <div className="portfolio-headline-subhead01">
+                <span className="portfolio-text">
+                  <span className="portfolio-text01">I am</span>
+                  <span className="Epilogue-64Bold"> Kylo Xue</span>
+                </span>
+              </div>
+              <span className="portfolio-text03">
+                <span className="Epilogue-24Light">
+                  A
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="Epilogue-24Bold">
+                  product and interactive designer
+                </span>
+                <span className="Epilogue-24Light">
+                  {' '}
+                  passionate about crafting user-centric digital experiences.   
+                </span>
+                <br className="Epilogue-24Light"></br>
+                <br className="Epilogue-24Light"></br>
+                <span className="Epilogue-24Light">
+                  Working in the design field for over 10 years, I&apos;ve been
+                  enhancing User experience in the Gaming, VFX, e-commerce, and
+                  e-Retail sectors, from startups to corporations.
+                </span>
+              </span>
             </div>
           </div>
+        </div>
+        <div className="portfolio-portfolio1 port-container-responsive">
           <div className="portfolio-latestwork-section">
             <animate-on-reveal animation="fadeInUp">
               <span
                 data-thq-animate-on-reveal="true"
-                className="portfolio-text14 Epilogue-36Light"
+                className="portfolio-text10 Epilogue-36Light"
               >
                 <span>Projects &amp; Work</span>
               </span>
@@ -116,20 +91,20 @@ const Portfolio = (props) => {
                             <div className="home-headline-align">
                               <Link
                                 to="/portfolioproject1"
-                                className="portfolio-text16"
+                                className="portfolio-text12"
                               >
                                 <span className="Epilogue-36Light">Unity</span>
                                 <span className="Epilogue-36Bold">
                                   {' '}
                                   Live Capture Packages 
                                 </span>
-                                <span className="portfolio-text19">⋙</span>
+                                <span className="portfolio-text15">⋙</span>
                               </Link>
-                              <span className="portfolio-text20 Epilogue-24Light">
+                              <span className="portfolio-text16 Epilogue-24Light">
                                 2021 - 2023
                               </span>
                             </div>
-                            <span className="portfolio-text21 Epilogue-17">
+                            <span className="portfolio-text17 Epilogue-17">
                               The Live Capture package in Unity brings
                               characters and cameras to life easily, using Apple
                               devices for intuitive motion capture. This
@@ -184,7 +159,7 @@ const Portfolio = (props) => {
                             <div className="portfolio-frame21 home-headline-align">
                               <Link
                                 to="/portfolioproject2"
-                                className="portfolio-text22"
+                                className="portfolio-text18"
                               >
                                 <span className="Epilogue-36Bold">
                                   Wētā Realtime
@@ -197,13 +172,13 @@ const Portfolio = (props) => {
                                 <span className="Epilogue-36Light">
                                   Tools Integration 
                                 </span>
-                                <span className="portfolio-text25">⋙</span>
+                                <span className="portfolio-text21">⋙</span>
                               </Link>
-                              <span className="portfolio-text26 Epilogue-24Light">
+                              <span className="portfolio-text22 Epilogue-24Light">
                                 <span>July 2023 - Present</span>
                               </span>
                             </div>
-                            <span className="portfolio-text28 Epilogue-17">
+                            <span className="portfolio-text24 Epilogue-17">
                               <span>
                                 The Weta Realtime Tools for Unity editor enhance
                                 workflow efficiency and enable the creation of
@@ -250,20 +225,20 @@ const Portfolio = (props) => {
                             <div className="home-headline-align">
                               <Link
                                 to="/portfolioproject3"
-                                className="portfolio-text30"
+                                className="portfolio-text26"
                               >
                                 <span className="Epilogue-36Bold">Unity</span>
                                 <span className="Epilogue-36Bold">
                                   {' '}
                                   Virtual Production 
                                 </span>
-                                <span className="portfolio-text33">⋙</span>
+                                <span className="portfolio-text29">⋙</span>
                               </Link>
-                              <span className="portfolio-text34 Epilogue-24Light">
+                              <span className="portfolio-text30 Epilogue-24Light">
                                 2021 - 2023
                               </span>
                             </div>
-                            <span className="portfolio-text35 Epilogue-17">
+                            <span className="portfolio-text31 Epilogue-17">
                               <span>
                                 Unity&apos;s toolkit for TV, broadcast, and
                                 animations equips artists and filmmakers with
@@ -302,7 +277,7 @@ const Portfolio = (props) => {
             </div>
           </div>
           <div className="portfolio-latestwork-section-property3">
-            <span className="portfolio-text37 Epilogue-36Light">
+            <span className="portfolio-text33 Epilogue-36Light">
               <span>Case Studies</span>
             </span>
             <div className="portfolio-workcards1">
@@ -320,10 +295,10 @@ const Portfolio = (props) => {
                     </div>
                   </div>
                   <div className="portfolio-headline-subhead05">
-                    <span className="portfolio-text39 Epilogue-24Bold">
+                    <span className="portfolio-text35 Epilogue-24Bold">
                       <span>Strand-based Hair Rendering</span>
                     </span>
-                    <span className="portfolio-text41 Epilogue-17Regular">
+                    <span className="portfolio-text37 Epilogue-17Regular">
                       <span>2023</span>
                     </span>
                   </div>
@@ -343,7 +318,7 @@ const Portfolio = (props) => {
                     </div>
                   </div>
                   <div className="portfolio-headline-subhead06">
-                    <span className="portfolio-text43 Epilogue-24Bold">
+                    <span className="portfolio-text39 Epilogue-24Bold">
                       <span>
                         Improving Live-Streaming Workflow
                         <span
@@ -353,7 +328,7 @@ const Portfolio = (props) => {
                         />
                       </span>
                     </span>
-                    <span className="portfolio-text45 Epilogue-17Regular">
+                    <span className="portfolio-text41 Epilogue-17Regular">
                       <span>2022 - 2023</span>
                     </span>
                   </div>
@@ -373,10 +348,10 @@ const Portfolio = (props) => {
                     </div>
                   </div>
                   <div className="portfolio-headline-subhead07">
-                    <span className="portfolio-text47 Epilogue-24Bold">
+                    <span className="portfolio-text43 Epilogue-24Bold">
                       <span>Designing Waypoint System</span>
                     </span>
-                    <span className="portfolio-text49 Epilogue-17Regular">
+                    <span className="portfolio-text45 Epilogue-17Regular">
                       <span>2019</span>
                     </span>
                   </div>
@@ -396,10 +371,10 @@ const Portfolio = (props) => {
                     </div>
                   </div>
                   <div className="portfolio-headline-subhead08">
-                    <span className="portfolio-text51 Epilogue-24Bold">
+                    <span className="portfolio-text47 Epilogue-24Bold">
                       Joist Design System
                     </span>
-                    <span className="portfolio-text52 Epilogue-17Regular">
+                    <span className="portfolio-text48 Epilogue-17Regular">
                       2020
                     </span>
                   </div>
@@ -419,10 +394,10 @@ const Portfolio = (props) => {
                     </div>
                   </div>
                   <div className="portfolio-headline-subhead09">
-                    <span className="portfolio-text53 Epilogue-24Bold">
+                    <span className="portfolio-text49 Epilogue-24Bold">
                       <span>Driving Sales for Invoicing app</span>
                     </span>
-                    <span className="portfolio-text55 Epilogue-17Regular">
+                    <span className="portfolio-text51 Epilogue-17Regular">
                       <span>2021</span>
                     </span>
                   </div>
@@ -442,7 +417,7 @@ const Portfolio = (props) => {
                     </div>
                   </div>
                   <div className="portfolio-headline-subhead10">
-                    <span className="portfolio-text57 Epilogue-24Bold">
+                    <span className="portfolio-text53 Epilogue-24Bold">
                       <span>
                         Creating Interactive Behaviour system
                         <span
@@ -452,7 +427,7 @@ const Portfolio = (props) => {
                         />
                       </span>
                     </span>
-                    <span className="portfolio-text59 Epilogue-17Regular">
+                    <span className="portfolio-text55 Epilogue-17Regular">
                       <span>2019</span>
                     </span>
                   </div>

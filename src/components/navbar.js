@@ -53,7 +53,7 @@ Navbar.defaultProps = {
   text3: 'Linkedin',
   linkText:
     'https://www.animaapp.com/?utm_source=figma-samples&utm_campaign=figma-portfolio22&utm_medium=figma-samples',
-  text1: 'Works',
+  text1: 'Home',
   text: 'About',
   linkText3:
     'https://www.animaapp.com/?utm_source=figma-samples&utm_campaign=figma-portfolio22&utm_medium=figma-samples',
