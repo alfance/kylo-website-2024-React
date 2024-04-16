@@ -10,11 +10,11 @@ const Navbar = (props) => {
     <div className={`navbar-container ${props.rootClassName} `}>
       <div className="navbar-navigation">
         <div className="navbar-navnavmenu">
-          <Link to="/portfolio-aboutpage" className="navbar-text Epilogue-17">
-            <span className="">{props.text}</span>
+          <Link to="/" className="navbar-text Epilogue-17">
+            Home
           </Link>
-          <Link to="/" className="navbar-text02 Epilogue-17">
-            <span className="">{props.text1}</span>
+          <Link to="/portfolio-aboutpage" className="navbar-text1 Epilogue-17">
+            <span className="">{props.text}</span>
           </Link>
           <img
             alt={props.line1Alt}
@@ -25,7 +25,7 @@ const Navbar = (props) => {
             href="https://drive.google.com/file/d/1BjMLeNBUIzKJjA3efh5Tn2qgqEENgyIX/view"
             target="_blank"
             rel="noreferrer noopener"
-            className="navbar-text04"
+            className="navbar-text3"
           >
             <span className="">{props.text2}</span>
           </a>
@@ -33,13 +33,13 @@ const Navbar = (props) => {
             href="https://www.linkedin.com/in/kyloxue/"
             target="_blank"
             rel="noreferrer noopener"
-            className="navbar-text06"
+            className="navbar-text5"
           >
             <span className="">{props.text3}</span>
           </a>
         </div>
         <div className="navbar-frame427319348">
-          <Link to="/" className="navbar-text08 Epilogue-17Bold">
+          <Link to="/" className="navbar-text7 Epilogue-17Bold">
             <span className="">{props.text4}</span>
           </Link>
         </div>
@@ -53,7 +53,7 @@ Navbar.defaultProps = {
   text3: 'Linkedin',
   linkText:
     'https://www.animaapp.com/?utm_source=figma-samples&utm_campaign=figma-portfolio22&utm_medium=figma-samples',
-  text1: 'Home',
+  text1: 'Works',
   text: 'About',
   linkText3:
     'https://www.animaapp.com/?utm_source=figma-samples&utm_campaign=figma-portfolio22&utm_medium=figma-samples',

@@ -47,7 +47,7 @@ const Portfolio = (props) => {
                 </span>
                 <span className="Epilogue-24Light">
                   {' '}
-                  passionate about crafting user-centric digital experiences.   
+                  passionate about crafting user-centric digital experiences. 
                 </span>
                 <br className="Epilogue-24Light"></br>
                 <br className="Epilogue-24Light"></br>
@@ -296,7 +296,7 @@ const Portfolio = (props) => {
                   </div>
                   <div className="portfolio-headline-subhead05">
                     <span className="portfolio-text35 Epilogue-24Bold">
-                      <span>Strand-based Hair Rendering</span>
+                      <span>Strand-Based Hair Rendering</span>
                     </span>
                     <span className="portfolio-text37 Epilogue-17Regular">
                       <span>2023</span>
@@ -395,7 +395,7 @@ const Portfolio = (props) => {
                   </div>
                   <div className="portfolio-headline-subhead09">
                     <span className="portfolio-text49 Epilogue-24Bold">
-                      <span>Driving Sales for Invoicing app</span>
+                      <span>Driving Sales for Invoicing App</span>
                     </span>
                     <span className="portfolio-text51 Epilogue-17Regular">
                       <span>2021</span>
@@ -419,7 +419,7 @@ const Portfolio = (props) => {
                   <div className="portfolio-headline-subhead10">
                     <span className="portfolio-text53 Epilogue-24Bold">
                       <span>
-                        Creating Interactive Behaviour system
+                        Creating Interactive Behaviour System
                         <span
                           dangerouslySetInnerHTML={{
                             __html: ' ',

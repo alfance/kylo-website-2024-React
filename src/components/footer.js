@@ -49,7 +49,7 @@ Footer.defaultProps = {
   rootClassName: '',
   fimailAlt: 'fimailI676',
   linkFimail: 'mailto:jiao_xue@hotmaill.com',
-  text: 'Let’s work together',
+  text: 'Let’s Work Together',
   linkPlatformlinkedin: 'https://www.linkedin.com/in/kyloxue/',
   fimailSrc: '/external/fimaili676-hvq.svg',
   fill1Alt: 'Fill1I676',
