@@ -19,11 +19,11 @@ const Portfolio = (props) => {
           <div className="portfolio-header1 content-divide">
             <video
               src="/external/10-gradient-depth-copy-6.mp4"
-              poster="/external/10-gradient-depth-copy-6-1500h.jpg"
               loop="true"
               muted="true"
-              autoPlay="true"
+              poster="/external/10-gradient-depth-copy-6-1500h.jpg"
               preload="auto"
+              autoPlay="true"
               className="portfolio-video"
             ></video>
             <div className="portfolio-headline-subhead port-container-responsive">
@@ -47,14 +47,14 @@ const Portfolio = (props) => {
                 </span>
                 <span className="Epilogue-24Light">
                   {' '}
-                  passionate about crafting user-centric digital experiences. 
+                  passionate about crafting user-centric digital experiences.   
                 </span>
                 <br className="Epilogue-24Light"></br>
                 <br className="Epilogue-24Light"></br>
                 <span className="Epilogue-24Light">
                   Working in the design field for over 10 years, I&apos;ve been
-                  enhancing User experience in the Gaming, VFX, e-commerce, and
-                  e-Retail sectors, from startups to corporations.
+                  enhancing User experience in various industries from startups
+                  to corporations.
                 </span>
               </span>
             </div>
@@ -71,52 +71,55 @@ const Portfolio = (props) => {
               </span>
             </animate-on-reveal>
             <div className="portfolio-workcards">
-              <div className="portfolio-workcard">
-                <div className="portfolio-workcard-locked-aspect-ratio">
-                  <div className="portfolio-workcard01">
-                    <div className="portfolio-workcard-locked-aspect-ratio1">
-                      <div className="portfolio-workcard02">
-                        <animate-on-reveal
-                          animation="fadeInUp"
-                          duration="300ms"
-                          delay="0s"
-                          direction="normal"
-                          easing="ease"
-                          iteration="1"
-                        >
-                          <div
-                            data-thq-animate-on-reveal="true"
-                            className="portfolio-headline-subhead02"
+              <Link to="/portfolioproject1" className="portfolio-navlink">
+                <div className="portfolio-workcard">
+                  <div className="portfolio-workcard-locked-aspect-ratio">
+                    <div className="portfolio-workcard01">
+                      <div className="portfolio-workcard-locked-aspect-ratio1">
+                        <div className="portfolio-workcard02">
+                          <animate-on-reveal
+                            animation="fadeInUp"
+                            duration="300ms"
+                            delay="0s"
+                            direction="normal"
+                            easing="ease"
+                            iteration="1"
                           >
-                            <div className="home-headline-align">
-                              <Link
-                                to="/portfolioproject1"
-                                className="portfolio-text12"
-                              >
-                                <span className="Epilogue-36Light">Unity</span>
-                                <span className="Epilogue-36Bold">
-                                  {' '}
-                                  Live Capture Packages 
+                            <div
+                              data-thq-animate-on-reveal="true"
+                              className="portfolio-headline-subhead02"
+                            >
+                              <div className="portfolio-frame2 home-headline-align">
+                                <span className="portfolio-text12">
+                                  <span className="Epilogue-36Light">
+                                    Unity
+                                    <span
+                                      dangerouslySetInnerHTML={{
+                                        __html: ' ',
+                                      }}
+                                    />
+                                  </span>
+                                  <span className="Epilogue-36Bold">
+                                    Live Capture Package
+                                  </span>
+                                  <span className="Epilogue-36Light"> </span>
+                                  <span className="portfolio-text16">
+                                    2021 - 2023
+                                  </span>
                                 </span>
-                                <span className="portfolio-text15">⋙</span>
-                              </Link>
-                              <span className="portfolio-text16 Epilogue-24Light">
-                                2021 - 2023
+                                <span className="portfolio-text17 Epilogue-24Regular">
+                                  Learn More &gt;
+                                </span>
+                              </div>
+                              <span className="portfolio-text18 Epilogue-17">
+                                The Live Capture package in Unity brings
+                                characters and cameras to life easily, using
+                                Apple devices for intuitive motion capture. This
+                                streamlines the animation process, removing the
+                                hassle of manual keyframing.
                               </span>
                             </div>
-                            <span className="portfolio-text17 Epilogue-17">
-                              The Live Capture package in Unity brings
-                              characters and cameras to life easily, using Apple
-                              devices for intuitive motion capture. This
-                              streamlines the animation process, removing the
-                              hassle of manual keyframing.
-                            </span>
-                          </div>
-                        </animate-on-reveal>
-                        <Link
-                          to="/portfolioproject1"
-                          className="portfolio-navlink"
-                        >
+                          </animate-on-reveal>
                           <div className="portfolio-homecontentimage-locked-aspect-ratio">
                             <div className="portfolio-homecontentimage">
                               <img
@@ -131,81 +134,80 @@ const Portfolio = (props) => {
                               />
                             </div>
                           </div>
-                        </Link>
+                        </div>
+                        <div className="portfolio-frame"></div>
                       </div>
-                      <div className="portfolio-frame"></div>
                     </div>
+                    <div className="portfolio-frame01"></div>
                   </div>
-                  <div className="portfolio-frame01"></div>
                 </div>
-              </div>
+              </Link>
               <div className="portfolio-workcard03">
                 <div className="portfolio-workcard-locked-aspect-ratio2">
                   <div className="portfolio-workcard04">
                     <div className="portfolio-workcard-locked-aspect-ratio3">
-                      <div className="portfolio-workcard05">
-                        <animate-on-reveal
-                          animation="fadeInUp"
-                          duration="300ms"
-                          delay="0s"
-                          direction="normal"
-                          easing="ease"
-                          iteration="1"
-                        >
-                          <div
-                            data-thq-animate-on-reveal="true"
-                            className="portfolio-headline-subhead03"
+                      <Link
+                        to="/portfolioproject2"
+                        className="portfolio-navlink1"
+                      >
+                        <div className="portfolio-workcard05">
+                          <animate-on-reveal
+                            animation="fadeInUp"
+                            duration="300ms"
+                            delay="0s"
+                            direction="normal"
+                            easing="ease"
+                            iteration="1"
                           >
-                            <div className="portfolio-frame21 home-headline-align">
-                              <Link
-                                to="/portfolioproject2"
-                                className="portfolio-text18"
-                              >
-                                <span className="Epilogue-36Bold">
-                                  Wētā Realtime
-                                  <span
-                                    dangerouslySetInnerHTML={{
-                                      __html: ' ',
-                                    }}
-                                  />
+                            <div
+                              data-thq-animate-on-reveal="true"
+                              className="portfolio-headline-subhead03"
+                            >
+                              <div className="portfolio-frame21 home-headline-align">
+                                <span className="portfolio-text19">
+                                  <span className="Epilogue-36Bold">
+                                    Wētā Realtime
+                                    <span
+                                      dangerouslySetInnerHTML={{
+                                        __html: ' ',
+                                      }}
+                                    />
+                                  </span>
+                                  <span className="Epilogue-36Light">
+                                    Tools Integration 
+                                  </span>
+                                  <span className="portfolio-text22">
+                                    2023 - 2024
+                                  </span>
                                 </span>
-                                <span className="Epilogue-36Light">
-                                  Tools Integration 
+                                <span className="portfolio-text23 Epilogue-24Regular">
+                                  Learn More &gt;
                                 </span>
-                                <span className="portfolio-text21">⋙</span>
-                              </Link>
-                              <span className="portfolio-text22 Epilogue-24Light">
-                                <span>July 2023 - Present</span>
+                              </div>
+                              <span className="portfolio-text24 Epilogue-17">
+                                <span>
+                                  The Weta Realtime Tools for Unity editor
+                                  enhance workflow efficiency and enable the
+                                  creation of visually impressive content for
+                                  both game and film production. This suite of
+                                  features streamlines the development process,
+                                  facilitating the rapid creation of
+                                  high-quality visuals.
+                                </span>
                               </span>
                             </div>
-                            <span className="portfolio-text24 Epilogue-17">
-                              <span>
-                                The Weta Realtime Tools for Unity editor enhance
-                                workflow efficiency and enable the creation of
-                                visually impressive content for both game and
-                                film production. This suite of features
-                                streamlines the development process,
-                                facilitating the rapid creation of high-quality
-                                visuals.
-                              </span>
-                            </span>
-                          </div>
-                        </animate-on-reveal>
-                        <div className="portfolio-homecontentimage-locked-aspect-ratio01">
-                          <div className="portfolio-homecontentimage01 background-contain image-contain">
-                            <Link
-                              to="/portfolioproject2"
-                              className="portfolio-navlink1"
-                            >
+                          </animate-on-reveal>
+                          <div className="portfolio-homecontentimage-locked-aspect-ratio01">
+                            <div className="portfolio-homecontentimage01 background-contain image-contain">
                               <div className="portfolio-homecontentimage-locked-aspect-ratio02 image-contain">
                                 <div className="portfolio-homecontentimage02"></div>
                                 <div className="portfolio-frame02"></div>
                               </div>
-                            </Link>
+                            </div>
+                            <div className="portfolio-frame03"></div>
                           </div>
-                          <div className="portfolio-frame03"></div>
                         </div>
-                      </div>
+                      </Link>
                       <div className="portfolio-frame04"></div>
                     </div>
                   </div>
@@ -214,48 +216,40 @@ const Portfolio = (props) => {
               </div>
               <div className="portfolio-workcard06">
                 <div className="portfolio-workcard-locked-aspect-ratio4">
-                  <div className="portfolio-workcard07">
-                    <div className="portfolio-workcard-locked-aspect-ratio5">
-                      <div className="portfolio-workcard08">
-                        <animate-on-reveal animation="fadeInUp">
-                          <div
-                            data-thq-animate-on-reveal="true"
-                            className="portfolio-headline-subhead04"
-                          >
-                            <div className="home-headline-align">
-                              <Link
-                                to="/portfolioproject3"
-                                className="portfolio-text26"
-                              >
-                                <span className="Epilogue-36Bold">Unity</span>
-                                <span className="Epilogue-36Bold">
-                                  {' '}
-                                  Virtual Production 
-                                </span>
-                                <span className="portfolio-text29">⋙</span>
-                              </Link>
-                              <span className="portfolio-text30 Epilogue-24Light">
-                                2021 - 2023
-                              </span>
-                            </div>
-                            <span className="portfolio-text31 Epilogue-17">
-                              <span>
-                                Unity&apos;s toolkit for TV, broadcast, and
-                                animations equips artists and filmmakers with
-                                advanced capabilities for creating real-time
-                                cinematics and pre-visualizations. This empowers
-                                creative professionals to seamlessly bring their
-                                visions to life.
-                              </span>
-                            </span>
-                          </div>
-                        </animate-on-reveal>
-                        <div className="portfolio-homecontentimage-locked-aspect-ratio03">
-                          <div className="portfolio-homecontentimage03">
-                            <Link
-                              to="/portfolioproject3"
-                              className="portfolio-navlink2"
+                  <Link to="/portfolioproject3" className="portfolio-navlink2">
+                    <div className="portfolio-workcard07">
+                      <div className="portfolio-workcard-locked-aspect-ratio5">
+                        <div className="portfolio-workcard08">
+                          <animate-on-reveal animation="fadeInUp">
+                            <div
+                              data-thq-animate-on-reveal="true"
+                              className="portfolio-headline-subhead04"
                             >
+                              <div className="portfolio-frame22 home-headline-align">
+                                <span className="portfolio-text26">
+                                  <span>Unity Virtual Production </span>
+                                  <span className="portfolio-text28">
+                                    2021 - 2023
+                                  </span>
+                                </span>
+                                <span className="portfolio-text17 Epilogue-24Regular">
+                                  Learn More &gt;
+                                </span>
+                              </div>
+                            </div>
+                          </animate-on-reveal>
+                          <span className="portfolio-text30 Epilogue-17">
+                            <span>
+                              Unity&apos;s toolkit for TV, broadcast, and
+                              animations equips artists and filmmakers with
+                              advanced capabilities for creating real-time
+                              cinematics and pre-visualizations. This empowers
+                              creative professionals to seamlessly bring their
+                              visions to life.
+                            </span>
+                          </span>
+                          <div className="portfolio-homecontentimage-locked-aspect-ratio03">
+                            <div className="portfolio-homecontentimage03">
                               <div className="portfolio-homecontentimage04 image-contain">
                                 <img
                                   alt="vsethomegif1I176"
@@ -263,21 +257,21 @@ const Portfolio = (props) => {
                                   className="portfolio-vsethomegif1"
                                 />
                               </div>
-                            </Link>
+                            </div>
+                            <div className="portfolio-frame06"></div>
                           </div>
-                          <div className="portfolio-frame06"></div>
                         </div>
+                        <div className="portfolio-frame07"></div>
                       </div>
-                      <div className="portfolio-frame07"></div>
                     </div>
-                  </div>
+                  </Link>
                   <div className="portfolio-frame08"></div>
                 </div>
               </div>
             </div>
           </div>
           <div className="portfolio-latestwork-section-property3">
-            <span className="portfolio-text33 Epilogue-36Light">
+            <span className="portfolio-text32 Epilogue-36Light">
               <span>Case Studies</span>
             </span>
             <div className="portfolio-workcards1">
@@ -295,10 +289,10 @@ const Portfolio = (props) => {
                     </div>
                   </div>
                   <div className="portfolio-headline-subhead05">
-                    <span className="portfolio-text35 Epilogue-24Bold">
-                      <span>Strand-Based Hair Rendering</span>
+                    <span className="portfolio-text34 Epilogue-24Bold">
+                      Strand-Based Hair Rendering
                     </span>
-                    <span className="portfolio-text37 Epilogue-17Regular">
+                    <span className="portfolio-text35 Epilogue-17Regular">
                       <span>2023</span>
                     </span>
                   </div>
@@ -318,7 +312,7 @@ const Portfolio = (props) => {
                     </div>
                   </div>
                   <div className="portfolio-headline-subhead06">
-                    <span className="portfolio-text39 Epilogue-24Bold">
+                    <span className="portfolio-text37 Epilogue-24Bold">
                       <span>
                         Improving Live-Streaming Workflow
                         <span
@@ -328,7 +322,7 @@ const Portfolio = (props) => {
                         />
                       </span>
                     </span>
-                    <span className="portfolio-text41 Epilogue-17Regular">
+                    <span className="portfolio-text39 Epilogue-17Regular">
                       <span>2022 - 2023</span>
                     </span>
                   </div>
@@ -348,10 +342,10 @@ const Portfolio = (props) => {
                     </div>
                   </div>
                   <div className="portfolio-headline-subhead07">
-                    <span className="portfolio-text43 Epilogue-24Bold">
+                    <span className="portfolio-text41 Epilogue-24Bold">
                       <span>Designing Waypoint System</span>
                     </span>
-                    <span className="portfolio-text45 Epilogue-17Regular">
+                    <span className="portfolio-text43 Epilogue-17Regular">
                       <span>2019</span>
                     </span>
                   </div>
@@ -371,10 +365,10 @@ const Portfolio = (props) => {
                     </div>
                   </div>
                   <div className="portfolio-headline-subhead08">
-                    <span className="portfolio-text47 Epilogue-24Bold">
+                    <span className="portfolio-text45 Epilogue-24Bold">
                       Joist Design System
                     </span>
-                    <span className="portfolio-text48 Epilogue-17Regular">
+                    <span className="portfolio-text46 Epilogue-17Regular">
                       2020
                     </span>
                   </div>
@@ -394,10 +388,10 @@ const Portfolio = (props) => {
                     </div>
                   </div>
                   <div className="portfolio-headline-subhead09">
-                    <span className="portfolio-text49 Epilogue-24Bold">
-                      <span>Driving Sales for Invoicing App</span>
+                    <span className="portfolio-text47 Epilogue-24Bold">
+                      Driving Sales for Invoicing App
                     </span>
-                    <span className="portfolio-text51 Epilogue-17Regular">
+                    <span className="portfolio-text48 Epilogue-17Regular">
                       <span>2021</span>
                     </span>
                   </div>
@@ -417,17 +411,15 @@ const Portfolio = (props) => {
                     </div>
                   </div>
                   <div className="portfolio-headline-subhead10">
-                    <span className="portfolio-text53 Epilogue-24Bold">
-                      <span>
-                        Creating Interactive Behaviour System
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
+                    <span className="portfolio-text50 Epilogue-24Bold">
+                      Creating Interactive Behaviour System
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
                     </span>
-                    <span className="portfolio-text55 Epilogue-17Regular">
+                    <span className="portfolio-text51 Epilogue-17Regular">
                       <span>2019</span>
                     </span>
                   </div>
