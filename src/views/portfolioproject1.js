@@ -3,7 +3,6 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import Navbar from '../components/navbar'
-import HeaderTitle from '../components/header-title'
 import Footer from '../components/footer'
 import './portfolioproject1.css'
 
@@ -20,7 +19,7 @@ const Portfolioproject1 = (props) => {
             <section className="portfolioproject1-headline-subhead content-divide-child">
               <div className="portfolioproject1-headline-subhead01">
                 <span className="portfolioproject1-text Epilogue-64Bold">
-                  <span className="portfolioproject1-text01">
+                  <span className="portfolioproject1-text001">
                     Unity Editor
                     <span
                       dangerouslySetInnerHTML={{
@@ -31,7 +30,7 @@ const Portfolioproject1 = (props) => {
                   <span>Live Capture Packages</span>
                 </span>
               </div>
-              <span className="portfolioproject1-text03">
+              <span className="portfolioproject1-text003">
                 <span className="Epilogue-17">
                   The Unity Live Capture package is a powerful tool that allows
                   for real-time performance capture and recording within the
@@ -83,10 +82,10 @@ const Portfolioproject1 = (props) => {
                   <div className="portfolioproject1-skill1">
                     <div className="portfolioproject1-imageplaceholder"></div>
                     <div className="portfolioproject1-headline-subhead02">
-                      <span className="portfolioproject1-text13 Epilogue-24Bold">
+                      <span className="portfolioproject1-text013 Epilogue-24Bold">
                         <span>Virtual Camera</span>
                       </span>
-                      <span className="portfolioproject1-text15 Epilogue-17">
+                      <span className="portfolioproject1-text015 Epilogue-17">
                         <span>
                           Capture and record camera motion through an iPhone or
                           iPad as if you were physically in the Unity Scene.
@@ -99,10 +98,10 @@ const Portfolioproject1 = (props) => {
                   <div className="portfolioproject1-skill3">
                     <div className="portfolioproject1-imageplaceholder1"></div>
                     <div className="portfolioproject1-headline-subhead03">
-                      <span className="portfolioproject1-text17 Epilogue-24Bold">
+                      <span className="portfolioproject1-text017 Epilogue-24Bold">
                         Face Capture
                       </span>
-                      <span className="portfolioproject1-text18 Epilogue-17">
+                      <span className="portfolioproject1-text018 Epilogue-17">
                         <span>
                           Capture and record face movements through an iOS
                           device and apply them on a character in the Unity
@@ -117,10 +116,10 @@ const Portfolioproject1 = (props) => {
                   <div className="portfolioproject1-skill5">
                     <div className="portfolioproject1-imageplaceholder2"></div>
                     <div className="portfolioproject1-headline-subhead04">
-                      <span className="portfolioproject1-text21 Epilogue-24Bold">
+                      <span className="portfolioproject1-text021 Epilogue-24Bold">
                         Synchronization
                       </span>
-                      <span className="portfolioproject1-text22 Epilogue-17">
+                      <span className="portfolioproject1-text022 Epilogue-17">
                         <span>
                           Genlock and synchronize all connected devices to get
                           frame accuracy across the timeline and the captured
@@ -138,11 +137,11 @@ const Portfolioproject1 = (props) => {
             <div className="portfolioproject1-header">
               <div className="portfolioproject1-headline-subhead05">
                 <div className="portfolioproject1-headline-subhead06">
-                  <span className="portfolioproject1-text25">
+                  <span className="portfolioproject1-text025">
                     <span>My Responsibilities</span>
                   </span>
                   <div className="portfolioproject1-graphtext">
-                    <span className="portfolioproject1-text27">
+                    <span className="portfolioproject1-text027">
                       <span className="Bodytext">
                         As the lead designer, I worked closely with the product
                         manager, researchers, and owners to align with business
@@ -244,7 +243,31 @@ const Portfolioproject1 = (props) => {
               <div className="portfolioproject1-frame"></div>
             </div>
           </div>
-          <HeaderTitle rootClassName="header-title-root-class-name"></HeaderTitle>
+          <div className="portfolioproject1-container1">
+            <div className="portfolioproject1-headertitle">
+              <span className="portfolioproject1-text045">
+                <span className="Epilogue-36Light portfolioproject1-text046">
+                  Results
+                </span>
+                <br></br>
+              </span>
+            </div>
+            <img
+              alt="stickerfinallayer1I275"
+              src="/external/live%20cap-screenshots4.jpg"
+              className="portfolioproject1-stickerfinallayer12"
+            />
+          </div>
+          <div className="portfolioproject1-container2">
+            <div className="portfolioproject1-headertitle1">
+              <span className="portfolioproject1-text048">
+                <span className="Epilogue-36Light portfolioproject1-text049">
+                  Case Studies
+                </span>
+                <br></br>
+              </span>
+            </div>
+          </div>
           <div className="portfolioproject1-project-casestudies">
             <div className="portfolioproject1-header1 content-divide">
               <section className="portfolioproject1-headline-subhead07 content-divide-child">
@@ -256,16 +279,16 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-virtual-productiond-take-recorder"
                     />
                   </div>
-                  <span className="portfolioproject1-text45 Epilogue-36Bold">
-                    <span className="portfolioproject1-text46">
+                  <span className="portfolioproject1-text051 Epilogue-36Bold">
+                    <span className="portfolioproject1-text052">
                       Live Capture 
                     </span>
-                    <span className="portfolioproject1-text47">
+                    <span className="portfolioproject1-text053">
                       System Redesign
                     </span>
                   </span>
                 </div>
-                <span className="portfolioproject1-text48">
+                <span className="portfolioproject1-text054">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">:</span>
                   <span className="Epilogue-17">
@@ -315,7 +338,7 @@ const Portfolioproject1 = (props) => {
                   rel="noreferrer noopener"
                   className="portfolioproject1-button"
                 >
-                  <span className="portfolioproject1-text59">
+                  <span className="portfolioproject1-text065">
                     <span>View Case Study</span>
                   </span>
                 </a>
@@ -323,7 +346,7 @@ const Portfolioproject1 = (props) => {
               <img
                 alt="stickerfinallayer1I275"
                 src="/external/stickerfinallayer1i275-suu.png"
-                className="portfolioproject1-stickerfinallayer12 content-divide-child image-contain"
+                className="portfolioproject1-stickerfinallayer13 content-divide-child image-contain"
               />
             </div>
           </div>
@@ -332,7 +355,7 @@ const Portfolioproject1 = (props) => {
               <img
                 alt="stickerfinallayer1I275"
                 src="/external/stickerfinallayer1i275-imhw.png"
-                className="portfolioproject1-stickerfinallayer13 content-divide-child image-contain"
+                className="portfolioproject1-stickerfinallayer14 content-divide-child image-contain"
               />
               <section className="portfolioproject1-headline-subhead09 content-divide-child">
                 <div className="portfolioproject1-headline-subhead10">
@@ -343,8 +366,8 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-virtual-productiond-virtual-camera-actor"
                     />
                   </div>
-                  <span className="portfolioproject1-text61 Epilogue-36Bold">
-                    <span className="portfolioproject1-text62">
+                  <span className="portfolioproject1-text067 Epilogue-36Bold">
+                    <span className="portfolioproject1-text068">
                       Revamping the Live Capture
                       <span
                         dangerouslySetInnerHTML={{
@@ -355,7 +378,7 @@ const Portfolioproject1 = (props) => {
                     <span>Onboarding Experience</span>
                   </span>
                 </div>
-                <span className="portfolioproject1-text64">
+                <span className="portfolioproject1-text070">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">
                     : Low user acquisition for Live Capture stems from its
@@ -388,11 +411,11 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-input-gamepad"
                     />
                   </div>
-                  <span className="portfolioproject1-text73 Epilogue-36Bold">
+                  <span className="portfolioproject1-text079 Epilogue-36Bold">
                     <span>Gamepad Controller</span>
                   </span>
                 </div>
-                <span className="portfolioproject1-text75">
+                <span className="portfolioproject1-text081">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">
                     : For film professionals, Camerawork often demands more
@@ -418,7 +441,7 @@ const Portfolioproject1 = (props) => {
               <img
                 alt="stickerfinallayer1I275"
                 src="/external/stickerfinallayer1i275-1get.png"
-                className="portfolioproject1-stickerfinallayer14 content-divide-child image-contain"
+                className="portfolioproject1-stickerfinallayer15 content-divide-child image-contain"
               />
             </div>
           </div>
@@ -428,7 +451,7 @@ const Portfolioproject1 = (props) => {
                 <img
                   alt="stickerfinallayer16762"
                   src="/external/stickerfinallayer16762-l5y.png"
-                  className="portfolioproject1-stickerfinallayer15 image-contain"
+                  className="portfolioproject1-stickerfinallayer16 image-contain"
                 />
                 <img
                   alt="stickerfinallayer26762"
@@ -445,11 +468,11 @@ const Portfolioproject1 = (props) => {
                       className="portfolioproject1-editor-u-id-sync-search"
                     />
                   </div>
-                  <span className="portfolioproject1-text86 Epilogue-36Bold">
+                  <span className="portfolioproject1-text092 Epilogue-36Bold">
                     <span>Timecode Synchronization</span>
                   </span>
                 </div>
-                <span className="portfolioproject1-text88">
+                <span className="portfolioproject1-text094">
                   <span className="Epilogue-17Bold">Problem</span>
                   <span className="Epilogue-17">
                     : A major challenge onset is managing and synchronizing
