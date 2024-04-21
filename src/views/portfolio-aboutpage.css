@@ -34,13 +34,13 @@
   display: flex;
   position: relative;
   align-self: center;
-  min-height: 600px;
+  min-height: 75vh;
   align-items: center;
-  padding-top: 140px;
+  padding-top: 140px !important;
   padding-left: auto;
   padding-right: auto;
   flex-direction: column;
-  padding-bottom: 140px;
+  padding-bottom: 140px !important;
   justify-content: center;
 }
 .portfolio-aboutpage-text {
@@ -104,6 +104,7 @@
   }
   .portfolio-aboutpage-aboutheader {
     position: relative;
+    padding-top:140px;
   }
   .portfolio-aboutpage-text {
     z-index: 100;
