@@ -47,7 +47,7 @@ const Portfolio = (props) => {
                 </span>
                 <span className="Epilogue-24Light">
                   {' '}
-                  passionate about crafting user-centric digital experiences.   
+                  passionate about crafting user-centric digital experiences. 
                 </span>
                 <br className="Epilogue-24Light"></br>
                 <br className="Epilogue-24Light"></br>
@@ -107,14 +107,14 @@ const Portfolio = (props) => {
                                     2021 - 2023
                                   </span>
                                 </span>
-                                <span className="portfolio-text17 Epilogue-24Regular">
+                                <span className="portfolio-text17 Epilogue-24Bold">
                                   Learn More &gt;
                                 </span>
                               </div>
                               <span className="portfolio-text18 Epilogue-17">
                                 The Live Capture package in Unity brings
                                 characters and cameras to life easily, using
-                                Apple devices for intuitive motion capture. This
+                                iPhone and iPad for intuitive motion capture. This
                                 streamlines the animation process, removing the
                                 hassle of manual keyframing.
                               </span>
@@ -180,7 +180,7 @@ const Portfolio = (props) => {
                                     2023 - 2024
                                   </span>
                                 </span>
-                                <span className="portfolio-text23 Epilogue-24Regular">
+                                <span className="portfolio-text17 Epilogue-24Bold">
                                   Learn More &gt;
                                 </span>
                               </div>
@@ -220,7 +220,6 @@ const Portfolio = (props) => {
                     <div className="portfolio-workcard07">
                       <div className="portfolio-workcard-locked-aspect-ratio5">
                         <div className="portfolio-workcard08">
-                          <animate-on-reveal animation="fadeInUp">
                             <div
                               data-thq-animate-on-reveal="true"
                               className="portfolio-headline-subhead04"
@@ -232,12 +231,11 @@ const Portfolio = (props) => {
                                     2021 - 2023
                                   </span>
                                 </span>
-                                <span className="portfolio-text17 Epilogue-24Regular">
+                                <span className="portfolio-text17 Epilogue-24Bold">
                                   Learn More &gt;
                                 </span>
                               </div>
                             </div>
-                          </animate-on-reveal>
                           <span className="portfolio-text30 Epilogue-17">
                             <span>
                               Unity&apos;s toolkit for TV, broadcast, and

@@ -205,7 +205,8 @@
   line-height: 27px;
 }
 .portfolio-text17 {
-  color: var(--dl-color-default-textmute1);
+  fill: var(--dl-color-dark_secondary-purple);
+  color: var(--dl-color-dark_secondary-purple);
   width: 250px;
   height: auto;
   text-align: right;
