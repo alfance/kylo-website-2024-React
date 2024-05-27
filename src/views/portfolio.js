@@ -327,7 +327,7 @@ const Portfolio = (props) => {
                 </div>
               </a>
               <a
-                href="https://www.figma.com/proto/aKWOHcDnwx4CRrdNEq34f4/Waypoints-Presentation?page-id=1%3A1684&amp;type=design&amp;node-id=1-1881&amp;viewport=1186%2C731%2C0.05&amp;t=gdiPq8R8vdbLSRQ8-8&amp;scaling=scale-down&amp;starting-point-node-id=1%3A1881&amp;hide-ui=1"
+                href="https://www.figma.com/proto/Cs2DF8B9gYHYGq7mUpqlVF/Live-cap-Onboarding-Presentation?page-id=2357%3A13858&amp;node-id=2357-14294&amp;viewport=1609%2C416%2C0.06&amp;t=Mb6uMjPlicB1JvAx-8&amp;scaling=scale-down&amp;starting-point-node-id=2357%3A14294&amp;hide-ui=1"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="portfolio-link2"
@@ -341,16 +341,21 @@ const Portfolio = (props) => {
                   </div>
                   <div className="portfolio-headline-subhead07">
                     <span className="portfolio-text41 Epilogue-24Bold">
-                      <span>Designing Waypoint System</span>
+                      Better Engagement through User Onboarding
                     </span>
-                    <span className="portfolio-text43 Epilogue-17Regular">
-                      <span>2019</span>
+                    <span className="portfolio-text42 Epilogue-17Regular">
+                      2022
                     </span>
                   </div>
                 </div>
               </a>
+            </div>
+            <span className="portfolio-text43 Epilogue-36Light">
+              <span>Legacy Projects</span>
+            </span>
+            <div className="portfolio-workcards2">
               <a
-                href="https://www.figma.com/proto/xpHm7zfgFLyi8CToedDq5C/design-system-presentation?page-id=0%3A1&amp;type=design&amp;node-id=2-64&amp;viewport=1369%2C-67%2C0.06&amp;t=DsZyajeXZTkkyYZl-8&amp;scaling=scale-down&amp;starting-point-node-id=2%3A64&amp;hide-ui=1"
+                href="https://www.figma.com/proto/aKWOHcDnwx4CRrdNEq34f4/Waypoints-Presentation?page-id=1%3A1684&amp;type=design&amp;node-id=1-1881&amp;viewport=1186%2C731%2C0.05&amp;t=gdiPq8R8vdbLSRQ8-8&amp;scaling=scale-down&amp;starting-point-node-id=1%3A1881&amp;hide-ui=1"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="portfolio-link3"
@@ -364,16 +369,16 @@ const Portfolio = (props) => {
                   </div>
                   <div className="portfolio-headline-subhead08">
                     <span className="portfolio-text45 Epilogue-24Bold">
-                      Joist Design System
+                      <span>Designing Waypoint System</span>
                     </span>
-                    <span className="portfolio-text46 Epilogue-17Regular">
-                      2020
+                    <span className="portfolio-text47 Epilogue-17Regular">
+                      <span>2019</span>
                     </span>
                   </div>
                 </div>
               </a>
               <a
-                href="https://alfance.github.io//kyloport/#/joist"
+                href="https://www.figma.com/proto/xpHm7zfgFLyi8CToedDq5C/design-system-presentation?page-id=0%3A1&amp;type=design&amp;node-id=2-64&amp;viewport=1369%2C-67%2C0.06&amp;t=DsZyajeXZTkkyYZl-8&amp;scaling=scale-down&amp;starting-point-node-id=2%3A64&amp;hide-ui=1"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="portfolio-link4"
@@ -386,17 +391,17 @@ const Portfolio = (props) => {
                     </div>
                   </div>
                   <div className="portfolio-headline-subhead09">
-                    <span className="portfolio-text47 Epilogue-24Bold">
-                      Driving Sales for Invoicing App
+                    <span className="portfolio-text49 Epilogue-24Bold">
+                      Joist Design System
                     </span>
-                    <span className="portfolio-text48 Epilogue-17Regular">
-                      <span>2021</span>
+                    <span className="portfolio-text50 Epilogue-17Regular">
+                      2020
                     </span>
                   </div>
                 </div>
               </a>
               <a
-                href="https://alfance.github.io//kyloport/#/briovr"
+                href="https://alfance.github.io//kyloport/#/joist"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="portfolio-link5"
@@ -409,7 +414,30 @@ const Portfolio = (props) => {
                     </div>
                   </div>
                   <div className="portfolio-headline-subhead10">
-                    <span className="portfolio-text50 Epilogue-24Bold">
+                    <span className="portfolio-text51 Epilogue-24Bold">
+                      Driving Sales for Invoicing App
+                    </span>
+                    <span className="portfolio-text52 Epilogue-17Regular">
+                      <span>2021</span>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://alfance.github.io//kyloport/#/briovr"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="portfolio-link6"
+              >
+                <div className="portfolio-workcard15">
+                  <div className="portfolio-homecontentimage17">
+                    <div className="portfolio-homecontentimage-locked-aspect-ratio10">
+                      <div className="portfolio-homecontentimage18"></div>
+                      <div className="portfolio-frame15"></div>
+                    </div>
+                  </div>
+                  <div className="portfolio-headline-subhead11">
+                    <span className="portfolio-text54 Epilogue-24Bold">
                       Creating Interactive Behaviour System
                       <span
                         dangerouslySetInnerHTML={{
@@ -417,7 +445,7 @@ const Portfolio = (props) => {
                         }}
                       />
                     </span>
-                    <span className="portfolio-text51 Epilogue-17Regular">
+                    <span className="portfolio-text55 Epilogue-17Regular">
                       <span>2019</span>
                     </span>
                   </div>

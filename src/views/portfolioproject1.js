@@ -396,6 +396,16 @@ const Portfolioproject1 = (props) => {
                   </span>
                   <br className="Epilogue-17"></br>
                   <br className="Epilogue-17"></br>
+                  <a
+                  href="https://www.figma.com/proto/Cs2DF8B9gYHYGq7mUpqlVF/Live-cap-Onboarding-Presentation?page-id=2357%3A13858&node-id=2357-14294&viewport=1609%2C416%2C0.06&t=Mb6uMjPlicB1JvAx-8&scaling=scale-down&starting-point-node-id=2357%3A14294&hide-ui=1"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="portfolioproject1-button"
+                >
+                  <span className="portfolioproject1-text065">
+                    <span>View Case Study</span>
+                  </span>
+                </a>
                 </span>
               </section>
             </div>
