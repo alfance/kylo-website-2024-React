@@ -401,7 +401,7 @@ const Portfolio = (props) => {
                 </div>
               </a>
               <a
-                href="https://alfance.github.io//kyloport/#/joist"
+                href="https://www.figma.com/proto/DiZHcWXYgazqwHt0xJHEgj/Joist-Change-Order-Presentation?page-id=0%3A1&node-id=1-815&viewport=1817%2C920%2C0.13&t=q8of4HPOGWW5tiQ0-8&scaling=scale-down&starting-point-node-id=1%3A815&hide-ui=1"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="portfolio-link5"
