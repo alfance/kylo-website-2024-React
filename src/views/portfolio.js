@@ -274,7 +274,7 @@ const Portfolio = (props) => {
             </span>
             <div className="portfolio-workcards1">
               <a
-                href="https://www.figma.com/proto/lcnMBhcQTDwYR9ndPfYrOS/Presentation-hair?page-id=635%3A885&amp;type=design&amp;node-id=635-2037&amp;viewport=-177%2C276%2C0.03&amp;t=ladI3dd72Rfg6Vk8-8&amp;scaling=scale-down&amp;starting-point-node-id=635%3A2037&amp;hide-ui=1"
+                href="https://www.figma.com/deck/e6GUobBtmXl2edNBMtCUpY/hair-package-website?node-id=1-207&viewport=175%2C145%2C0.09&t=KzDcx5eEHpLkJHJ6-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="portfolio-link"
@@ -332,8 +332,8 @@ const Portfolio = (props) => {
                 rel="noreferrer noopener"
                 className="portfolio-link2"
               >
-                <div className="portfolio-workcard11">
-                  <div className="portfolio-homecontentimage09">
+                <div className="portfolio-workcard10">
+                  <div className="portfolio-homecontentimage10">
                     <div className="portfolio-homecontentimage-locked-aspect-ratio06">
                       <div className="portfolio-homecontentimage10"></div>
                       <div className="portfolio-frame11"></div>
@@ -345,6 +345,52 @@ const Portfolio = (props) => {
                     </span>
                     <span className="portfolio-text42 Epilogue-17Regular">
                       2022
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://www.figma.com/proto/QyldDHfs71823ax8PZnwb7/gamepad-presentation?page-id=2357%3A13858&node-id=2357-14294&viewport=810%2C317%2C0.03&t=V3UssHntIlesvYeg-8&scaling=scale-down&starting-point-node-id=2357%3A14294&show-proto-sidebar=1&content-scaling=fixed&hide-ui=1"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="portfolio-link2"
+              >
+                <div className="portfolio-workcard20">
+                  <div className="portfolio-homecontentimage20">
+                    <div className="portfolio-homecontentimage-locked-aspect-ratio06">
+                      <div className="portfolio-homecontentimage20"></div>
+                      <div className="portfolio-frame20"></div>
+                    </div>
+                  </div>
+                  <div className="portfolio-headline-subhead07">
+                    <span className="portfolio-text41 Epilogue-24Bold">
+                      Gamepad Control for Virtual Camera
+                    </span>
+                    <span className="portfolio-text42 Epilogue-17Regular">
+                      2022
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://www.figma.com/deck/UkQbnorCHS1NlvIdp2bBqL/Cluster-Display?node-id=29-12651&viewport=-7146%2C-3228%2C0.5&t=9MNCXcO4ux3Aaoc7-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="portfolio-link2"
+              >
+                <div className="portfolio-workcard13">
+                  <div className="portfolio-homecontentimage13">
+                    <div className="portfolio-homecontentimage-locked-aspect-ratio06">
+                      <div className="portfolio-homecontentimage13"></div>
+                      <div className="portfolio-frame13"></div>
+                    </div>
+                  </div>
+                  <div className="portfolio-headline-subhead07">
+                    <span className="portfolio-text41 Epilogue-24Bold">
+                      Virtual Production Design for Filmmakers
+                    </span>
+                    <span className="portfolio-text42 Epilogue-17Regular">
+                      2023
                     </span>
                   </div>
                 </div>
@@ -424,7 +470,7 @@ const Portfolio = (props) => {
                 </div>
               </a>
               <a
-                href="https://alfance.github.io//kyloport/#/briovr"
+                href="https://www.figma.com/proto/23hw4MjPiKTbJvUabnOGLS/behaviour-Presentation?page-id=0%3A1&node-id=2-632&viewport=895%2C611%2C0.13&t=loEZyfBMRGbL4Dmw-8&scaling=scale-down&starting-point-node-id=2%3A632&hide-ui=1"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="portfolio-link6"

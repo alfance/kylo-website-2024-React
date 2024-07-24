@@ -1,15 +1,16 @@
 {
-  "homebase":"https://kyloxue.com/",
+  "homebase": "https://kyloxue.com/",
   "name": "kylo-website-2024",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@craco/craco": "^7.0.0-alpha.0",
+    "prop-types": "15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-router-dom": "^5.2.0",
     "react-helmet": "^6.1.0",
-    "prop-types": "15.7.2"
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.4.3"
   },
   "scripts": {
     "predeploy": "npm run build",

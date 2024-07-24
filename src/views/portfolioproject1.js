@@ -444,8 +444,15 @@ const Portfolioproject1 = (props) => {
                   </span>
                   <br className="Epilogue-17"></br>
                   <br className="Epilogue-17"></br>
-                  <br className="Epilogue-17"></br>
-                  <br className="Epilogue-17"></br>
+                  <a href="https://www.figma.com/proto/QyldDHfs71823ax8PZnwb7/gamepad-presentation?page-id=2357%3A13858&node-id=2357-14294&viewport=810%2C317%2C0.03&t=V3UssHntIlesvYeg-8&scaling=scale-down&starting-point-node-id=2357%3A14294&show-proto-sidebar=1&content-scaling=fixed&hide-ui=1"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="portfolioproject1-button"
+                >
+                  <span className="portfolioproject1-text065">
+                    <span>View Case Study</span>
+                  </span>
+                </a>
                 </span>
               </section>
               <img

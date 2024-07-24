@@ -352,6 +352,15 @@ const Portfolioproject3 = (props) => {
                       </span>
                     </span>
                   </div>
+                  <a href="https://www.figma.com/deck/UkQbnorCHS1NlvIdp2bBqL/Cluster-Display?node-id=29-12651&viewport=-7146%2C-3228%2C0.5&t=9MNCXcO4ux3Aaoc7-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="portfolioproject1-button"
+                  >
+                  <span className="portfolioproject1-text065">
+                    <span>View Case Study</span>
+                  </span>
+                  </a>
                 </div>
               </div>
             </div>
