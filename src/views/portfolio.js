@@ -387,7 +387,7 @@ const Portfolio = (props) => {
                   </div>
                   <div className="portfolio-headline-subhead07">
                     <span className="portfolio-text41 Epilogue-24Bold">
-                      Virtual Production Design for Filmmakers
+                      Virtual Production for Filmmakers
                     </span>
                     <span className="portfolio-text42 Epilogue-17Regular">
                       2023
