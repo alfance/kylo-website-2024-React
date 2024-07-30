@@ -288,7 +288,7 @@ const Portfolio = (props) => {
                   </div>
                   <div className="portfolio-headline-subhead05">
                     <span className="portfolio-text34 Epilogue-24Bold">
-                      Strand-Based Hair Rendering
+                      Hair Importer Optimization
                     </span>
                     <span className="portfolio-text35 Epilogue-17Regular">
                       <span>2023</span>
