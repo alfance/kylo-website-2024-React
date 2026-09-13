@@ -113,9 +113,11 @@ const Portfolio = (props) => {
                         <div className="portfolio-homecontentimage-locked-aspect-ratio03">
                           <div className="portfolio-homecontentimage03">
                             <div className="portfolio-homecontentimage04 image-contain portfolio-homecontentimage04-no-texture">
-                              <div className="portfolio-image-placeholder">
-                                Image placeholder
-                              </div>
+                              <img
+                                alt="Games Tooling Enablement"
+                                src="external/netflix-games-feature.png"
+                                className="portfolio-homecontentimage04-img"
+                              />
                             </div>
                           </div>
                           <div className="portfolio-frame06"></div>

@@ -580,6 +580,11 @@
 .portfolio-homecontentimage04-no-texture {
   background-image: none;
 }
+.portfolio-homecontentimage04-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 .portfolio-frame06 {
   display: flex;
   z-index: 1;
