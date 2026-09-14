@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
@@ -9,6 +9,29 @@ import AnimateOnReveal from '../components/animate-on-reveal'
 import './portfolio.css'
 
 const Portfolio = (props) => {
+  const cortexGifRef = useRef(null)
+  const [cortexGifVisible, setCortexGifVisible] = useState(false)
+
+  useEffect(() => {
+    const node = cortexGifRef.current
+    if (!node) {
+      return
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setCortexGifVisible(true)
+          observer.disconnect()
+        }
+      },
+      { rootMargin: '-65% 0px -35% 0px' },
+    )
+    observer.observe(node)
+
+    return () => observer.disconnect()
+  }, [])
+
   return (
     <div className="portfolio-container">
       <Helmet>
@@ -172,10 +195,23 @@ const Portfolio = (props) => {
                         <div className="portfolio-homecontentimage-locked-aspect-ratio03">
                           <div className="portfolio-homecontentimage03">
                             <div className="portfolio-homecontentimage04 image-contain portfolio-homecontentimage04-no-texture">
-                              <div className="portfolio-image-placeholder">
-                                Image placeholder
-                              </div>
+                              <img
+                                alt="AI Initiatives 2026"
+                                src="external/ai-2026.png"
+                                className="portfolio-homecontentimage04-img"
+                              />
                             </div>
+                            <img
+                              ref={cortexGifRef}
+                              alt=""
+                              aria-hidden="true"
+                              src="external/Cortex-gif.gif"
+                              className={`portfolio-ai-cortex-gif${
+                                cortexGifVisible
+                                  ? ' portfolio-ai-cortex-gif-visible'
+                                  : ''
+                              }`}
+                            />
                           </div>
                           <div className="portfolio-frame06"></div>
                         </div>

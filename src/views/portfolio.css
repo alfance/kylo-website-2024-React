@@ -585,6 +585,20 @@
   height: 100%;
   object-fit: contain;
 }
+.portfolio-ai-cortex-gif {
+  position: absolute;
+  bottom: 0%;
+  left: 53%;
+  width: 29%;
+  z-index: 2;
+  opacity: 0;
+  transform: translateX(-50%) translateY(50%);
+  transition: opacity 0.6s ease-in, transform 0.6s ease-in;
+}
+.portfolio-ai-cortex-gif-visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
 .portfolio-frame06 {
   display: flex;
   z-index: 1;
